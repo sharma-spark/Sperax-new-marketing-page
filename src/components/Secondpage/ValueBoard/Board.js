@@ -10,7 +10,7 @@ const Board = (props) => {
         </div>
         <div className='dn'>
           <div className='boardhead'><h3>${props.totalValueLocked}</h3></div>
-          <dir className='boarddesp'><p>Total Value locked</p></dir>
+          <div className='boarddesp'><p>Total Value locked</p></div>
         </div>
         <div className='dn'>
           <div className='boardhead'><h3>{props.totalApy}%</h3></div>
