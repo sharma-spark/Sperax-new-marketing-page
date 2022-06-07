@@ -2,6 +2,15 @@
     width: 82%;
     margin: -40px auto 0;
     text-align: center;
+    position: relative;
+}
+.background-img {
+    position: absolute;
+    margin: auto;
+    width: 30%;
+    left: 35%;
+    top: -150px;
+    z-index: 100;
 }
 .joinspa{
     width: 624px;
