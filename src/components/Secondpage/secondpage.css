@@ -1,0 +1,134 @@
+.secondpage {
+    background-color: #1B2022;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 259px;
+}
+
+.headingmini {
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+    font-family: 'MessinaSans';
+    padding: 97px 300px 0 300px;
+    line-height: 72px;
+    text-align: center;
+
+}
+
+.headingmini > span {
+    color: #31C1BF;
+}
+
+.getbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.getbuttons > a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px 40px;
+    gap: 16px;
+    width: 140px;
+    height: 32px;
+    background: #31C1BF;
+    border-radius: 90px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    margin-top: 35px;
+}
+
+.working {
+    width: 82%;
+    margin-top: 55px;
+}
+
+.workingmobile{
+    display: none;
+}
+
+
+@media screen and (max-width:480px) {
+    .secondpage{
+        position: absolute;
+        width: 360px;
+        height: 6750px;
+        left: 0px;
+        top: 2048px;
+        
+    }
+    .headingmini{
+        position: absolute;
+        width: 328px;
+        height: 92px;
+        left: 16px;
+        top: 76px;
+        padding: 0;
+        
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        /* or 121% */
+        
+        text-align: center;
+        letter-spacing: -0.04em;
+    }
+    .headingmini>span{
+        color:#31C1BF;
+    }
+    .getbuttons>a{
+/* Auto layout */
+        position: absolute;
+        top: 208px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 10px;
+        gap: 16px;
+        
+        width: 132.41px;
+        height: 48px;
+        
+        margin: 0px;
+        /* Primary/ Brand */
+
+        background: #31C1BF;
+        border-radius: 90px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;        
+    }
+    .al{
+        position:absolute;
+        left: 18px;
+    }
+    .ar{
+        position:absolute;
+        left: 194px;
+    }
+    .working{
+        display: none;
+    }
+    .workingmobile{
+        display: block;
+        position: absolute;
+        top: 318px;
+        left: 15px;
+    }
+}

@@ -1,0 +1,11 @@
+.scards{
+    display: -webkit-inline-flex;
+    margin: 37px auto;
+}
+.boxt>div{
+    margin-bottom: 32px;
+    margin-right: 24px;
+}
+.boxb>div{
+    margin-bottom: 32px;
+}

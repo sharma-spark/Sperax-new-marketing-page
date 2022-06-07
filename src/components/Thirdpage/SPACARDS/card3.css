@@ -1,0 +1,29 @@
+.card3{
+    left: 845px;
+    position: absolute;
+    width: 376px;
+    height: 476px;
+    margin-top: -129px;
+    background-color: white;
+    border-radius: 32px;
+    box-shadow:0px 6px 6px rgb(230, 230, 230) ;
+
+}
+@media screen and (max-width:480px) {
+    .card3{
+    
+        position: absolute;
+        width: 328px;
+        height: 476px;
+        left: 16px;
+        top: -400px;
+
+        /* White */
+
+        background: #FFFFFF;
+        /* Popup */
+
+        box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+    }
+}

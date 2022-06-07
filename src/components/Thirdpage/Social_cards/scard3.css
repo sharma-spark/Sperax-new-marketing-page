@@ -1,0 +1,16 @@
+.scard3{
+    width: 576px;
+    height: 248px;
+    background: #4A99E9;
+    mix-blend-mode: normal;
+    border-radius: 32px 262px 32px 32px;
+    z-index: 1;
+}
+.fore3{
+    background: #2F72B5;
+    border-radius: 32px;
+    z-index: -1;
+    width: 576px;
+    height: 248px;
+    position: absolute;
+}

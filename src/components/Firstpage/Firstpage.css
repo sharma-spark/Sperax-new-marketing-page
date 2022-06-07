@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: 'MessinaSerif-Regular';
+    src: url('../../font/Messina/MessinaSerifWeb-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../../font/Messina/MessinaSerifWeb-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../../font/Messina/MessinaSerifWeb-Regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../../font/Messina/MessinaSerifWeb-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-FB04;
+}
+
+@font-face {
+    font-family: 'MessinaSerif-SemiBold';
+    src: url('../../font/Messina/MessinaSerifWeb-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('../../font/Messina/MessinaSerifWeb-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../../font/Messina/MessinaSerifWeb-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */ url('../../font/Messina/MessinaSerifWeb-SemiBold.woff') format('woff'); /* Pretty Modern Browsers */
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-FB04;
+}
+
+@font-face {
+    font-family: 'MessinaSans';
+    src: url('../../font/Messina/MessinaSansWeb-Light.eot'); /* IE9 Compat Modes */
+    src: url('../../font/Messina/MessinaSansWeb-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../../font/Messina/MessinaSansWeb-Light.woff2') format('woff2'), /* Super Modern Browsers */ url('../../font/Messina/MessinaSansWeb-Light.woff') format('woff'); /* Pretty Modern Browsers */
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-FB04;
+}
+
+@font-face {
+    font-family: 'MessinaSans-SemiBold';
+    src: url('../../font/Messina/MessinaSansWeb-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('../../font/Messina/MessinaSansWeb-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../../font/Messina/MessinaSansWeb-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */ url('../../font/Messina/MessinaSansWeb-SemiBold.woff') format('woff'); /* Pretty Modern Browsers */
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-FB04;
+}
+
+.heading {
+    width: 606px;
+    margin-left: 9%;
+    margin-top: 100px;
+    letter-spacing: -0.04em;
+    font-family: 'MessinaSans-SemiBold';
+    font-weight: bolder;
+    font-size: 64px;
+    line-height: 72px;
+    /* or 112% */
+
+    letter-spacing: 0.002em;
+
+    /* Dark */
+
+    color: #1B2022;
+}
+
+.detail {
+    width: 512px;
+    margin-left: 9%;
+    margin-top: 32px;
+
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    letter-spacing: 0.01em;
+
+    /* Dark */
+
+    color: #1B2022;
+}
+
+.getusds {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 16px;
+
+    width: 100px;
+    height: 20px;
+    /* 3.017 */
+    margin-left: 9%;
+    margin-top: 32px;
+
+    /* Primary/ Brand */
+    background: #31C1BF;
+    border-radius: 90px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.getusds:hover {
+    background-color: white;
+    color: #31C1BF;
+    border: 1px solid #31C1BF;
+}
+
+
+.images > .top {
+    position: absolute;
+    width: 440.939px;
+    height: 255.16px;
+    /* 1.728 */
+    right: 8%;
+    top: 131px;
+}
+
+.images > .bottom {
+    position: absolute;
+    width: 628.571px;
+    height: 357.99px;
+    /* 1.755 */
+    right: 9.4%;
+    top: 344px;
+
+}
+
+.yield {
+    width: 210px;
+    height: 74px;
+    margin: 0;
+
+
+}
+
+.gas {
+    width: 210px;
+    height: 74px;
+    padding-right: 20px;
+}
+
+.compound {
+
+    width: 210px;
+    height: 74px;
+
+
+}
+
+.features {
+    margin-top: 100px;
+    margin-left: 9%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: start;
+}
+
+.heading1, .heading2, .heading3 {
+    display: flex;
+}
+
+.heading3 {
+    width: 300px;
+}
+
+.heading1 > p, .heading2 > p, .heading3 > p {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    font-family: 'MessinaSans';
+    margin: 8px;
+    justify-content: flex-start;
+}
+
+.gas > span, .compound > span, .yield > span {
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    display: flex;
+    align-items: center;
+    color: #1B2022;
+    width: 160px;
+    height: 45px;
+    padding-left: 38px;
+}
+
+.gas > span {
+    width: 180px;
+    margin-right: 10px;
+}
+
+.learnmore {
+    /* width: 1176px; */
+    height: 18px;
+    margin-left: 9%;
+    margin-top: 32px;
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    /* Gray 5 */
+    color: #707E85;
+}
+
+
+@media screen and (max-width:480px) {
+    .heading{
+        position: absolute;
+        width: 328px;
+        height: 138px;
+        left: 16px;
+        top: 174px;
+        
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        /* or 121% */
+        
+        letter-spacing: -0.04em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+    }
+    .detail{
+        position: absolute;
+        width: 328px;
+        height: 120px;
+        left: 16px;
+        top: 328px;
+        
+        /* Body 2 / Regular 16px */
+        
+        font-family: 'MessinaSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+        
+        letter-spacing: -0.03em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+        
+    }
+    .images>.top{
+        position: absolute;
+        width: 279px;
+        height: 161.45px;
+        left: 69px;
+        top: 464px;
+        
+    }
+    .images>.bottom{
+        position: absolute;
+        width: 395.08px;
+        height: 225.2px;
+        left: -49px;
+        top: 592px;
+    }
+    .getusds{
+            
+        width: 95px;
+        height: 26px;
+
+        /* Body 1/Semibold 18px */
+
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        /* identical to box height, or 144% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.03em;
+
+        /* White */
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        position: absolute;
+        width: 175px;
+        height: 58px;
+        left: 17px;
+        top: 891px;
+    }
+    .yield{
+        position: absolute;
+        left: 0px;
+        top: 340px;
+    }
+    .gas{
+        position: absolute;
+        left: 0px;
+        top: 430px;
+            }
+    .compound{
+        position: absolute;
+        left: 0px;
+        top: 520px;
+    }
+    .gas, .compound, .yield{
+        margin-left:-100px ;
+    }
+    .learnmore{
+        position: absolute;
+        width: 328px;
+        height: 54px;
+        left: 16px;
+        top: 1351px;
+    }
+    .features{
+        display: flex;
+        justify-content: flex-start;
+
+    }
+}

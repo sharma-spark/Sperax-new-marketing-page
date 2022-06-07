@@ -1,0 +1,82 @@
+.postercard2{
+    background: #31C1BF;
+    border-radius: 32px;
+    width: 576px;
+    height: 524px;
+    /* padding: 52px; */
+    margin: 0 0 0 24px;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.headtext2>h3{
+    font-family: 'MessinaSans-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    width: 87px;
+    height: 46px;
+    margin: 0;
+    margin-bottom: 16px;
+    margin-left: 52px;
+    margin-top: 52px;
+}
+.headtext2>p{
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: white;
+    width: 476px;
+    height: 84px;
+    margin-bottom: 48px;
+    margin-left: 52px;
+}
+.alinks2{
+    font-family: 'MessinaSans-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 400px;
+    margin-left: 52px;
+}
+.alinks2>a{
+    margin-right: 52px;
+}
+
+.above{
+    z-index: 1;
+    position: relative;
+    float: left;
+    margin-top: -35%;
+    left: 36px;
+}
+.below{
+    z-index: 0;
+    margin-bottom: -14.5px;
+}
+.postimg2{
+    overflow: hidden;
+}
+.at{
+    color: #FFFFFF;
+    text-decoration-line: underline;
+    text-decoration-color: #FFFFFF;
+
+}

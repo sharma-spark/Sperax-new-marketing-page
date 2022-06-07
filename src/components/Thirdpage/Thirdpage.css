@@ -1,0 +1,32 @@
+.Thirdpage{
+    width: 82%;
+    margin: -40px auto 0;
+    text-align: center;
+}
+.joinspa{
+    width: 624px;
+    height: 168px;
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1B2022;
+    margin-left: 310px;
+}
+
+.joinspadiv{
+    background-color: white;
+    margin-top: -650px;
+}
+@media screen and (max-width:480px) {
+    .Thirdpage{
+        position: absolute;
+        background-color: white;
+        top: 9112px;
+        height: 1px;
+        width: 360px;
+    }
+}

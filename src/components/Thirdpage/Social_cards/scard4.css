@@ -1,0 +1,16 @@
+.scard4{
+    width: 576px;
+    height: 248px;
+    background: #000002;
+    mix-blend-mode: normal;
+    border-radius: 32px 262px 32px 32px;
+    z-index: 1;
+}
+.fore4{
+    background: #2A2A2E;
+    border-radius: 32px;
+    z-index: -1;
+    width: 576px;
+    height: 248px;
+    position: absolute;
+}

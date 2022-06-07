@@ -1,0 +1,70 @@
+.partner{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.partner>h3{
+font-family: "MessinaSans-SemiBold";
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 72px;
+letter-spacing: -0.007em;
+color: white;
+}
+.contact>a{
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 16px;
+    background: #31C1BF;
+    border-radius: 90px;
+    width: 122px;
+    color: white;
+}
+.contact{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.partnerandcontact{
+    margin: 0 auto;
+    width: 82%;
+}
+@media screen and (max-width:480px) {
+    .partner{
+        position: absolute;
+        width: 328px;
+        height: 46px;
+        left: 16px;
+        top: 1636px;
+        
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        /* identical to box height, or 121% */
+        
+        text-align: center;
+        letter-spacing: -0.04em;
+        
+        /* White */
+        
+        color: #FFFFFF;
+    }
+    .contact{
+        position: absolute;
+        top:1706px;
+        left: 96px;
+    }
+    #down{
+        display: none;
+    }
+}

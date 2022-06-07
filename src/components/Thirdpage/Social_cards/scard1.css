@@ -1,0 +1,39 @@
+.scard1{
+    width: 576px;
+    height: 248px;
+    background: #5B65E9;
+    mix-blend-mode: normal;
+    border-radius: 32px 262px 32px 32px;
+    z-index: 1;
+}
+.fore1{
+background: #3E45A3;
+border-radius: 32px;
+z-index: -1;
+width: 576px;
+height: 248px;
+position: absolute;
+}
+.arrowpoint>img{
+    margin: 39px;
+    margin-left: 518px;
+    margin-bottom: 5px;
+}
+.slogo>img{
+    margin: 0px 473px 10px 51.25px;
+}
+
+.scount>h2{
+    margin: 5px 378px 39px 40px;
+    width: 158px;
+    height: 72px;
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.043em;
+    color: #FFFFFF;
+}

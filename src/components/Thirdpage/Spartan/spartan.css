@@ -1,0 +1,28 @@
+.spartan>img{
+    width: 82%;
+    margin-top: 360px ;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.spartan {
+    text-align: center;
+}
+@media screen and (max-width:480px) {
+    .spartan{
+        position: absolute;
+        top: -100px;
+        margin: 0;
+        left: 16px;
+        width: 328px;
+        height: 476px;
+        overflow: hidden;
+        }
+    .spartan>img{
+        margin: 0;
+        margin-left: -480px;
+        margin-right: -400px;
+        margin-bottom: 0;
+        transform: scale(0.7);
+    }
+}

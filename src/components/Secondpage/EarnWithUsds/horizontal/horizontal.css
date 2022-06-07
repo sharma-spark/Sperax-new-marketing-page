@@ -1,0 +1,15 @@
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (max-width:480px) {
+    .horizontal{
+        position: absolute;
+        top:3514px;
+        left: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+}

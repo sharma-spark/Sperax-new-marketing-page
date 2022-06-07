@@ -1,0 +1,83 @@
+.board{
+    background: #31C1BF;
+    border-radius: 32px;
+    width: 82%;
+    height: 210px;
+    margin: 60px auto 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.boardhead>h3{
+    width: 250px;
+height: 72px;
+
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* identical to box height, or 112% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.043em;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.boarddesp>p{
+    width: 173px;
+    height: 26px;
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+@media screen and (max-width:480px) {
+    .board{
+        position: absolute;
+        width: 328px;
+        height: 598px;
+        left: 16px;
+        top: 955px;
+        margin: 0;
+        /* Primary/ Brand */
+        background: #31C1BF;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+}

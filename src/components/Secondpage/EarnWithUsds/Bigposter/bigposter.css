@@ -1,0 +1,90 @@
+.big{
+    background: #31C1BF;
+    border-radius: 32px;
+    margin: 32px auto 0;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+}
+.lefttext{
+    padding: 52px;
+
+}
+.headb>h3{
+    font-family: 'MessinaSans-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 16px;
+    width: 174px;
+    height: 46px;
+}
+.bodyb{
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: white;
+    margin-top: 16px;
+    text-align: left;
+    width: 456px;
+}
+.bodyb>p{
+    padding: 10px 0;
+}
+.alinksb{
+    font-family: 'MessinaSans-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 320px;
+    margin-top: 178px;
+}
+.alinksb>a{
+    margin-right: 52px;
+}
+img.bel{
+    /* width: 668.68px; */
+    /* height: 513px; */
+    position: absolute;
+    right: 0;
+    bottom: -55px;
+}
+img.abo{
+    z-index: 1;
+    position:absolute;
+    width: 476px;
+    height: 608.22px;
+    right: 30px;
+}
+@media screen and (max-width:480px) {
+    .big{
+        position: absolute;
+        top: 4378px;
+        left: 16px;
+        width: 328px;
+        height: 563px;
+        
+        /* Primary/ Brand */
+        
+        background: #31C1BF;
+        border-radius: 20px;
+    }
+}

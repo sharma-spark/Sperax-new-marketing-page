@@ -1,0 +1,58 @@
+.audit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.auditpara{
+    width: 276px;
+    height: 40px;
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #1B2022;
+}
+.audithead>h3{
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 66px;
+    width: 476px;
+    height: 132px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #1B2022;
+}
+.auditreports{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 16px;
+    width: 115px;
+    height: 24px;
+    border: 1.5px solid #31C1BF;
+    border-radius: 90px;    
+}
+.auditreports>a{
+    text-decoration: none;
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #1B2022;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

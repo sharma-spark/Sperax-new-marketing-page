@@ -1,0 +1,36 @@
+.earnhead>h3{
+    font-family: "MessinaSans-SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: -0.007em;
+    color: #FFFFFF;
+    text-align: left;
+}
+.earn{
+    margin: 0 auto;
+    width: 82%;
+}
+@media screen and (max-width:480px) {
+    .earnhead{
+        position: absolute;
+        width: 400px;
+        height: 46px;
+        left: 16px;
+        top: 3396px;
+        
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 46px;
+        /* identical to box height, or 121% */
+        
+        letter-spacing: -0.04em;
+        
+        /* White */
+        
+        color: #FFFFFF;
+    }
+}

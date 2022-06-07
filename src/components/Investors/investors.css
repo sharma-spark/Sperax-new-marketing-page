@@ -1,0 +1,33 @@
+.investors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+    margin: auto;
+}
+.investors-container {
+    width: 100%;
+    margin-top: 52px;
+    background-color:#F8FAFA;
+    height: 94px;
+    text-align: center;
+}
+.text{
+    color: #707E85;
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+}
+@media screen and (max-width:480px) {
+    .investors{
+        position: absolute;
+        width: 360px;
+        height: 603px;
+        left: 0px;
+        top: 1445px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;        
+    }
+}

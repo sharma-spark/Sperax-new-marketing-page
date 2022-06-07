@@ -1,0 +1,120 @@
+.card1{
+    position: absolute;
+    width: 376px;
+    height: 476px;
+    margin-top: -129px;
+    left: 45px;
+    /* White */
+    
+    background-color: white;
+    border-radius: 32px;
+    box-shadow:0px 6px 6px rgb(230, 230, 230) ;
+}
+
+.circles{
+    border-radius: 100%;
+    background: #E7ECEF;
+    width: 132px;
+    height: 132px;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headtext{
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+}
+.headandimg{
+    display: flex;
+    margin: 40px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+.bodytext{
+    width: 286px;
+    height: 78px;
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    /* or 144% */
+    
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    margin: 40px;
+    
+}
+
+.ttext{
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    margin: 0;
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+}
+.btext{
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    /* Dark */
+    margin: 0;
+    color: #1B2022;
+    
+}
+.cardbottomtext{
+    width: 140px;
+    height: 54px;
+    margin: 100px 40px 32px 40px;
+}
+
+@media screen and (max-width:480px) {
+    .card1{
+    
+        position: absolute;
+        width: 328px;
+        height: 476px;
+        left: 16px;
+        top: -1400px;
+
+        /* White */
+
+        background: #FFFFFF;
+        /* Popup */
+
+        box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+    }
+}

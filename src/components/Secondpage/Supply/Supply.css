@@ -1,0 +1,108 @@
+.sup{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    width: 82%;
+    margin: auto;
+}
+.toptext>p{
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+    margin: 0px;
+    text-align: left;
+}
+
+.bottomtext>h3{
+    font-family: 'MessinaSans-Semibold';
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.043em;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: white;
+    margin: 0px;
+}
+.togrey{
+    color: rgb(110, 110, 110);
+}
+.total{
+    width: 48%;
+}
+@media screen and (max-width:480px) {
+    .sup{
+        position: absolute;
+        top: 5291px;
+        left: 16px;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .total{
+        padding: 0;
+        margin-bottom: 36px;
+    }
+    .toptext>p{
+        width: 150px;
+        height: 24px;
+        
+        /* Body 2 / Regular 16px */
+        
+        font-family: 'MessinaSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        
+        letter-spacing: -0.03em;
+        
+        /* White */
+        
+        color: #FFFFFF;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .bottomtext>h3{
+        width: 233px;
+        height: 46px;
+        
+        /* H2/Semibold 38px */
+        
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 46px;
+        /* identical to box height, or 121% */
+        
+        letter-spacing: -0.04em;
+        
+        /* White */
+        
+        color: #FFFFFF;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
