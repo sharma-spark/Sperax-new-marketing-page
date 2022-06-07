@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 24px;
-
+    text-align: left;
   }
   .num {
     font-family: "MessinaSans";
@@ -29,7 +29,7 @@
     margin: 10px 0;
     width: 484px;
     height: 80px;
-  
+      text-align: left;
   }
   .body {
     font-family: "MessinaSans";
@@ -47,6 +47,7 @@
     margin: 10px 0;
     width: 484px;
     height: 52px;
+      text-align: left;
   }
   .textarea {
     padding: 2.2vmax;

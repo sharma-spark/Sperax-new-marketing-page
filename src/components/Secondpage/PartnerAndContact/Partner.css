@@ -68,3 +68,23 @@ color: white;
         display: none;
     }
 }
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .partnerandcontact{
+        margin: 0 auto;
+        width: 92%;
+    }
+    .partner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .partner>a {
+        font-size: 18px;
+    }
+    .contact {
+        width: 172px;
+        height: 58px;
+        margin-top: -20px;
+    }
+}

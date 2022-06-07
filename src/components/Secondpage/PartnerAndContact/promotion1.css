@@ -132,3 +132,28 @@
     transform: scale(0.7);
   }
 }
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+  .head {
+    font-size: 22px !important;
+    width: 100% !important;
+  }
+  .body {
+    font-size: 18px !important;
+    width: 100% !important;
+  }
+  .textarea {
+    width: 48%;
+    word-break: break-word;
+    display: flex;
+    flex-direction: column;
+  }
+  .imagearea {
+    width: 40%;
+  }
+  .imagearea>img {
+    width: 80%;
+  }
+  .p1 {
+    margin-top: 64px;
+  }
+}

@@ -80,3 +80,24 @@ height: 72px;
     }
 
 }
+.dn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 174px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .board {
+        width: 92%;
+        justify-content: space-around;
+    }
+    .boardhead {
+        font-size: 48px;
+    }
+    .boardhead>h3 {
+        font-size: 52px;
+    }
+}

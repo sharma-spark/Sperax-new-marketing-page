@@ -132,3 +132,12 @@
         left: 15px;
     }
 }
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .headingmini {
+        font-size: 52px;
+        padding: 97px 0px 0 0px;
+    }
+    .working {
+        width: 92%;
+    }
+}
