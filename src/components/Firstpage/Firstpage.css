@@ -338,3 +338,36 @@
 
     }
 }
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .heading {
+        font-size: 52px;
+        letter-spacing: -0.02em;
+        line-height: 60px;
+        width: 504px;
+        margin-left: 4%;
+    }
+    .images > .top {
+        right: 4% !important;
+        top: 250px !important;
+    }
+    .images > .bottom {
+        right: 8% !important;
+        top: 440px;
+    }
+    .detail {
+        width: 367px;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: -0.03em;
+        margin-left: 4%;
+    }
+    .features {
+        margin-top: 300px;
+        margin-left: 4%;
+    }
+    .learnmore {
+        margin-left: 4%;
+    }
+}
