@@ -8,7 +8,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-        <div>
+        <div className="sperax-desktop">
             <div className='splogotext'>
                 <img src={speraxlogo} alt="" />
                 <p>Sperax</p>
@@ -46,6 +46,21 @@ const Footer = () => {
             <div>
                 <p className='foottitle'>Contact Us</p>
                 <a href="mailto:alec@sperax.io;contact@sperax.io;gerry@sperax.io" rel="nofollow">contact@sperax.io</a>
+            </div>
+        </div>
+        <div className="sperax-mobile">
+            <div className='splogotext'>
+                <img src={speraxlogo} alt="" />
+                <p>Sperax</p>
+            </div>
+            <div className='footersocial'>
+                <img src={bdiscord} alt="" />
+                <img src={btelegram} alt="" />
+                <img src={btwitter} alt="" />
+                <img src={bmedium} alt="" />
+            </div>
+            <div className='rights'>
+                <p>Sperax Foundation © Sperax 2020. All rights reserved.</p>
             </div>
         </div>
     </div>

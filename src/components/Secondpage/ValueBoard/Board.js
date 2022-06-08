@@ -5,16 +5,16 @@ const Board = (props) => {
   return (
     <div className='board'>
         <div className='dn'>
-          <div className='boardhead'><h3>{props.apy}%</h3></div>
-          <div className='boarddesp'><p>Latest Auto Yield APY</p></div>
+          <div className='boardhead'><h3>{props.apy? `${props.apy}%`: ''}</h3></div>
+          <div className='boarddesp'><p>USDs Auto-yield APY</p></div>
         </div>
         <div className='dn'>
-          <div className='boardhead'><h3>${props.totalValueLocked}</h3></div>
+          <div className='boardhead'><h3>{props.totalValueLocked ? `$${props.totalValueLocked}`: ''}</h3></div>
           <div className='boarddesp'><p>Total Value locked</p></div>
         </div>
         <div className='dn'>
-          <div className='boardhead'><h3>{props.totalApy}%</h3></div>
-          <div className='boarddesp'><p>Max. Staking APY</p></div>
+          <div className='boardhead'><h3>{props.totalApy ? `${props.totalApy}%`: ''}</h3></div>
+          <div className='boarddesp'><p>Max SPA staking APY</p></div>
         </div>
     </div>
   )

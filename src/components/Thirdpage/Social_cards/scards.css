@@ -12,14 +12,16 @@
     margin-bottom: 32px;
 }
 .boxt {
-    width: 45%;
+    width: 49%;
 }
 .boxb {
-    width: 45%;
+    width: 49%;
 }
 .boxb>a , .boxt>a{
     text-decoration: none;
-    width:fit-content;
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
 }
 @media screen and (max-width:480px) {
     .scards {
@@ -29,6 +31,16 @@
     .boxt {
         width: 91%;
         margin: auto;
+    }
+    .boxt > a {
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .boxb > a {
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
     }
     .boxb {
         width: 91%;

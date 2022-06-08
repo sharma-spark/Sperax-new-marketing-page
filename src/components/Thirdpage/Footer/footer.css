@@ -131,3 +131,26 @@
     order: 0;
     flex-grow: 0;
 }
+
+.sperax-desktop {
+    display: block;
+}
+.sperax-mobile {
+    display: none;
+}
+@media screen and (max-width:480px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 80px auto 0;
+        width: 91%;
+    }
+    .sperax-desktop {
+        display: none !important;
+    }
+    .sperax-mobile {
+        display: block;
+        margin-bottom: 80px !important;
+    }
+}

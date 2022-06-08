@@ -67,6 +67,9 @@
 .alinks>span{
     color: white;
 }
+.postimg {
+    overflow: hidden;
+}
 .postimg>img{
     margin-top:0;
     width: 100%;
