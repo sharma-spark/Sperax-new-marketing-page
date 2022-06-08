@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Navbar.css'
 import logo from './SperaxLogo.svg'
 import hiring from './wearehiring.svg'
@@ -7,9 +7,11 @@ import medium from './medium.svg'
 import twitter from './twitter.svg'
 import telegram from './telegram.svg'
 import menu from './menu.svg'
+import close from './close.svg'
 
 
 const Navbar = () => {
+    const [show, setShow] = useState(false);
   return (
       
     <div className='Navbar'>
@@ -47,7 +49,12 @@ const Navbar = () => {
 
             <a className='app' href="https://app.sperax.io/">Launch app →</a>
             <div className="mobileMenu" >
-                <img src={menu}/>
+                <img onClick={() => setShow(!show)} src={show ? close : menu}/>
+                {show && <div className="mobileMenuContainer">
+                    <a href="https://docs.sperax.io/">Docs</a>
+                    <a href="https://sperax.io/team">About Us</a>
+                    <a href="https://sperax.io/careers">Career <img src={hiring} alt="we are hiring" /></a>
+                </div>}
             </div>
         </div>
 
