@@ -9,12 +9,12 @@ const SocialCards = () => {
   return (
     <div className='scards'>
       <div className='boxt'>
-      <Scard1/>
-      <Scard2/>
+      <a href="https://discord.com/invite/sperax"><Scard1/></a>
+      <a href="https://t.me/SperaxUSD"><Scard2/></a>
       </div>
       <div className='boxb'>
-      <Scard3/>
-      <Scard4/>
+      <a href="https://twitter.com/SperaxUSD"><Scard3/></a>
+      <a href="https://medium.com/sperax"><Scard4/></a>
       </div>
     </div>
   )

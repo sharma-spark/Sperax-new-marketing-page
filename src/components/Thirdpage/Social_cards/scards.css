@@ -17,6 +17,10 @@
 .boxb {
     width: 45%;
 }
+.boxb>a , .boxt>a{
+    text-decoration: none;
+    width:fit-content;
+}
 @media screen and (max-width:480px) {
     .scards {
         display: flex;
