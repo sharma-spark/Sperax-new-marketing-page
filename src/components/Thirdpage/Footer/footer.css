@@ -136,7 +136,7 @@
     display: block;
 }
 .sperax-mobile {
-    display: none;
+    display: none !important;
 }
 @media screen and (max-width:480px) {
     .footer {
@@ -150,7 +150,7 @@
         display: none !important;
     }
     .sperax-mobile {
-        display: block;
+        display: block !important;
         margin-bottom: 80px !important;
     }
 }

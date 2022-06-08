@@ -109,8 +109,7 @@
 
 .images > .top {
     position: absolute;
-    width: 440.939px;
-    height: 255.16px;
+    width: 30%;
     /* 1.728 */
     right: 8%;
     top: 131px;
@@ -118,8 +117,7 @@
 
 .images > .bottom {
     position: absolute;
-    width: 628.571px;
-    height: 357.99px;
+    width: 40%;
     /* 1.755 */
     right: 9.4%;
     top: 344px;
