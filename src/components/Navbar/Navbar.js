@@ -24,7 +24,7 @@ const Navbar = () => {
             </div>
         </div>
 
-        <div className='rightPart'>
+        <div className='rightPart deskTopRight'>
         
             <div className='social'>
                 <a href="https://discord.com/invite/sperax"><img className='icon' src={discord} alt="discord" /></a>
@@ -36,8 +36,19 @@ const Navbar = () => {
             <a className='app' href="https://app.sperax.io/">Launch app →</a>
         </div>
 
-        <div className="mobileMenu" >
-            <img src={menu}/>
+        <div className='rightPart mobileRight'>
+
+            <div className='social'>
+                <a href="https://discord.com/invite/sperax"><img className='icon' src={discord} alt="discord" /></a>
+                <a href="https://t.me/SperaxUSD"><img className='icon' src={telegram} alt="telegram" /></a>
+                <a href="https://twitter.com/SperaxUSD"><img className='icon' src={twitter} alt="twitter" /></a>
+                <a href="https://medium.com/sperax"><img className='icon' src={medium} alt="medium" /></a>
+            </div>
+
+            <a className='app' href="https://app.sperax.io/">Launch app →</a>
+            <div className="mobileMenu" >
+                <img src={menu}/>
+            </div>
         </div>
 
     </div>

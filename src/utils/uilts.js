@@ -100,7 +100,7 @@ export const valueToFormat = (resultBigNumber, _showDecimals, showDecimals) => {
 }
 
 export const getSPACirculatingSupplyByApI = () => {
-    let getSpaCirculatingSupplyUrl=`https://app.sperax.io/sperax-token-stats-api/getSpaCirculatingSupply`;
+    let getSpaCirculatingSupplyUrl=`/sperax-token-stats-api/getSpaCirculatingSupply`;
     return new Promise((resolve, reject)=> {
         axios
             .get(getSpaCirculatingSupplyUrl)
@@ -125,7 +125,7 @@ export const getSPACirculatingSupplyByApI = () => {
 }
 
 export const getSPATotalSupplyByAPI =() => {
-    let getSpaTotalSupplyUrl=`https://app.sperax.io/sperax-token-stats-api/getSpaTotalSupply`;
+    let getSpaTotalSupplyUrl=`/sperax-token-stats-api/getSpaTotalSupply`;
     return new Promise((resolve, reject) => {
         axios
             .get(getSpaTotalSupplyUrl)
@@ -167,7 +167,7 @@ export const loadSPAPriceByOracle = (callback) => {
 }
 
 export const loadSPARewards =() => {
-    let getSPARewardsUrl = `https://app.sperax.io/staking-api/sperax-dapp-staking-last-total-spa-rewards`;
+    let getSPARewardsUrl = `/staking-api/sperax-dapp-staking-last-total-spa-rewards`;
     return new Promise((resolve, reject) => {
         axios
             .get(getSPARewardsUrl)

@@ -216,12 +216,11 @@
 
 @media screen and (max-width:480px) {
     .heading{
-        position: absolute;
-        width: 328px;
+        position: relative;
+        width: 91%;
         height: 138px;
-        left: 16px;
-        top: 174px;
-        
+        margin-left: auto;
+        margin-right: auto;
         font-family: 'MessinaSans-Semibold';
         font-style: normal;
         font-weight: 700;
@@ -236,11 +235,10 @@
         color: #1B2022;
     }
     .detail{
-        position: absolute;
-        width: 328px;
+        position: relative;
+        width: 91%;
         height: 120px;
-        left: 16px;
-        top: 328px;
+        margin: 16px auto 0;
         
         /* Body 2 / Regular 16px */
         

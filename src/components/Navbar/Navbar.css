@@ -89,8 +89,8 @@
     color: #31C1BF;
     border: 1px solid #31C1BF;
 }
-.mobileMenu {
-    display: none;
+.mobileRight {
+    display: none !important;
 }
 @media screen and (max-width:480px) {
     .linktext, .social{
@@ -103,9 +103,22 @@
         background: #FFFFFF;
         display: flex;
         align-items: center;
+        margin: 1.5vmax 0;
+        justify-content: space-between;
     }
     .Navbar>.rightPart {
-        margin-left: 20%;
+        display: flex;
+        align-items: center;
+        margin-right: 16px;
+    }
+    .social {
+        display: none !important;
+    }
+    .mobileRight {
+        display: flex !important;
+    }
+    .deskTopRight {
+        display: none !important;
     }
     .Navbar>.rightPart>.app {
         width: 125px;
@@ -120,6 +133,10 @@
         display: block;
         flex-grow: 1;
         text-align: right;
+        margin-left: 10px;
+    }
+    .leftPart{
+        margin-left: 16px;
     }
     .mobileMenu>img {
         width: 24px;
