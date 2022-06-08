@@ -55,6 +55,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+    padding: 20px 50px;
 }
 .auditlogos-mobile {
     display: none;

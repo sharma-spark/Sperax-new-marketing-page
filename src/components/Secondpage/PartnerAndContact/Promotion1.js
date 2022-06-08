@@ -11,7 +11,7 @@ const Promotion1 = () => {
             <p className='body'>Integrate with USDs to pass on our stable organic yield to your end users</p>
         </div>
         <div className='imagearea'>
-            <img src={p1img} alt="" />
+            <a href="https://streetbeat.com/"><img src={p1img} alt="" /></a>
         </div>
     </div>
   )
