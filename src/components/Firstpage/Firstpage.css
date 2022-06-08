@@ -78,6 +78,7 @@
 }
 
 .getusds {
+    border: 1px solid #31C1BF;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -368,6 +369,9 @@
         margin-left: 4%;
     }
     .learnmore {
+        margin-left: 4%;
+    }
+    .getusds {
         margin-left: 4%;
     }
 }

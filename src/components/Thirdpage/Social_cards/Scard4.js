@@ -6,9 +6,7 @@ import './scard4.css'
 const Scard4 = () => {
   return (
     <div className='scard4'>
-        <div className='fore4'></div>
-        <div className='arrowpoint'><img src={arrow1} alt="" /></div>
-        <div className='slogo'><img src={mediumwhite} alt="" /></div>
+        <div className='slogo'><img style={{marginLeft: '30px'}} src={mediumwhite} alt="" /></div>
         <div className='scount'><h2>1,633</h2></div>
     </div>
   )

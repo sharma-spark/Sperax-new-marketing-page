@@ -1,8 +1,10 @@
 .postercard2{
     background: #31C1BF;
     border-radius: 32px;
-    width: 576px;
+    width: 59%;
+    overflow: hidden;
     height: 524px;
+    text-align: left;
     /* padding: 52px; */
     margin: 0 0 0 24px;
     /* overflow: hidden; */
@@ -79,4 +81,41 @@
     text-decoration-line: underline;
     text-decoration-color: #FFFFFF;
 
+}
+
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .postercard2 {
+        width: 49%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .headtext2 {
+        width: 100%;
+    }
+    .headtext2>h3 {
+        font-size: 28px;
+        line-height: 1;
+        margin-left: 32px;
+        align-items: flex-start;
+    }
+    .headtext2>p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-left: 32px;
+        margin-right: 32px;
+        width: fit-content;
+        text-align: left;
+        height: fit-content;
+    }
+    .postimg>img {
+        width: 100%;
+        margin-bottom: -50px;
+    }
+    .alinks2 {
+        margin-left: 32px;
+    }
+    .postimg {
+        overflow: hidden;
+    }
 }

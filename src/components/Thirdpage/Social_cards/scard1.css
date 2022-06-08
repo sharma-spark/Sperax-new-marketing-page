@@ -1,10 +1,16 @@
 .scard1{
-    width: 576px;
+    width: 100%;
     height: 248px;
-    background: #5B65E9;
-    mix-blend-mode: normal;
-    border-radius: 32px 262px 32px 32px;
+    background-image: url(background1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
 }
 .fore1{
 background: #3E45A3;
@@ -20,7 +26,7 @@ position: absolute;
     margin-bottom: 5px;
 }
 .slogo>img{
-    margin: 0px 473px 10px 51.25px;
+    margin-left: 40px;
 }
 
 .scount>h2{
@@ -36,4 +42,33 @@ position: absolute;
     align-items: center;
     letter-spacing: -0.043em;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .scard1{
+        width: 100%;
+        height: 160px;
+        position: relative;
+        background-image: url(background1.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .slogo>img{
+        margin: 0 20px 0;
+        width: 28px;
+    }
+    .scount>h2 {
+        margin: 0 20px 0;
+        font-size: 38px;
+    }
+    .fore1 {
+        width: 100%;
+        height: fit-content;
+    }
 }

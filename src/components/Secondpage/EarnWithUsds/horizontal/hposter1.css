@@ -2,6 +2,7 @@
     background: #31C1BF;
     border-radius: 32px;
     width: 49%;
+    text-align: left;
     height: 524px;
     /* overflow: hidden; */
     /* overflow: hidden; */
@@ -68,14 +69,44 @@
 }
 .postimg>img{
     margin-top: -10px;
-    width: 576px;
+    width: 100%;
     height: 244px;
+    margin-bottom: -20px;
 }
 .at{
     color: #FFFFFF;
     text-decoration-color: #FFFFFF;
 
 }
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .headtext1>h3 {
+        font-size: 28px;
+        line-height: 1;
+        margin-left: 32px;
+    }
+    .headtext1>p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-left: 32px;
+        margin-right: 32px;
+        width: fit-content;
+        text-align: left;
+    }
+    .alinks {
+        margin-left: 32px;
+    }
+    .postimg>img {
+        width: 100%;
+        margin-bottom: -50px;
+    }
+    .postimg {
+        overflow: hidden;
+    }
+}
+
+
+
+
 
 
 

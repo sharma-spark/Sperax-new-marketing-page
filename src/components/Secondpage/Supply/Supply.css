@@ -106,3 +106,8 @@
         flex-grow: 0;
     }
 }
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .bottomtext>h3 {
+        font-size: 52px;
+    }
+}

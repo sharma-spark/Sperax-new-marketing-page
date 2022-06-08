@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
             <div>
                 <p className='foottitle'>Contact Us</p>
-                <a href="/">contact@sperax.io</a>
+                <a href="mailto:alec@sperax.io;contact@sperax.io;gerry@sperax.io" rel="nofollow">contact@sperax.io</a>
             </div>
         </div>
     </div>

@@ -88,3 +88,30 @@ img.abo{
         border-radius: 20px;
     }
 }
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .lefttext{
+        padding: 32px;
+        font-size: 28px;
+        width: 40%;
+    }
+    .headb>h3 {
+        font-size: 28px;
+    }
+    .bodyb {
+        font-size: 18px;
+        width: 100%;
+    }
+    .rightimg {
+        width: 60%;
+    }
+    img.bel {
+        width: 100%;
+    }
+    img.abo {
+        width: 84%;
+    }
+    .alinksb {
+        margin-bottom: 58px;
+        margin-top: 136px;
+    }
+}

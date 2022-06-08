@@ -9,7 +9,6 @@
     margin: auto;
     width: 30%;
     left: 35%;
-    top: -150px;
     z-index: 100;
 }
 .joinspa{
@@ -37,5 +36,28 @@
         top: 9112px;
         height: 1px;
         width: 360px;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .Thirdpage {
+        width: 92%;
+        margin-top: -700px;
+    }
+    .background-img {
+        display: none;
+    }
+    .joinspa {
+        font-size: 62px;
+        text-align: center;
+        margin-left: 0;
+        margin: auto;
+    }
+    .joinspa>b {
+        text-align: center;
+        margin: auto;
+    }
+    .joinspadiv {
+        margin-top: -400px;
+        text-align: center;
     }
 }

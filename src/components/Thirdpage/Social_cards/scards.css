@@ -1,6 +1,8 @@
 .scards{
-    display: -webkit-inline-flex;
+    display: flex;
     margin: 37px auto;
+    width: 100%;
+    justify-content: space-between;
 }
 .boxt>div{
     margin-bottom: 32px;
@@ -8,4 +10,24 @@
 }
 .boxb>div{
     margin-bottom: 32px;
+}
+.boxt {
+    width: 45%;
+}
+.boxb {
+    width: 45%;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .boxt{
+        width: 45%;
+        margin: 20px;
+    }
+    .boxb{
+        width: 45%;
+        margin: 20px;
+    }
+    .scards {
+        width: 100%;
+    }
 }

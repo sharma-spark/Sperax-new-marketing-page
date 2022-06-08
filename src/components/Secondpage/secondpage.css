@@ -140,4 +140,7 @@
     .working {
         width: 92%;
     }
+    .secondpage {
+        padding-bottom: 900px;
+    }
 }

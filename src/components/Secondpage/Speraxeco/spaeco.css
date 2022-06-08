@@ -60,3 +60,13 @@
         display: none;
     }
 }
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+    .getspadisc{
+        margin: 90px auto;
+        width: 92%;
+        text-align: left;
+    }
+    .SPAtext {
+        font-size: 38px;
+    }
+}
