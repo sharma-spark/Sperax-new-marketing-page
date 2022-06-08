@@ -1,0 +1,52 @@
+.banner {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    box-shadow:0px -2px 0px rgb(230, 230, 230);
+    background: #FFFFFF;
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannerContent {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.bannerContent>.social {
+    width: 15%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.inputContainer {
+    overflow: hidden;
+    height: 52px;
+    border: 1px solid #ABB7BD;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+.inputContainer>input {
+   height: 100%;
+    border: none;
+    width: 200px;
+    font-size: 18px;
+    padding-left: 10px;
+    outline:none;
+}
+.inputContainer>button {
+    height: 101%;
+    width: 160px;
+    background: #31C1BF;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+}

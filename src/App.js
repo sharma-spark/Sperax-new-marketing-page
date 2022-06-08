@@ -17,6 +17,7 @@ import {
 } from "./utils/uilts";
 import BigNumber from "bignumber.js";
 import {useEffect, useState} from "react";
+import Banner from "./components/Banner/Banner";
 
 function App() {
 
@@ -75,6 +76,7 @@ function App() {
     <Investors/>
     <Secondpage apy={apy} totalValueLocked={totalValueLocked} totalApy={totalApy} circulate={circulate} totalSupply={totalSupply}/>
     <Thirdpage  burnt={burnt} locked={spaLocked} buyBack={buyBack}/>
+    <Banner />
     </Router>
   );
 }
