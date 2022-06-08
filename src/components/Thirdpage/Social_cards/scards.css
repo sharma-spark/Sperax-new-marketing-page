@@ -6,7 +6,6 @@
 }
 .boxt>div{
     margin-bottom: 32px;
-    margin-right: 24px;
 }
 .boxb>div{
     margin-bottom: 32px;
@@ -16,6 +15,10 @@
 }
 .boxb {
     width: 45%;
+}
+.boxb>a , .boxt>a{
+    text-decoration: none;
+    width:fit-content;
 }
 
 @media screen and (max-width: 1000px) and (min-width: 481px) {

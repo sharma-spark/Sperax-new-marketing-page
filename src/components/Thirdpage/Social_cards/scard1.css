@@ -43,6 +43,9 @@ position: absolute;
     letter-spacing: -0.043em;
     color: #FFFFFF;
 }
+.scount{
+    width: 400px;
+}
 
 @media screen and (max-width: 1000px) and (min-width: 481px) {
     .scard1{
