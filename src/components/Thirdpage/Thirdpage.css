@@ -31,11 +31,22 @@
 }
 @media screen and (max-width:480px) {
     .Thirdpage{
-        position: absolute;
-        background-color: white;
-        top: 9112px;
-        height: 1px;
-        width: 360px;
+        position: relative;
+        background: none;
+        width: 100%;
+        margin-top: -1300px;
+    }
+    .joinspa {
+        position: relative;
+        width: 80%;
+        margin: 60px auto;
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .joinspadiv {
+        margin-top: -250px;
+        text-align: center;
+        font-size: 38px;
     }
 }
 @media screen and (max-width: 1000px) and (min-width: 481px) {

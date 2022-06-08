@@ -76,16 +76,46 @@ img.abo{
 }
 @media screen and (max-width:480px) {
     .big{
-        position: absolute;
-        top: 4378px;
-        left: 16px;
-        width: 328px;
-        height: 563px;
-        
+        position: relative;
+        width: 100%;
+        margin: 24px auto 0;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+
         /* Primary/ Brand */
         
         background: #31C1BF;
         border-radius: 20px;
+    }
+    .bodyb {
+        width: fit-content;
+        margin-top: 0;
+    }
+    .lefttext {
+        padding: 16px;
+        margin-top: 32px;
+    }
+    img.bel {
+        width: 95%;
+        position: relative;
+        margin-left: -12px;
+    }
+    .alinksb {
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .headb>h3 {
+        font-size: 28px;
+    }
+    img.abo {
+        width: 84%;
+        position: absolute;
+        left: 5%;
+        height: fit-content;
+    }
+    .rightimg {
+        margin-top: 24px;
     }
 }
 @media screen and (max-width: 1000px) and (min-width: 481px) {

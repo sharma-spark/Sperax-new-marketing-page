@@ -20,6 +20,8 @@ const Firstpage = () => {
             <img className='top' src={topright} alt="" />
             <img className='bottom' src={bottomright} alt="" />
         </div>
+
+          <a className='getusdsMobile' href="https://app.sperax.io/mint">Get USDs →</a>
         
         <div className='features'>
             <div className='yield'>

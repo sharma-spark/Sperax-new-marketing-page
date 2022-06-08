@@ -8,12 +8,11 @@
 }
 @media screen and (max-width:480px) {
     .card3{
-    
-        position: absolute;
-        width: 328px;
+
+        position: relative;
+        width: 91%;
         height: 476px;
-        left: 16px;
-        top: -400px;
+        margin: 30px auto 0;
 
         /* White */
 

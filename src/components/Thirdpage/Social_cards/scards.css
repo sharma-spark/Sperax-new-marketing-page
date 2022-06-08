@@ -17,6 +17,21 @@
 .boxb {
     width: 45%;
 }
+@media screen and (max-width:480px) {
+    .scards {
+        display: flex;
+        flex-direction: column;
+    }
+    .boxt {
+        width: 91%;
+        margin: auto;
+    }
+    .boxb {
+        width: 91%;
+        margin: auto;
+    }
+
+}
 
 @media screen and (max-width: 1000px) and (min-width: 481px) {
     .boxt{

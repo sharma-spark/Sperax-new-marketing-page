@@ -20,6 +20,20 @@
     height: 248px;
     position: absolute;
 }
+@media screen and (max-width:480px) {
+    .scard4 {
+        height: 160px;
+    }
+    .scount>h2 {
+        font-size: 38px;
+        margin: 0 24px 0;
+    }
+    .slogo>img {
+        margin-left: 24px;
+        width: 30px;
+    }
+}
+
 
 @media screen and (max-width: 1000px) and (min-width: 481px) {
     .scard4{

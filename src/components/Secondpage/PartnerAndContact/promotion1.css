@@ -61,16 +61,14 @@
 }
 @media screen and (max-width:480px) {
   .p1{
-    position: absolute;
-    width: 328px;
-    height: 480px;
-    left: 16px;
-    top: 1848px;
+    position: relative;
+    width: 91%;
     /* White */
     background: #FFFFFF;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    margin: 84px auto 0;
   }
   .head{
     width: 296px;

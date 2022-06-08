@@ -63,12 +63,10 @@ height: 72px;
 }
 @media screen and (max-width:480px) {
     .board{
-        position: absolute;
-        width: 328px;
+        position: relative;
+        width: 91%;
         height: 598px;
-        left: 16px;
-        top: 955px;
-        margin: 0;
+        margin: 52px auto 0;
         /* Primary/ Brand */
         background: #31C1BF;
         border-radius: 20px;

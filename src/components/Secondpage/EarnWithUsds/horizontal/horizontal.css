@@ -6,9 +6,8 @@
 }
 @media screen and (max-width:480px) {
     .horizontal{
-        position: absolute;
-        top:3514px;
-        left: 16px;
+        position: relative;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }

@@ -65,11 +65,9 @@
   }
   @media screen and (max-width:480px) {
     .p2{
-      position: absolute;
-      width: 328px;
-      height: 480px;
-      left: 16px;
-      top: 2352px;
+      position: relative;
+      width: 91%;
+      margin: 24px auto 0;
       
       /* White */
       

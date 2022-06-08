@@ -38,18 +38,20 @@ color: white;
     width: 82%;
 }
 @media screen and (max-width:480px) {
+    .partnerandcontact{
+        margin: 0 auto;
+        width: 100%;
+    }
     .partner{
-        position: absolute;
-        width: 328px;
-        height: 46px;
-        left: 16px;
-        top: 1636px;
-        
+        display: none !important;
+        position: relative;
+        width: 91%;
         font-family: 'MessinaSans-Semibold';
         font-style: normal;
         font-weight: 700;
         font-size: 38px;
         line-height: 46px;
+        margin: 83px auto;
         /* identical to box height, or 121% */
         
         text-align: center;
@@ -58,6 +60,9 @@ color: white;
         /* White */
         
         color: #FFFFFF;
+    }
+    .partner > h3 {
+        font-size: 38px;
     }
     .contact{
         position: absolute;

@@ -82,6 +82,38 @@
     text-decoration-color: #FFFFFF;
 
 }
+@media screen and (max-width:480px) {
+    .postercard2 {
+        width: 100%;
+        height: fit-content;
+        margin: 24px auto 0;
+    }
+    .headtext2 {
+        width: 100%;
+    }
+    .headtext2>h3 {
+        font-size: 28px;
+        line-height: 1;
+        margin-left: 16px;
+    }
+    .headtext2>p {
+        width: 91%;
+        margin-left: 16px;
+        margin-bottom: 0;
+        height: fit-content;
+    }
+    .alinks2 {
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    .postimg2 {
+        margin-top: 70px;
+        overflow: hidden;
+    }
+    .postimg2>img {
+        height: fit-content;
+    }
+}
 
 @media screen and (max-width: 1000px) and (min-width: 481px) {
     .postercard2 {

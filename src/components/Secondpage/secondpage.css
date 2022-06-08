@@ -59,27 +59,25 @@
 
 
 @media screen and (max-width:480px) {
+    .secondpage {
+        padding-bottom: 1300px;
+    }
     .secondpage{
-        position: absolute;
-        width: 360px;
-        height: 6750px;
-        left: 0px;
-        top: 2048px;
-        
+        position: relative;
+        width: 100%;
+        padding-top: 76px;
     }
     .headingmini{
-        position: absolute;
-        width: 328px;
+        width: 70%;
         height: 92px;
-        left: 16px;
-        top: 76px;
-        padding: 0;
-        
+        margin: 0 auto 0;
+        position: relative;
         font-family: 'MessinaSans-Semibold';
         font-style: normal;
         font-weight: 700;
         font-size: 38px;
         line-height: 46px;
+        padding: 0;
         /* or 121% */
         
         text-align: center;
@@ -88,10 +86,15 @@
     .headingmini>span{
         color:#31C1BF;
     }
+    .getbuttons {
+        display: flex;
+        width: 91%;
+        margin: 40px auto 0;
+        justify-content: space-between;
+    }
     .getbuttons>a{
 /* Auto layout */
-        position: absolute;
-        top: 208px;
+        position: relative;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -127,9 +130,9 @@
     }
     .workingmobile{
         display: block;
-        position: absolute;
-        top: 318px;
-        left: 15px;
+        position: relative;
+        width: 91%;
+        margin: 52px auto 0;
     }
 }
 @media screen and (max-width: 1000px) and (min-width: 481px) {

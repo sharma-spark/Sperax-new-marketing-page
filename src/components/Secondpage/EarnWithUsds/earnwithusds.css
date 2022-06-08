@@ -14,11 +14,8 @@
 }
 @media screen and (max-width:480px) {
     .earnhead{
-        position: absolute;
-        width: 400px;
-        height: 46px;
-        left: 16px;
-        top: 3396px;
+        position: relative;
+        width: 91%;
         
         font-family: 'MessinaSans-Semibold';
         font-style: normal;
@@ -32,6 +29,12 @@
         /* White */
         
         color: #FFFFFF;
+    }
+    .earnhead>h3 {
+        font-size: 38px;
+    }
+    .earn {
+        width: 91%;
     }
 }
 @media screen and (max-width: 1000px) and (min-width: 481px) {

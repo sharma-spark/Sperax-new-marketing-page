@@ -212,6 +212,9 @@
     /* Gray 5 */
     color: #707E85;
 }
+.getusdsMobile {
+    display: none;
+}
 
 
 @media screen and (max-width:480px) {
@@ -256,85 +259,74 @@
         color: #1B2022;
         
     }
+    .images {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
     .images>.top{
-        position: absolute;
-        width: 279px;
-        height: 161.45px;
-        left: 69px;
-        top: 464px;
-        
+        position: relative;
+        width: 80%;
+        height: fit-content;
+        top: 16px;
+        left: 15%;
     }
     .images>.bottom{
-        position: absolute;
-        width: 395.08px;
-        height: 225.2px;
-        left: -49px;
-        top: 592px;
+        position: relative;
+        width: 100%;
+        top: 0;
+        height: fit-content;
+        margin-left: -10%;
+        left: 0;
     }
     .getusds{
-            
-        width: 95px;
-        height: 26px;
-
-        /* Body 1/Semibold 18px */
-
-        font-family: 'MessinaSans-Semibold';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 26px;
-        /* identical to box height, or 144% */
-
+        display: none;
+    }
+    .getusdsMobile {
+        border: 1px solid #31C1BF;
         display: flex;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
-        text-align: center;
-        letter-spacing: -0.03em;
+        padding: 16px 40px;
+        gap: 16px;
 
-        /* White */
+        width: 100px;
+        height: 20px;
+        /* 3.017 */
+        margin-left: 4.5%;
+        margin-top: 70px;
 
-        color: #FFFFFF;
+        /* Primary/ Brand */
+        background: #31C1BF;
+        border-radius: 90px;
 
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-        position: absolute;
-        width: 175px;
-        height: 58px;
-        left: 17px;
-        top: 891px;
+        text-decoration: none;
+        color: white;
     }
-    .yield{
-        position: absolute;
-        left: 0px;
-        top: 340px;
+
+    .getusdsMobile:hover {
+        background-color: white;
+        color: #31C1BF;
+        border: 1px solid #31C1BF;
     }
-    .gas{
-        position: absolute;
-        left: 0px;
-        top: 430px;
-            }
-    .compound{
-        position: absolute;
-        left: 0px;
-        top: 520px;
-    }
+
     .gas, .compound, .yield{
-        margin-left:-100px ;
+        margin-left: 4.5% ;
+        position: relative;
     }
     .learnmore{
-        position: absolute;
-        width: 328px;
-        height: 54px;
-        left: 16px;
-        top: 1351px;
+        position: relative;
+        width: 91%;
+        margin: 40px auto;
+        height: 60px;
     }
     .features{
         display: flex;
         justify-content: flex-start;
-
+        flex-direction: column;
+        margin: 60px 0 0;
+        align-items: flex-start;
     }
 }
 @media screen and (max-width: 1000px) and (min-width: 481px) {

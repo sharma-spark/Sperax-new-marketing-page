@@ -78,6 +78,33 @@
     text-decoration-color: #FFFFFF;
 
 }
+@media screen and (max-width:480px) {
+    .postercard {
+        width: 100%;
+        height: fit-content;
+    }
+    .headtext1>h3 {
+        font-size: 28px;
+        line-height: 1;
+        margin-left: 16px;
+    }
+    .headtext1>p {
+        width: fit-content;
+        margin-left: 16px;
+        margin-bottom: 0;
+    }
+    .alinks {
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    .postimg {
+        margin-top: 70px;
+        overflow: hidden;
+    }
+    .postimg>img {
+        height: fit-content;
+    }
+}
 @media screen and (max-width: 1000px) and (min-width: 481px) {
     .headtext1>h3 {
         font-size: 28px;

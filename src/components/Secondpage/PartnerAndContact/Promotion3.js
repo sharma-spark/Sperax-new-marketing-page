@@ -14,10 +14,10 @@ const Promotion3 = () => {
             <p className='body'>Park your surplus stable reserves in USDs to earn a healthy organic yield</p>
         </div>
         <div className='imagearea3'>
-            <img src={p31} alt="" />
-            <img src={p32} alt="" />
-            <img src={p33} alt="" />
-            <img src={p34} alt="" />
+            <img src={p31} className="imagearea3-first" alt="" />
+            <img src={p32} className="imagearea3-first" alt="" />
+            <img src={p33} className="imagearea3-end" alt="" />
+            <img src={p34} className="imagearea3-end" alt="" />
         </div>
 
     </div>

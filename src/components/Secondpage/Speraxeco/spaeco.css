@@ -1,22 +1,24 @@
-.SPAtext{
+.SPAtext {
     font-family: 'MessinaSans-Semibold';
     font-style: normal;
     font-weight: 600;
     font-size: 52px;
     line-height: 66px;
-    color:white;
+    color: white;
     letter-spacing: -0.02em;
 }
-.in{
-    color:#31C1BF;
+
+.in {
+    color: #31C1BF;
 }
-.getspadisc{
+
+.getspadisc {
     margin: 90px auto;
     width: 82%;
     text-align: left;
 }
 
-.getspa>a{    
+.getspa > a {
     padding: 16px 40px;
     gap: 16px;
     background: #31C1BF;
@@ -29,43 +31,52 @@
     font-size: 18px;
     line-height: 26px;
 }
-.getspa{
+
+.getspa {
     margin-top: 36px;
 }
-@media screen and (max-width:480px){
-    .SPAtext{
-        position: absolute;
-        top: 5013px;
-        left: 16px;
-        width: 328px;
-        height: 230px;      
+
+@media screen and (max-width: 480px) {
+    .getspadisc {
+        margin: 78px auto 0;
+        text-align: left;
+        width: 91%;
+    }
+    .SPAtext {
+        position: relative;
+        width: 100%;
+        height: 230px;
         font-family: 'MessinaSans';
         font-style: normal;
         font-weight: 700;
         font-size: 38px;
         line-height: 46px;
         /* or 121% */
-        
+
         letter-spacing: -0.04em;
-        
+
         /* White */
-        
+
         color: #FFFFFF;
-        
+
     }
-    .in{
+
+    .in {
         color: #31C1BF;
     }
-    .getspa{
+
+    .getspa {
         display: none;
     }
 }
+
 @media screen and (max-width: 1000px) and (min-width: 481px) {
-    .getspadisc{
+    .getspadisc {
         margin: 90px auto;
         width: 92%;
         text-align: left;
     }
+
     .SPAtext {
         font-size: 38px;
     }
