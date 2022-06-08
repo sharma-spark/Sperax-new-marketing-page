@@ -326,6 +326,12 @@
         margin: 60px 0 0;
         align-items: flex-start;
     }
+    .gas{
+        margin-top: 20px;
+    }
+    .compound{
+        margin-top: 20px;
+    }
 }
 @media screen and (max-width: 1000px) and (min-width: 481px) {
     .heading {

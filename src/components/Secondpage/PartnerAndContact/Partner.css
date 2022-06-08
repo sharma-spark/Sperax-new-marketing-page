@@ -42,8 +42,8 @@ color: white;
         margin: 0 auto;
         width: 100%;
     }
-    .partner{
-        display: none !important;
+    .partner>h3{
+        /* display: none !important; */
         position: relative;
         width: 91%;
         font-family: 'MessinaSans-Semibold';
@@ -66,7 +66,7 @@ color: white;
     }
     .contact{
         position: absolute;
-        top:1706px;
+        top:1756px;
         left: 96px;
     }
     #down{
