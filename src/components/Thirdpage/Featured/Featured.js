@@ -16,7 +16,13 @@ const Featured = () => {
           <a className='featlink'  href="https://finance.yahoo.com/news/investment-platform-streetbeat-partners-sperax-142000287.html"> <img src={yahoo} alt="" /> </a>
           <a className='featlink'  href="https://messari.io/article/sperax-usd-a-hybrid-stablecoin-with-a-twist"> <img src={messari} alt="" /></a>
         </div>
-        <div className='featlogo-mobile'><img src={logo} alt="" /></div>
+        <div className='featlogo-mobile'>
+        {/* <img src={logo} alt="" /> */}
+          <a className='featlinkm'  href="https://www.coindesk.com/business/2021/12/29/aoki-alameda-back-algorithmic-stablecoin-on-arbitrum-at-200m-valuation/"> <img src={coindesk} alt="" /></a>
+          <a className='featlinkm'  href="https://finance.yahoo.com/news/investment-platform-streetbeat-partners-sperax-142000287.html"> <img src={yahoo} alt="" /> </a>
+          <a className='featlinkm'  href="https://messari.io/article/sperax-usd-a-hybrid-stablecoin-with-a-twist"> <img src={messari} alt="" /></a>
+
+        </div>
     </div>
   )
 }

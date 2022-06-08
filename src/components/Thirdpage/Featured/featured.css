@@ -42,8 +42,8 @@
         display: none;
     }
     .featlogo-mobile {
-        display: block;
-        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
         margin-top: 60px;
     }
     .featured {
@@ -54,5 +54,11 @@
         width: 80%;
         margin: 40px auto;
         height: fit-content;
+    }
+    .featlinkm>img{
+        padding: 20px 0;
+    }
+    .featlinkm{
+        text-decoration: none;
     }
 }
