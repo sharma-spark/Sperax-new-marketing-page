@@ -64,7 +64,7 @@ img.bel{
     /* width: 668.68px; */
     /* height: 513px; */
     position: absolute;
-    right: 0;
+    right: -55px;
     bottom: -55px;
 }
 img.abo{
@@ -72,7 +72,7 @@ img.abo{
     position:absolute;
     width: 476px;
     height: 608.22px;
-    right: 30px;
+    right: 22px;
 }
 @media screen and (max-width:480px) {
     .big{
