@@ -29,6 +29,14 @@
 .featlogo-mobile {
     display: none;
 }
+
+.featlink>img{
+    padding: 0 20px;
+}
+.featlink{
+    text-decoration: none;
+}
+
 @media screen and (max-width:480px) {
     .featlogo-desktop{
         display: none;
