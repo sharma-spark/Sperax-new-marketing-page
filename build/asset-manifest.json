@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1a2f457.chunk.css",
-    "main.js": "/static/js/main.6692b798.chunk.js",
-    "main.js.map": "/static/js/main.6692b798.chunk.js.map",
+    "main.css": "/static/css/main.0587cfc1.chunk.css",
+    "main.js": "/static/js/main.377d6f5e.chunk.js",
+    "main.js.map": "/static/js/main.377d6f5e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.43a01272.js",
     "runtime-main.js.map": "/static/js/runtime-main.43a01272.js.map",
-    "static/js/2.4ffa8176.chunk.js": "/static/js/2.4ffa8176.chunk.js",
-    "static/js/2.4ffa8176.chunk.js.map": "/static/js/2.4ffa8176.chunk.js.map",
+    "static/js/2.b74387e2.chunk.js": "/static/js/2.b74387e2.chunk.js",
+    "static/js/2.b74387e2.chunk.js.map": "/static/js/2.b74387e2.chunk.js.map",
     "static/js/3.09abe286.chunk.js": "/static/js/3.09abe286.chunk.js",
     "static/js/3.09abe286.chunk.js.map": "/static/js/3.09abe286.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c1a2f457.chunk.css.map": "/static/css/main.c1a2f457.chunk.css.map",
-    "static/js/2.4ffa8176.chunk.js.LICENSE.txt": "/static/js/2.4ffa8176.chunk.js.LICENSE.txt",
+    "static/css/main.0587cfc1.chunk.css.map": "/static/css/main.0587cfc1.chunk.css.map",
+    "static/js/2.b74387e2.chunk.js.LICENSE.txt": "/static/js/2.b74387e2.chunk.js.LICENSE.txt",
     "static/media/Firstpage.css": "/static/media/MessinaSerifWeb-SemiBold.75c31702.eot",
     "static/media/SperaxLogo.922446a8.svg": "/static/media/SperaxLogo.922446a8.svg",
     "static/media/alameda.9ed611d9.svg": "/static/media/alameda.9ed611d9.svg",
@@ -72,8 +72,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.43a01272.js",
-    "static/js/2.4ffa8176.chunk.js",
-    "static/css/main.c1a2f457.chunk.css",
-    "static/js/main.6692b798.chunk.js"
+    "static/js/2.b74387e2.chunk.js",
+    "static/css/main.0587cfc1.chunk.css",
+    "static/js/main.377d6f5e.chunk.js"
   ]
 }
