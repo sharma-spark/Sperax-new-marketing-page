@@ -10,8 +10,8 @@ const Hposter1 = () => {
             <p>Earn up to 11% APY in auto-yield on the USDs held in your wallet</p>
         </div>
         <div className='alinks'>
-            <a href="/"><span className='at'>Buy USDs </span>  <img src={arrow} alt="" /></a>
-            <a href="/"><span className='at'>Mint USDs </span> <img src={arrow} alt="" /></a>
+            <a href="https://app.sperax.io/?buyToken=USDs"><span className='at'>Buy USDs </span>  <img src={arrow} alt="" /></a>
+            <a href="https://app.sperax.io/mint"><span className='at'>Mint USDs </span> <img src={arrow} alt="" /></a>
         </div>
         <div className='postimg'>
             <img src={hposter1img} alt="" />

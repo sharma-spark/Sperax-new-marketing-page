@@ -9,6 +9,7 @@ import Thirdpage from './components/Thirdpage/Thirdpage.js'
 import Web3 from 'web3';
 import ApplicationConfig from "./ApplicationConfig";
 import {
+  getDiscordCount,
   getSpaBurnt,
   getSPACirculatingSupplyByApI, getSPATotalSupplyByAPI,
   getTotalValueLocked,
@@ -48,8 +49,9 @@ function App() {
     getSPACirculatingSupplyByApI().then(res => {
       setCirculate(res);
     })
-    getSPATotalSupplyByAPI().then(res => {
-      setTotalSupply(res);
+    getSPATotalSupplyByAPI().then((res) => {
+      setTotalSupply(res.spaSupply);
+      setBurnt(res.burnt);
     })
     loadSPARewards().then(res => {
       setTotalApy(res);
@@ -62,10 +64,7 @@ function App() {
       console.log('spa lock => ' + res)
       setSpaLocked(res);
     })
-    getSpaBurnt().then(res => {
-      console.log(`SPA burnt => ${res}`);
-      setBurnt(res);
-    })
+    getDiscordCount().then();
   }, [web3])
 
 

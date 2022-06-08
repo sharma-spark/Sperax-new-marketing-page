@@ -16,7 +16,7 @@ const Secondpage = (props) => {
             <div className='headingmini'><span> So.. </span>how does it work ?</div>
             <div className='getbuttons'>
                 <a href="https://app.sperax.io/mint">Get USDs</a>
-                <a href="/">Get SPA</a>
+                <a href="https://app.sperax.io/?buyToken=SPA">Get SPA</a>
             </div>
             <img className='working' src={working} alt=""/>
             <img className='workingmobile' src={workingmobile} alt="" />

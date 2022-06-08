@@ -22,7 +22,7 @@ const Navbar = () => {
             <a className='linktextspa' href="/">Sperax</a>
             <a className='linktext' href="https://docs.sperax.io/">Docs</a>
             <a className='linktext' href="https://sperax.io/team">About Us</a>
-            <a className='linktext' href="https://sperax.io/careers">Career <img src={hiring} alt="we are hiring" /></a>
+            <a style={{position: 'relative'}} className='linktext' href="https://sperax.io/careers">Career <img style={{position: 'absolute', bottom: '15px'}} src={hiring} alt="we are hiring" /></a>
             </div>
         </div>
 

@@ -14,10 +14,10 @@ const Footer = () => {
                 <p>Sperax</p>
             </div>
             <div className='footersocial'>
-                <img src={bdiscord} alt="" />
-                <img src={btelegram} alt="" />
-                <img src={btwitter} alt="" />
-                <img src={bmedium} alt="" />
+                <a href="https://discord.gg/sperax" ><img src={bdiscord} alt="" /></a>
+                <a href="https://t.me/SperaxUSD"><img  src={btelegram} alt="" /></a>
+                <a href="https://twitter.com/speraxusd"><img src={btwitter} alt="" /></a>
+                <a href="https://streetbeat.com/"><img src={bmedium} alt="" /></a>
             </div>
             <div className='rights'>
                 <p>Sperax Foundation © Sperax 2020. All rights reserved.</p>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <p className='foottitle'>Resources</p>
                 <p>Whitepaper</p>
                 <p>Brandkit</p>
-                <p>Docs</p>
+                <a className="linktextNo" href="https://docs.sperax.io/"><p>Docs</p></a>
             </div>
             <div>
                 <p className='foottitle'>Developers</p>
@@ -40,8 +40,8 @@ const Footer = () => {
         <div className='footerlinks'>
             <div>
                 <p className='foottitle'>Terms and Conditions</p>
-                <p>Terms of use</p>
-                <p>Privacy Policy</p>
+                <p><a className='linktextNo' href="https://app.sperax.io/termsService">Terms of use</a></p>
+                <p><a className='linktextNo' href="https://app.sperax.io/privacyPolicy">Privacy Policy</a></p>
             </div>
             <div>
                 <p className='foottitle'>Contact Us</p>
@@ -54,10 +54,10 @@ const Footer = () => {
                 <p>Sperax</p>
             </div>
             <div className='footersocial'>
-                <img src={bdiscord} alt="" />
-                <img src={btelegram} alt="" />
-                <img src={btwitter} alt="" />
-                <img src={bmedium} alt="" />
+                <a href="https://discord.gg/sperax" ><img src={bdiscord} alt="" /></a>
+                <a href="https://t.me/SperaxUSD"><img  src={btelegram} alt="" /></a>
+                <a href="https://twitter.com/speraxusd"><img src={btwitter} alt="" /></a>
+                <a href="https://streetbeat.com/"><img src={bmedium} alt="" /></a>
             </div>
             <div className='rights'>
                 <p>Sperax Foundation © Sperax 2020. All rights reserved.</p>

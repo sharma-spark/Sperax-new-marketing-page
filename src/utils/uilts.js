@@ -124,6 +124,15 @@ export const getSPACirculatingSupplyByApI = () => {
     })
 }
 
+export const getDiscordCount = () => {
+    return new Promise((resolve, reject) => {
+        axios.get('https://discord.com/api/v9/invites/sperax?with_counts=true&with_expiration=true').then(res => {
+            console.log(res);
+            resolve(res)
+        })
+    })
+}
+
 export const getSPATotalSupplyByAPI =() => {
     let getSpaTotalSupplyUrl=`/sperax-token-stats-api/getSpaTotalSupply`;
     return new Promise((resolve, reject) => {
@@ -136,7 +145,12 @@ export const getSPATotalSupplyByAPI =() => {
                         reject('Response is not a number!');
                     }
                     let spaSupply =  valueToFormat(new BigNumber(data), 0, 3)
-                    resolve(spaSupply)
+
+                    const initialSupply = new BigNumber("5000000000")
+                    let netSPADeflation = initialSupply.minus(new BigNumber(data));
+                    let burnt = valueToFormat(netSPADeflation, 0, 3);
+
+                    resolve({spaSupply, burnt});
                 }
             })
             .catch((e) => {
