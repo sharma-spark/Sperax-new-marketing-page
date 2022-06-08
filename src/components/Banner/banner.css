@@ -43,10 +43,56 @@
     outline:none;
 }
 .inputContainer>button {
-    height: 101%;
+    height: 100%;
     width: 160px;
     background: #31C1BF;
     border: 0;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+
+    .bannerContent>.jonClass {
+        display: none !important;
+    }
+    .bannerContent>.social {
+        display: none !important;
+    }
+    .bannerContent {
+        width: 98%;
+        margin: 0 auto;
+        justify-content: flex-start;
+    }
+    .inputContainer {
+        overflow: hidden;
+        height: 40px;
+        border: 1px solid #ABB7BD;
+        border-radius: 40px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+    .inputContainer>input {
+        height: 100%;
+        border: none;
+        width: 80px;
+        font-size: 14px;
+        padding-left: 10px;
+        outline:none;
+    }
+    .sub-text {
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .inputContainer>button {
+        height: 100%;
+        width: 70px;
+        background: #31C1BF;
+        border: 0;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
 }

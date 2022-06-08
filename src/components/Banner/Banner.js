@@ -5,13 +5,10 @@ import telegram from "../Navbar/telegram.svg";
 import twitter from "../Navbar/twitter.svg";
 import medium from "../Navbar/medium.svg";
 const Banner = () => {
-    const subscribe = () => {
-        let url = 'https://sperax.us19.list-manage.com/subscribe/post?u=5b6783fe1337881c06a14dd4d&id=15b8a3b990'
-    }
     return <React.Fragment>
         <div className="banner">
             <div className="bannerContent">
-                <div>
+                <div className="jonClass">
                     <h3>Join the community</h3>
                 </div>
                 <div className='social'>
@@ -20,7 +17,7 @@ const Banner = () => {
                     <a href="https://twitter.com/SperaxUSD"><img className='icon' src={twitter} alt="twitter" /></a>
                     <a href="https://medium.com/sperax"><img className='icon' src={medium} alt="medium" /></a>
                 </div>
-                <span style={{marginLeft: '40px'}}>Subscribe to our newsletter</span>
+                <span className="sub-text">Subscribe to our newsletter</span>
                 <form role="grid"
                       action="https://sperax.us19.list-manage.com/subscribe/post?u=5b6783fe1337881c06a14dd4d&amp;id=15b8a3b990"
                       method="post" target="_blank" className="next-form next-inline next-medium f_r_b">
