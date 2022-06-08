@@ -139,6 +139,15 @@
 .sperax-mobile {
     display: none !important;
 }
+
+.linktextNo{
+    text-decoration: none;
+    color: black;
+}
+.linktextNo:hover{
+    color: #707E85;
+}
+
 @media screen and (max-width:480px) {
     .footer {
         display: flex;

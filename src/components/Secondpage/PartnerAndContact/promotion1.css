@@ -127,8 +127,8 @@
     flex-grow: 0;
     
   }
-  .imagearea>img{
-    transform: scale(0.7);
+  .imagearea{
+    transform: scale(0.8);
   }
 }
 @media screen and (max-width: 1000px) and (min-width: 481px) {

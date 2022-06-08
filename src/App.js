@@ -9,7 +9,6 @@ import Thirdpage from './components/Thirdpage/Thirdpage.js'
 import Web3 from 'web3';
 import ApplicationConfig from "./ApplicationConfig";
 import {
-  getDiscordCount,
   getSpaBurnt,
   getSPACirculatingSupplyByApI, getSPATotalSupplyByAPI,
   getTotalValueLocked,
@@ -18,6 +17,8 @@ import {
 import BigNumber from "bignumber.js";
 import {useEffect, useState} from "react";
 import Banner from "./components/Banner/Banner";
+import {getDiscordCount} from './socialapi/discordapi'
+
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
   const [spaLocked, setSpaLocked] = useState('');
   const [burnt, setBurnt] = useState('');
   const [web3, setWeb3] = useState();
+  const [discordCount, setdiscordCount] = useState();
 
   useEffect(() => {
     let web3 = new Web3(ApplicationConfig.arbitrumRpc);
@@ -65,7 +67,10 @@ function App() {
       console.log('spa lock => ' + res)
       setSpaLocked(res);
     })
-    getDiscordCount().then();
+    getDiscordCount().then( res=>{
+      console.log('discord'+ res)
+      setdiscordCount(res);
+    });
   }, [web3])
 
 
