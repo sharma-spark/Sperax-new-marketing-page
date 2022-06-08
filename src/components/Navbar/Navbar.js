@@ -6,6 +6,7 @@ import discord from './discord.svg'
 import medium from './medium.svg'
 import twitter from './twitter.svg'
 import telegram from './telegram.svg'
+import menu from './menu.svg'
 
 
 const Navbar = () => {
@@ -33,6 +34,10 @@ const Navbar = () => {
             </div>
             
             <a className='app' href="https://app.sperax.io/">Launch app →</a>
+        </div>
+
+        <div className="mobileMenu" >
+            <img src={menu}/>
         </div>
 
     </div>

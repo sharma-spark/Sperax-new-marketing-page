@@ -9,6 +9,7 @@
 .leftPart{
     justify-content: left;
     display: flex;
+    align-items: center;
 }
 .leftPart>.speraxlogo img{
     transform: scale(1.4);
@@ -88,18 +89,41 @@
     color: #31C1BF;
     border: 1px solid #31C1BF;
 }
+.mobileMenu {
+    display: none;
+}
 @media screen and (max-width:480px) {
     .linktext, .social{
         display: none;
     }
     .Navbar{
         position: absolute;
-        left: 0%;
-        right: 0%;
-        top: 0.7%;
-        bottom: 98.85%;
-        
+        height: 56px;
+        width: 100%;
         background: #FFFFFF;
+        display: flex;
+        align-items: center;
+    }
+    .Navbar>.rightPart {
+        margin-left: 20%;
+    }
+    .Navbar>.rightPart>.app {
+        width: 125px;
+        height: 40px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .mobileMenu {
+        display: block;
+        flex-grow: 1;
+        text-align: right;
+    }
+    .mobileMenu>img {
+        width: 24px;
+        height: 24px;
     }
     
 }
