@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./web-static/static/css/main.fd4724b0.chunk.css",
-    "main.js": "./web-static/static/js/main.df28af47.chunk.js",
-    "main.js.map": "./web-static/static/js/main.df28af47.chunk.js.map",
+    "main.css": "./web-static/static/css/main.07dd70bc.chunk.css",
+    "main.js": "./web-static/static/js/main.deb03d24.chunk.js",
+    "main.js.map": "./web-static/static/js/main.deb03d24.chunk.js.map",
     "runtime-main.js": "./web-static/static/js/runtime-main.f14b8fc9.js",
     "runtime-main.js.map": "./web-static/static/js/runtime-main.f14b8fc9.js.map",
     "static/js/2.796a653c.chunk.js": "./web-static/static/js/2.796a653c.chunk.js",
@@ -10,11 +10,11 @@
     "static/js/3.78b41e16.chunk.js": "./web-static/static/js/3.78b41e16.chunk.js",
     "static/js/3.78b41e16.chunk.js.map": "./web-static/static/js/3.78b41e16.chunk.js.map",
     "index.html": "./web-static/index.html",
-    "static/css/main.fd4724b0.chunk.css.map": "./web-static/static/css/main.fd4724b0.chunk.css.map",
+    "static/css/main.07dd70bc.chunk.css.map": "./web-static/static/css/main.07dd70bc.chunk.css.map",
     "static/js/2.796a653c.chunk.js.LICENSE.txt": "./web-static/static/js/2.796a653c.chunk.js.LICENSE.txt",
     "static/media/Firstpage.css": "./web-static/static/media/MessinaSerifWeb-SemiBold.75c31702.eot",
     "static/media/SperaxLogo.922446a8.svg": "./web-static/static/media/SperaxLogo.922446a8.svg",
-    "static/media/alameda.9ed611d9.svg": "./web-static/static/media/alameda.9ed611d9.svg",
+    "static/media/alameda.706567c6.png": "./web-static/static/media/alameda.706567c6.png",
     "static/media/amber.842d2b01.svg": "./web-static/static/media/amber.842d2b01.svg",
     "static/media/arrow.8e627ac5.svg": "./web-static/static/media/arrow.8e627ac5.svg",
     "static/media/arrow1.7ad82ec2.svg": "./web-static/static/media/arrow1.7ad82ec2.svg",
@@ -41,7 +41,7 @@
     "static/media/hposter2overimg.d2c8744d.svg": "./web-static/static/media/hposter2overimg.d2c8744d.svg",
     "static/media/imagebottomright.557166df.svg": "./web-static/static/media/imagebottomright.557166df.svg",
     "static/media/imagetopright.def1dfa1.svg": "./web-static/static/media/imagetopright.def1dfa1.svg",
-    "static/media/jumptrading.c86613db.svg": "./web-static/static/media/jumptrading.c86613db.svg",
+    "static/media/jumptrading.76522461.png": "./web-static/static/media/jumptrading.76522461.png",
     "static/media/lock.5524dbbd.svg": "./web-static/static/media/lock.5524dbbd.svg",
     "static/media/logo.2cd5b2d0.svg": "./web-static/static/media/logo.2cd5b2d0.svg",
     "static/media/logos.477f9ffe.svg": "./web-static/static/media/logos.477f9ffe.svg",
@@ -49,7 +49,7 @@
     "static/media/medium_black.358a4431.svg": "./web-static/static/media/medium_black.358a4431.svg",
     "static/media/medium_white.692dafec.svg": "./web-static/static/media/medium_white.692dafec.svg",
     "static/media/menu.137c02dc.svg": "./web-static/static/media/menu.137c02dc.svg",
-    "static/media/messari.8d148b95.svg": "./web-static/static/media/messari.8d148b95.svg",
+    "static/media/messari.10a2817c.svg": "./web-static/static/media/messari.10a2817c.svg",
     "static/media/outlier.3107c669.svg": "./web-static/static/media/outlier.3107c669.svg",
     "static/media/polychain.e6bc2122.svg": "./web-static/static/media/polychain.e6bc2122.svg",
     "static/media/promotion1img.c5d9b6ba.svg": "./web-static/static/media/promotion1img.c5d9b6ba.svg",
@@ -76,7 +76,7 @@
   "entrypoints": [
     "static/js/runtime-main.f14b8fc9.js",
     "static/js/2.796a653c.chunk.js",
-    "static/css/main.fd4724b0.chunk.css",
-    "static/js/main.df28af47.chunk.js"
+    "static/css/main.07dd70bc.chunk.css",
+    "static/js/main.deb03d24.chunk.js"
   ]
 }
