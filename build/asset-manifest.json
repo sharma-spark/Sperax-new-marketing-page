@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0587cfc1.chunk.css",
-    "main.js": "/static/js/main.377d6f5e.chunk.js",
-    "main.js.map": "/static/js/main.377d6f5e.chunk.js.map",
+    "main.css": "/static/css/main.4f5d3cbf.chunk.css",
+    "main.js": "/static/js/main.55259001.chunk.js",
+    "main.js.map": "/static/js/main.55259001.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.43a01272.js",
     "runtime-main.js.map": "/static/js/runtime-main.43a01272.js.map",
     "static/js/2.b74387e2.chunk.js": "/static/js/2.b74387e2.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.09abe286.chunk.js": "/static/js/3.09abe286.chunk.js",
     "static/js/3.09abe286.chunk.js.map": "/static/js/3.09abe286.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0587cfc1.chunk.css.map": "/static/css/main.0587cfc1.chunk.css.map",
+    "static/css/main.4f5d3cbf.chunk.css.map": "/static/css/main.4f5d3cbf.chunk.css.map",
     "static/js/2.b74387e2.chunk.js.LICENSE.txt": "/static/js/2.b74387e2.chunk.js.LICENSE.txt",
     "static/media/Firstpage.css": "/static/media/MessinaSerifWeb-SemiBold.75c31702.eot",
     "static/media/SperaxLogo.922446a8.svg": "/static/media/SperaxLogo.922446a8.svg",
@@ -29,11 +29,12 @@
     "static/media/burn.e61483b4.svg": "/static/media/burn.e61483b4.svg",
     "static/media/buyback.05d071a2.svg": "/static/media/buyback.05d071a2.svg",
     "static/media/close.987002bf.svg": "/static/media/close.987002bf.svg",
+    "static/media/coindesk.fa29d9f6.svg": "/static/media/coindesk.fa29d9f6.svg",
     "static/media/compounding.5236c75b.svg": "/static/media/compounding.5236c75b.svg",
     "static/media/discord.afd9807d.svg": "/static/media/discord.afd9807d.svg",
     "static/media/discord_black.015ddebd.svg": "/static/media/discord_black.015ddebd.svg",
     "static/media/discord_white.0130e90f.svg": "/static/media/discord_white.0130e90f.svg",
-    "static/media/featuredlogo.971d83d4.svg": "/static/media/featuredlogo.971d83d4.svg",
+    "static/media/featuredlogo.f769c485.svg": "/static/media/featuredlogo.f769c485.svg",
     "static/media/gascost.e20902e2.svg": "/static/media/gascost.e20902e2.svg",
     "static/media/hposter1img.9cebe99d.svg": "/static/media/hposter1img.9cebe99d.svg",
     "static/media/hposter2img.d0577e5f.svg": "/static/media/hposter2img.d0577e5f.svg",
@@ -48,6 +49,7 @@
     "static/media/medium_black.358a4431.svg": "/static/media/medium_black.358a4431.svg",
     "static/media/medium_white.692dafec.svg": "/static/media/medium_white.692dafec.svg",
     "static/media/menu.137c02dc.svg": "/static/media/menu.137c02dc.svg",
+    "static/media/messari.8d148b95.svg": "/static/media/messari.8d148b95.svg",
     "static/media/outlier.3107c669.svg": "/static/media/outlier.3107c669.svg",
     "static/media/polychain.e6bc2122.svg": "/static/media/polychain.e6bc2122.svg",
     "static/media/promotion1img.c5d9b6ba.svg": "/static/media/promotion1img.c5d9b6ba.svg",
@@ -67,13 +69,14 @@
     "static/media/twitter_white.52895614.svg": "/static/media/twitter_white.52895614.svg",
     "static/media/wearehiring.f580574d.svg": "/static/media/wearehiring.f580574d.svg",
     "static/media/working.52de2b22.svg": "/static/media/working.52de2b22.svg",
-    "static/media/working_mobile.68dcb4cd.svg": "/static/media/working_mobile.68dcb4cd.svg",
+    "static/media/working_mobile.5f9bda12.svg": "/static/media/working_mobile.5f9bda12.svg",
+    "static/media/yahoo.17404204.svg": "/static/media/yahoo.17404204.svg",
     "static/media/yield.b23e2473.svg": "/static/media/yield.b23e2473.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.43a01272.js",
     "static/js/2.b74387e2.chunk.js",
-    "static/css/main.0587cfc1.chunk.css",
-    "static/js/main.377d6f5e.chunk.js"
+    "static/css/main.4f5d3cbf.chunk.css",
+    "static/js/main.55259001.chunk.js"
   ]
 }
