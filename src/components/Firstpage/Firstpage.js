@@ -47,7 +47,7 @@ const Firstpage = () => {
             </div>
             </div>
             <div className='learnmore'>
-            <span >*11% APY is the maximum organic auto-yield, any additional yield generated gets stored in the yield reserves and will be used for funding yields in future. <a href="https://docs.sperax.io/master/auto-yield">Learn more.</a> </span>
+            <span >*11% APY is the maximum organic auto-yield, any additional yield generated gets stored in the yield reserves and will be used for funding yields in future. <a style={{color: '#707E85'}} className='linktextNo' href="https://docs.sperax.io/master/auto-yield">Learn more.</a> </span>
             </div>
       </div>
   )

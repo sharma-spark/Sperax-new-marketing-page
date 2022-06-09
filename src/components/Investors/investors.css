@@ -58,4 +58,11 @@ line-height: 26px;
     .investors img {
         width: 110px;
     }
+    .investors .alameda_img {
+        width: 110px;
+    }
+
+    .investors .jump_img {
+        width: 110px;
+    }
 }

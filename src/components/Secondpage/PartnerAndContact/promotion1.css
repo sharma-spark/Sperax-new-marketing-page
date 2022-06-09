@@ -6,6 +6,9 @@
   margin-bottom: 24px;
   text-align: left;
 }
+.p1>.imagearea img{
+  width: 95%;
+}
 .num {
   font-family: "MessinaSans";
   font-style: normal;
@@ -158,5 +161,8 @@
   }
   .p1 {
     margin-top: 64px;
+  }
+  .p1>.imagearea img{
+    width: 95%;
   }
 }

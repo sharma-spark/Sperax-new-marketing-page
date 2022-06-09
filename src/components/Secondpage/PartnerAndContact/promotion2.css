@@ -5,8 +5,10 @@
     justify-content: space-around;
     margin-bottom: 24px;
     text-align: left;
-  }
-  .num {
+    overflow: hidden;
+}
+
+.num {
     font-family: "MessinaSans";
     font-style: normal;
     font-weight: 600;
@@ -14,8 +16,9 @@
     line-height: 28px;
     letter-spacing: -0.02em;
     color: #707e85;
-  }
-  .head {
+}
+
+.head {
     font-family: "MessinaSans-SemiBold";
     font-style: normal;
     font-size: 28px;
@@ -29,9 +32,10 @@
     margin: 10px 0;
     width: 484px;
     height: 80px;
-      text-align: left;
-  }
-  .body {
+    text-align: left;
+}
+
+.body {
     font-family: "MessinaSans";
     font-style: normal;
     font-weight: 400;
@@ -47,95 +51,100 @@
     margin: 10px 0;
     width: 484px;
     height: 52px;
-      text-align: left;
-  }
-  .textarea {
+    text-align: left;
+}
+
+.textarea {
     padding: 2.2vmax;
-    
-  }
-  
-  .imagearea2{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      padding-bottom: 0;
-      margin-bottom:-48px ;
-  }
-  @media screen and (max-width:480px) {
-    .p2{
-      position: relative;
-      width: 91%;
-      margin: 24px auto 0;
-      
-      /* White */
-      
-      background: #FFFFFF;
-      border-radius: 20px;
-      display: flex;
-      flex-direction: column;
+
+}
+
+.imagearea2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    margin-bottom: -55px;
+}
+
+@media screen and (max-width: 480px) {
+    .p2 {
+        position: relative;
+        width: 91%;
+        margin: 24px auto 0;
+
+        /* White */
+
+        background: #FFFFFF;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
     }
-    .head{
-      width: 296px;
-      height: 160px;
-      /* H3/Semibold 28px */
-      font-family: 'MessinaSans-Semibold';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 28px;
-      line-height: 40px;
-      /* or 143% */
-      
-      display: flex;
-      align-items: center;
-      letter-spacing: -0.03em;
-      
-      /* Dark */
-      
-      color: #1B2022;
-      
-      
-      /* Inside auto layout */
-      
-      flex: none;
-      order: 0;
-      align-self: stretch;
-      flex-grow: 0;
+
+    .head {
+        width: 296px;
+        height: 160px;
+        /* H3/Semibold 28px */
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        /* or 143% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.03em;
+
+        /* Dark */
+
+        color: #1B2022;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
     }
-    .body{
-      width: 296px;
-      height: 52px;
-      
-      /* Body 1 / Regular 18px */
-      
-      font-family: 'MessinaSans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 26px;
-      /* or 144% */
-      
-      display: flex;
-      align-items: center;
-      letter-spacing: -0.03em;
-      
-      /* Dark */
-      
-      color: #1B2022;
-      
-      
-      /* Inside auto layout */
-      
-      flex: none;
-      order: 1;
-      align-self: stretch;
-      flex-grow: 0;
-      
+
+    .body {
+        width: 296px;
+        height: 52px;
+
+        /* Body 1 / Regular 18px */
+
+        font-family: 'MessinaSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 144% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.03em;
+
+        /* Dark */
+
+        color: #1B2022;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+
     }
-    .imagearea2>img{
-      transform: scale(0.7);
-      margin-top: 58px;
+
+    .imagearea2 > img {
+        transform: scale(0.7);
+        margin-top: 58px;
     }
-  
-  }
+
+}
