@@ -120,6 +120,8 @@
     }
     .mobileMenuContainer>a>img {
         position: absolute;
+        bottom: 30px;
+        margin-left: 5px;
     }
     .Navbar{
         position: absolute;

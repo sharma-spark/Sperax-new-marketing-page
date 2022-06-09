@@ -28,9 +28,9 @@
         font-size: 38px;
         margin: 0 24px 0;
     }
-    .slogo>img {
-        margin-left: 24px;
-        width: 30px;
+    .scard4>.slogo>img {
+        margin-left: 20px !important;
+        width: 48px;
     }
 }
 
