@@ -31,7 +31,7 @@ function App() {
   const [spaLocked, setSpaLocked] = useState('');
   const [burnt, setBurnt] = useState('');
   const [web3, setWeb3] = useState();
-  const [discordCount, setdiscordCount] = useState();
+  const [discordCount, setdiscordCount] = useState('');
 
   useEffect(() => {
     let web3 = new Web3(ApplicationConfig.arbitrumRpc);
@@ -68,7 +68,7 @@ function App() {
       setSpaLocked(res);
     })
     getDiscordCount().then( res=>{
-      console.log('discord'+ res)
+      console.log('discord =>'+ res)
       setdiscordCount(res);
     });
   }, [web3])
@@ -80,7 +80,7 @@ function App() {
     <Firstpage/>
     <Investors/>
     <Secondpage apy={apy} totalValueLocked={totalValueLocked} totalApy={totalApy} circulate={circulate} totalSupply={totalSupply}/>
-    <Thirdpage  burnt={burnt} locked={spaLocked} buyBack={buyBack}/>
+    <Thirdpage  burnt={burnt} locked={spaLocked} buyBack={buyBack} discordCount={discordCount}/>
     <Banner />
     </Router>
   );

@@ -124,14 +124,14 @@ export const getSPACirculatingSupplyByApI = () => {
     })
 }
 
-export const getDiscordCount = () => {
-    return new Promise((resolve, reject) => {
-        axios.get('https://discord.com/api/v9/invites/sperax?with_counts=true&with_expiration=true').then(res => {
-            console.log(res);
-            resolve(res)
-        })
-    })
-}
+// export const getDiscordCount = () => {
+//     return new Promise((resolve, reject) => {
+//         axios.get('https://discord.com/api/v9/invites/sperax?with_counts=true&with_expiration=true').then(res => {
+//             console.log(res);
+//             resolve(res)
+//         })
+//     })
+// }
 
 export const getSPATotalSupplyByAPI =() => {
     let getSpaTotalSupplyUrl=`/sperax-token-stats-api/getSpaTotalSupply`;
