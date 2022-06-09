@@ -28,6 +28,15 @@
 
 }
 
+.getbuttons > a:hover {
+    background: #3AB1AB;
+}
+
+.darkBtn:hover{
+    background: #3AB1AB;
+    color: white;
+}
+
 .getbuttons > a {
     text-decoration: none;
     font-weight: 600;
@@ -53,21 +62,23 @@
     margin-top: 55px;
 }
 
-.workingmobile{
+.workingmobile {
     display: none;
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
     .secondpage {
         padding-bottom: 1300px;
     }
-    .secondpage{
+
+    .secondpage {
         position: relative;
         width: 100%;
         padding-top: 76px;
     }
-    .headingmini{
+
+    .headingmini {
         width: 70%;
         height: 92px;
         margin: 0 auto 0;
@@ -79,21 +90,24 @@
         line-height: 46px;
         padding: 0;
         /* or 121% */
-        
+
         text-align: center;
         letter-spacing: -0.04em;
     }
-    .headingmini>span{
-        color:#31C1BF;
+
+    .headingmini > span {
+        color: #31C1BF;
     }
+
     .getbuttons {
         display: flex;
         width: 91%;
         margin: 40px auto 0;
         justify-content: space-between;
     }
-    .getbuttons>a{
-/* Auto layout */
+
+    .getbuttons > a {
+        /* Auto layout */
         position: relative;
         display: flex;
         flex-direction: row;
@@ -101,10 +115,10 @@
         align-items: center;
         padding: 4px 10px;
         gap: 16px;
-        
+
         width: 132.41px;
         height: 48px;
-        
+
         margin: 0px;
         /* Primary/ Brand */
 
@@ -115,34 +129,41 @@
 
         flex: none;
         order: 0;
-        flex-grow: 0;        
+        flex-grow: 0;
     }
-    .al{
-        position:absolute;
+
+    .al {
+        position: absolute;
         left: 18px;
     }
-    .ar{
-        position:absolute;
+
+    .ar {
+        position: absolute;
         left: 194px;
     }
-    .working{
+
+    .working {
         display: none;
     }
-    .workingmobile{
+
+    .workingmobile {
         display: block;
         position: relative;
         width: 91%;
         margin: 52px auto 0;
     }
 }
+
 @media screen and (max-width: 1000px) and (min-width: 481px) {
     .headingmini {
         font-size: 52px;
         padding: 97px 0px 0 0px;
     }
+
     .working {
         width: 92%;
     }
+
     .secondpage {
         padding-bottom: 900px;
     }

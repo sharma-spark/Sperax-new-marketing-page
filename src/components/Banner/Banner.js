@@ -20,10 +20,10 @@ const Banner = () => {
                 <span className="sub-text">Subscribe to our newsletter</span>
                 <form role="grid"
                       action="https://sperax.us19.list-manage.com/subscribe/post?u=5b6783fe1337881c06a14dd4d&amp;id=15b8a3b990"
-                      method="post" target="_blank" className="next-form next-inline next-medium f_r_b">
+                      method="post" target="_blank" className="c next-inline next-medium f_r_b">
                     <div className="inputContainer">
                         <input id="EMAIL" placeholder="enter email" name="EMAIL"/>
-                        <button type="submit">Subscribe</button>
+                        <button className="darkBtn" type="submit">Subscribe</button>
                     </div>
                 </form>
             </div>

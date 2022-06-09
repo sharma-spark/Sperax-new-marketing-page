@@ -11,7 +11,6 @@ import background from "./background.svg"
 const Thirdpage = (props) => {
   return (
     <div className='Thirdpage'>
-        <img className="background-img" src={background}/>
         <SPAcards burnt={props.burnt} locked={props.locked} buyBack={props.buyBack}/>
         <Spartan/>
         <div className='joinspadiv'><h1 className='joinspa'><b> Join the SPArtan army!!</b></h1></div>

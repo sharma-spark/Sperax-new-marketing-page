@@ -13,7 +13,7 @@ const Firstpage = () => {
             <div className='heading'>Stablecoin with built-in Auto-Yield on Arbitrum</div>
             <div className='detail'>Sperax USD (USDs) is primarily backed by crypto collateral which generates organic yield for it’s holders. The protocol is aggressively working towards decentralization in near future.
             </div>
-            <a className='getusds' href="https://app.sperax.io/mint">Get USDs →</a>
+            <a  className='getusds darkBtn' href="https://app.sperax.io/mint">Get USDs →</a>
         </div>
 
         <div className='images'>

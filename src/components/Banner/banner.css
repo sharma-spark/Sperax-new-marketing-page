@@ -9,7 +9,6 @@
     box-shadow:0px -2px 0px rgb(230, 230, 230);
     background: #FFFFFF;
     display: flex;
-    padding: 0 40px;
     align-items: center;
     justify-content: space-between;
 }
@@ -21,8 +20,7 @@
     margin: auto;
 }
 .bannerContent>.social {
-    width: 15%;
-    margin-left: 20px;
+    width: 12%;
     display: flex;
     justify-content: space-between;
 }
@@ -50,6 +48,9 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+.sub-text {
+    margin-left: 60px;
+}
 
 @media screen and (max-width: 480px) {
 
@@ -72,24 +73,34 @@
         font-size: 12px;
         display: flex;
         align-items: center;
+        width: 100%;
+        display: flex;
+    }
+    .next-inline {
+        width: 60%;
     }
     .inputContainer>input {
         height: 100%;
         border: none;
-        width: 80px;
+        width: 60%;
         font-size: 14px;
         padding-left: 10px;
         outline:none;
     }
+    .banner {
+        padding: 0 0;
+        text-align: center;
+    }
     .sub-text {
-        width: 40%;
+        width: 33%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        text-align: left;
     }
     .inputContainer>button {
         height: 100%;
-        width: 70px;
+        width: 40%;
         background: #31C1BF;
         border: 0;
         color: #FFFFFF;

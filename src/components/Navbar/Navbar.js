@@ -35,7 +35,7 @@ const Navbar = () => {
                 <a href="https://medium.com/sperax"><img className='icon' src={medium} alt="medium" /></a>
             </div>
             
-            <a className='app' href="https://app.sperax.io/">Launch app →</a>
+            <a className='darkBtn app' href="https://app.sperax.io/">Launch app →</a>
         </div>
 
         <div className='rightPart mobileRight'>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 <a href="https://medium.com/sperax"><img className='icon' src={medium} alt="medium" /></a>
             </div>
 
-            <a className='app' href="https://app.sperax.io/">Launch app →</a>
+            <a className='darkBtn app' href="https://app.sperax.io/">Launch app →</a>
             <div className="mobileMenu" >
                 <img onClick={() => setShow(!show)} src={show ? close : menu}/>
                 {show && <div className="mobileMenuContainer">

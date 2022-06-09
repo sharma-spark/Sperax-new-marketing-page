@@ -17,6 +17,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.darkBtn:hover{
+  background: #3AB1AB;
+}
 @media screen and (max-width:480px) {
   body {
     display: flex;

@@ -8,7 +8,7 @@ const Spaeco = () => {
             <span>SPA is the value accrual and governance token for the<span className='in'> Sperax ecosystem </span></span>
         </div>
         <div className='getspa'>
-            <a href="https://app.sperax.io/?buyToken=SPA">Get SPA →</a>
+            <a className="darkBtn" href="https://app.sperax.io/?buyToken=SPA">Get SPA →</a>
         </div>
     </div>
   )
