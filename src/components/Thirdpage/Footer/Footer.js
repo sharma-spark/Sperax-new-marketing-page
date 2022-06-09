@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
             <div>
                 <p className='foottitle'>Developers</p>
-                <p><a className="linktextNo" href="https://github.com/Sperax"></a>Github</p>
+                <a className='linktextNo' href="https://github.com/Sperax/USDs"><p>Github</p></a>
             </div>
         </div>
 
