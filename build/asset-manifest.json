@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./web-static/static/css/main.aaafaf31.chunk.css",
-    "main.js": "./web-static/static/js/main.d598705a.chunk.js",
-    "main.js.map": "./web-static/static/js/main.d598705a.chunk.js.map",
-    "runtime-main.js": "./web-static/static/js/runtime-main.fc818a60.js",
-    "runtime-main.js.map": "./web-static/static/js/runtime-main.fc818a60.js.map",
-    "static/js/2.5a722774.chunk.js": "./web-static/static/js/2.5a722774.chunk.js",
-    "static/js/2.5a722774.chunk.js.map": "./web-static/static/js/2.5a722774.chunk.js.map",
-    "static/js/3.09abe286.chunk.js": "./web-static/static/js/3.09abe286.chunk.js",
-    "static/js/3.09abe286.chunk.js.map": "./web-static/static/js/3.09abe286.chunk.js.map",
+    "main.css": "./web-static/static/css/main.de2fe767.chunk.css",
+    "main.js": "./web-static/static/js/main.565f19de.chunk.js",
+    "main.js.map": "./web-static/static/js/main.565f19de.chunk.js.map",
+    "runtime-main.js": "./web-static/static/js/runtime-main.f14b8fc9.js",
+    "runtime-main.js.map": "./web-static/static/js/runtime-main.f14b8fc9.js.map",
+    "static/js/2.e0806bb6.chunk.js": "./web-static/static/js/2.e0806bb6.chunk.js",
+    "static/js/2.e0806bb6.chunk.js.map": "./web-static/static/js/2.e0806bb6.chunk.js.map",
+    "static/js/3.78b41e16.chunk.js": "./web-static/static/js/3.78b41e16.chunk.js",
+    "static/js/3.78b41e16.chunk.js.map": "./web-static/static/js/3.78b41e16.chunk.js.map",
     "index.html": "./web-static/index.html",
-    "static/css/main.aaafaf31.chunk.css.map": "./web-static/static/css/main.aaafaf31.chunk.css.map",
-    "static/js/2.5a722774.chunk.js.LICENSE.txt": "./web-static/static/js/2.5a722774.chunk.js.LICENSE.txt",
+    "static/css/main.de2fe767.chunk.css.map": "./web-static/static/css/main.de2fe767.chunk.css.map",
+    "static/js/2.e0806bb6.chunk.js.LICENSE.txt": "./web-static/static/js/2.e0806bb6.chunk.js.LICENSE.txt",
     "static/media/Firstpage.css": "./web-static/static/media/MessinaSerifWeb-SemiBold.75c31702.eot",
     "static/media/SperaxLogo.922446a8.svg": "./web-static/static/media/SperaxLogo.922446a8.svg",
     "static/media/alameda.9ed611d9.svg": "./web-static/static/media/alameda.9ed611d9.svg",
@@ -74,9 +74,9 @@
     "static/media/yield.b23e2473.svg": "./web-static/static/media/yield.b23e2473.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc818a60.js",
-    "static/js/2.5a722774.chunk.js",
-    "static/css/main.aaafaf31.chunk.css",
-    "static/js/main.d598705a.chunk.js"
+    "static/js/runtime-main.f14b8fc9.js",
+    "static/js/2.e0806bb6.chunk.js",
+    "static/css/main.de2fe767.chunk.css",
+    "static/js/main.565f19de.chunk.js"
   ]
 }
