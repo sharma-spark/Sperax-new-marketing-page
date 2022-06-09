@@ -17,7 +17,7 @@ const Footer = () => {
                 <a href="https://discord.gg/sperax" ><img src={bdiscord} alt="" /></a>
                 <a href="https://t.me/SperaxUSD"><img  src={btelegram} alt="" /></a>
                 <a href="https://twitter.com/speraxusd"><img src={btwitter} alt="" /></a>
-                <a href="https://streetbeat.com/"><img src={bmedium} alt="" /></a>
+                <a href="https://medium.com/sperax"><img src={bmedium} alt="" /></a>
             </div>
             <div className='rights'>
                 <p>Sperax Foundation © Sperax 2020. All rights reserved.</p>
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
             <div>
                 <p className='foottitle'>Developers</p>
-                <p>Github</p>
+                <p><a className="linktextNo" href="https://github.com/Sperax"></a>Github</p>
             </div>
         </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
                 <a href="https://discord.gg/sperax" ><img src={bdiscord} alt="" /></a>
                 <a href="https://t.me/SperaxUSD"><img  src={btelegram} alt="" /></a>
                 <a href="https://twitter.com/speraxusd"><img src={btwitter} alt="" /></a>
-                <a href="https://streetbeat.com/"><img src={bmedium} alt="" /></a>
+                <a href="https://medium.com/sperax"><img src={bmedium} alt="" /></a>
             </div>
             <div className='rights'>
                 <p>Sperax Foundation © Sperax 2020. All rights reserved.</p>

@@ -100,6 +100,13 @@
     .linktext, .social{
         display: none;
     }
+    .leftPart>.speraxlogo img {
+        width: 28px;
+    }
+    .leftPart>.speraxlogo{
+        width: 28px;
+        height: 28px;
+    }
     .mobileMenuContainer {
         display: flex;
         flex-direction: column;

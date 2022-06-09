@@ -1,15 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 import "./banner.css";
 import discord from "../Navbar/discord.svg";
 import telegram from "../Navbar/telegram.svg";
 import twitter from "../Navbar/twitter.svg";
 import medium from "../Navbar/medium.svg";
+import Modal from "./Modal";
 const Banner = () => {
+    const [show, setShow] = useState(false);
     return <React.Fragment>
         <div className="banner">
             <div className="bannerContent">
                 <div className="jonClass">
-                    <h3>Join the community</h3>
+                    <span>Join the community</span>
                 </div>
                 <div className='social'>
                     <a href="https://discord.com/invite/sperax"><img className='icon' src={discord} alt="discord" /></a>
@@ -27,7 +29,9 @@ const Banner = () => {
                     </div>
                 </form>
             </div>
+            <button className="darkBtn mobileSubBtn" onClick={() => setShow(true)} type="submit">Subscribe</button>
         </div>
+        <Modal show={show} onHide={() => setShow(false)} />
     </React.Fragment>
 }
 export default Banner
