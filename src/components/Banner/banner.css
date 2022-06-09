@@ -97,6 +97,7 @@
         flex-wrap: wrap;
         align-items: center;
         text-align: left;
+        margin-left: 3%;
     }
     .inputContainer>button {
         height: 100%;
