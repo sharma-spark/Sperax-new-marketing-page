@@ -9,7 +9,7 @@ const Supply = (props) => {
                 <p>Total Supply</p>
             </div>
             <div className='bottomtext'>
-                <h3>{props.totalSupply} <span  className='togrey'>SPA</span></h3>
+                <h3>{props.totalSupply || 0} <span  className='togrey'>SPA</span></h3>
             </div>
         </div>
         <div>
@@ -17,7 +17,7 @@ const Supply = (props) => {
                 <p>Circulating Supply</p>
             </div>
             <div className='bottomtext'>
-                <h3>{props.circulate} <span  className='togrey'>SPA</span></h3>
+                <h3>{props.circulate || 0} <span  className='togrey'>SPA</span></h3>
             </div>
         </div>
 

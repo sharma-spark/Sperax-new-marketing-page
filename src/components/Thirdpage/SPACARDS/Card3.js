@@ -19,7 +19,7 @@ const Card3 = (props) => {
 
       <div className='cardbottomtext'>
         <p className='ttext'>Total Buyback</p>
-        <p className='btext'>{props.buyBack} SPA</p>
+        <p className='btext'>{props.buyBack || 0} SPA</p>
       </div>
 
     </div>

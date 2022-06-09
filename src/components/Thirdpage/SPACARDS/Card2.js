@@ -19,7 +19,7 @@ const Card2 = (props) => {
 
       <div className='cardbottomtext'>
         <p className='ttext'>Total SPA Locked </p>
-        <p className='btext'>{props.locked} SPA</p>
+        <p className='btext'>{props.locked || 0} SPA</p>
       </div>
 
     </div>

@@ -18,7 +18,7 @@ const Card1 = (props) => {
 
       <div className='cardbottomtext'>
         <p className='ttext'>Total SPA Burnt</p>
-        <p className='btext'>{props.burnt} SPA</p>
+        <p className='btext'>{props.burnt || 0} SPA</p>
       </div>
 
     </div>
