@@ -5,6 +5,13 @@
     width: 82%;
     margin: auto;
 }
+.investors .alameda_img {
+    width: 210px;
+}
+
+.investors .jump_img {
+    width: 210px;
+}
 .investors-container {
     width: 100%;
     margin-top: 52px;
@@ -36,6 +43,9 @@ line-height: 26px;
         align-items: center;
         justify-content: space-around;
         height: 600px;
+    }
+    .investors .jump_img {
+        width: 180px;
     }
 }
 @media screen and (max-width: 1000px) and (min-width: 481px) {
