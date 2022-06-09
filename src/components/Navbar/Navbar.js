@@ -53,7 +53,7 @@ const Navbar = () => {
                 {show && <div className="mobileMenuContainer">
                     <a href="https://docs.sperax.io/">Docs</a>
                     <a href="https://sperax.io/team">About Us</a>
-                    <a href="https://sperax.io/careers">Career <img src={hiring} alt="we are hiring" /></a>
+                    <a style={{position: 'relative'}} href="https://sperax.io/careers">Career <img src={hiring} alt="we are hiring" /></a>
                 </div>}
             </div>
         </div>

@@ -97,6 +97,9 @@
         line-height: 1;
         margin-left: 16px;
     }
+    .alinks2>a {
+        margin-right: 15px;
+    }
     .headtext2>p {
         width: 91%;
         margin-left: 16px;

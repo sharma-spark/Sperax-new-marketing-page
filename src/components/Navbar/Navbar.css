@@ -127,7 +127,7 @@
     }
     .mobileMenuContainer>a>img {
         position: absolute;
-        bottom: 30px;
+        bottom: 15px;
         margin-left: 5px;
     }
     .Navbar{
@@ -227,5 +227,7 @@
     }
     .mobileMenuContainer>a>img {
         position: absolute;
+        bottom: 15px;
+        margin-left: 5px;
     }
 }
