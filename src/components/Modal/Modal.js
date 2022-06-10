@@ -8,6 +8,7 @@ import gate from "./gate.svg";
 import transak from "./transak.svg";
 import uniswap from "./uniswap.svg";
 import saddle from "./saddle.svg";
+import close from "./close.svg";
 
 const Modal = ({show, onHide, type}) => {
 
@@ -28,13 +29,13 @@ const Modal = ({show, onHide, type}) => {
         <div className="modal-mask"/>
         <div className="dialog-mask">
             <div className="modal-container-default">
-                <div onClick={() => onHide()} style={{
-                    cursor: 'pointer',
+                <div style={{
                     textAlign: 'right',
                     width: '100%',
                     fontWeight: 'bold',
                     fontSize: '24px'
-                }}>X
+                }}>
+                    <img style={{cursor: 'pointer'}} src={close} onClick={() => onHide()} />
                 </div>
                 {type === 'SPA' ? <div className="modal-content-default">
                     <div className="sub_title">With Fiat</div>

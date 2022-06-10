@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 import "./Modal.css"
+import close from "../Modal/close.svg";
 
 const Modal = ({show, onHide}) => {
 
@@ -13,7 +14,14 @@ const Modal = ({show, onHide}) => {
     return show && <>
         <div className="modal-mask"/>
         <div className="modal-content">
-            <h3 onClick={() => onHide()} style={{textAlign: 'right', paddingRight: '20px'}}>X</h3>
+            <div style={{
+                textAlign: 'right',
+                width: '100%',
+                fontWeight: 'bold',
+                fontSize: '24px'
+            }}>
+                <img style={{cursor: 'pointer', margin: '10px'}} src={close} onClick={() => onHide()} />
+            </div>
             <div className="modal-content-pdd">
                 <h2 style={{textAlign: 'center', lineHeight: '35px', marginTop: 0}}>Subscribe to newsletter</h2>
                 <form role="grid"
