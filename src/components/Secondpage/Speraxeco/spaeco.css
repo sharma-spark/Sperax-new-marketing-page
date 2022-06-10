@@ -19,6 +19,7 @@
 }
 
 .getspa > a {
+    cursor: pointer;
     padding: 16px 40px;
     gap: 16px;
     background: #31C1BF;

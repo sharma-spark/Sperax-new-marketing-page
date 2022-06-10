@@ -62,6 +62,7 @@
 }
 .alinks>a{
     margin-right: 52px;
+    cursor: pointer;
 }
 
 .alinks>span{

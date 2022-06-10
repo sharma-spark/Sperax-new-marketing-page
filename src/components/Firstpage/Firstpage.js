@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Firstpage.css'
 import topright from './imagetopright.svg'
 import bottomright from './imagebottomright.svg'
 import gas from './gascost.svg'
 import compound from './compounding.svg'
 import oyield from './yield.svg'
+import Modal from "../Modal/Modal";
 
 const Firstpage = () => {
   return (
