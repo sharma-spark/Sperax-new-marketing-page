@@ -14,7 +14,7 @@ const Card2 = (props) => {
         </div>
 
       <div>
-        <p className='bodytext'>Locking SPA tokens (via veSPA) is manadatory to receive protocol rewards and to participate in Sperax governance.</p>
+        <p className='bodytext'>Locking SPA tokens (via veSPA) is mandatory to receive protocol rewards and to participate in Sperax governance.</p>
       </div>
 
       <div className='cardbottomtext'>
