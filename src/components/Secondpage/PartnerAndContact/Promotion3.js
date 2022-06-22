@@ -16,7 +16,7 @@ const Promotion3 = () => {
         <div className='imagearea3'>
             <img src={p31} className="imagearea3-first" id='p1' alt="" />
             <img src={p32} className="imagearea3-first" id='p2' alt="" />
-            <img src={p33} className="imagearea3-end" alt="" />
+            {/*<img src={p33} className="imagearea3-end" alt="" />*/}
             <img src={p34} className="imagearea3-end" alt="" />
         </div>
 
