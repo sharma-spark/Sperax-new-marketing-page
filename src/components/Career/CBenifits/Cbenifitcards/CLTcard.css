@@ -1,0 +1,70 @@
+.bpcard{
+    display: flex;
+}
+
+.rtext>p{
+
+    width: 428px;
+    height: 40px;
+    
+    /* H3/Semibold 28px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0;
+}
+.rtext>span{
+    margin-top: 8px;
+    width: 428px;
+    height: 216px;    
+    /* Body 2 / Regular 16px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    display: flex;
+   
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.limg{
+    margin-right: 12px;
+}
+.limg>img{
+    transform: scale(0.8);
+}

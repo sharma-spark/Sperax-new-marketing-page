@@ -58,6 +58,10 @@
     order: 0;
     flex-grow: 0;
 }
+.footersocial>a:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
 
 .rights{
     width: 290px;

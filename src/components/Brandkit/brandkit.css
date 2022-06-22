@@ -1,0 +1,9 @@
+.footerbrandkit{
+    margin-right: 132px;
+    margin-left: 132px;
+}
+@media screen and (max-width:480px){
+    .footerbrandkit{
+        margin: 0;
+    }
+}

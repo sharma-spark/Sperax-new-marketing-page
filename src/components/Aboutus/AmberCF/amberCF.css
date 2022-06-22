@@ -1,0 +1,125 @@
+.amber{
+    box-sizing: border-box;
+    width: 1116px;
+    height: 484px;    
+    /* White */
+    
+    background: #FFFFFF;
+    /* Gray 2 */
+    
+    border: 1px solid #E7ECEF;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    margin-top: 92px;
+    margin-left: 70px;
+}
+.CFimage{
+    width: 304px;
+    height: 304px;
+    margin-left:90px ;
+    margin-right: 80px;
+}
+
+.CFdes>h5{
+    width: 592px;
+    height: 40px;
+    
+    /* H3/Semibold 28px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0;
+}
+.CFdes>span{
+    width: 592px;
+    height: 26px;
+    
+    /* Body 1/Semibold 18px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Primary/ Brand */
+    
+    color: #31C1BF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.CFdes>p{
+    width: 592px;
+    height: 130px;
+    
+    /* Body 1 / Regular 18px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Gray 6 */
+    
+    color: #404B51;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.CFdes>img{
+    width: 144px;
+    height: 22px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+@media screen and (max-width:480px) {
+    .amber{
+        display: none;
+    }
+}

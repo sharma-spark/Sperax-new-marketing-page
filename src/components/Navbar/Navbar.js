@@ -8,6 +8,7 @@ import twitter from './twitter.svg'
 import telegram from './telegram.svg'
 import menu from './menu.svg'
 import close from './close.svg'
+import {Link} from "react-router-dom"
 
 
 const Navbar = () => {
@@ -21,8 +22,8 @@ const Navbar = () => {
             <div className='textlinks'>
             <a className='linktextspa' href="/">Sperax</a>
             <a className='linktext' href="https://docs.sperax.io/">Docs</a>
-            <a className='linktext' href="https://sperax.io/team">About Us</a>
-            <a style={{position: 'relative'}} className='linktext' href="https://sperax.io/careers">Career <img style={{position: 'absolute', bottom: '15px'}} src={hiring} alt="we are hiring" /></a>
+            <a className='linktext' href="./about">About Us</a>
+            <a style={{position: 'relative'}} className='linktext' href="./career">Career <img style={{position: 'absolute', bottom: '15px'}} src={hiring} alt="we are hiring" /></a>
             </div>
         </div>
 
@@ -52,8 +53,8 @@ const Navbar = () => {
                 <img onClick={() => setShow(!show)} src={show ? close : menu}/>
                 {show && <div className="mobileMenuContainer">
                     <a href="https://docs.sperax.io/">Docs</a>
-                    <a href="https://sperax.io/team">About Us</a>
-                    <a style={{position: 'relative'}} href="https://sperax.io/careers">Career <img src={hiring} alt="we are hiring" /></a>
+                    <a href="./about">About Us</a>
+                    <a style={{position: 'relative'}} href="./career">Career <img src={hiring} alt="we are hiring" /></a>
                 </div>}
             </div>
         </div>

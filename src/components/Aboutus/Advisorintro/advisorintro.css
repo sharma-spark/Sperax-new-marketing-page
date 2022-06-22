@@ -1,0 +1,54 @@
+.advisorintro{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+.advisorintro>h3{
+    width: 251px;
+    height: 72px;    
+    /* H1/Semibold 64px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* identical to box height, or 112% */
+        letter-spacing: -0.043em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    margin: 0;
+}
+.advisorintro>p{
+    width: 476px;
+    height: 84px;
+    
+    /* H4 / Regular 22px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 127% */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+}
+@media screen and (max-width:480px) {
+    .advisorintro{
+        display: none;
+    }
+}

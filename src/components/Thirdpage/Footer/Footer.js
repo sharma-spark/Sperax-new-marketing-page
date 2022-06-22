@@ -28,7 +28,7 @@ const Footer = () => {
             <div>
                 <p className='foottitle'>Resources</p>
                 <a className='linktextNo' href="https://github.com/Sperax/USDs-Whitepaper/blob/main/USDs_Whitepaper.pdf"> <p>Whitepaper</p></a>              
-                <a className='linktextNo' href="https://sperax.io/brandKit"><p>Brandkit</p></a>
+                <a className='linktextNo' href="./brandkit"><p>Brandkit</p></a>
                 <a className="linktextNo" href="https://docs.sperax.io/"><p>Docs</p></a>
             </div>
             <div>

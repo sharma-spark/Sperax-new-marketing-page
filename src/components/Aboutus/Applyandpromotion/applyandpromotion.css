@@ -1,0 +1,202 @@
+.Applyandpromotion{
+    background-image: url(applybackgroundabout.svg);
+    width: 1116px;
+    height: 484px;    
+    background: #E7ECEF;
+    border-radius: 32px;
+    margin-top: 80px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.aphead{
+
+    width: 570px;
+    height: 138px;   
+    /* H2/Semibold 38px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    /* or 121% */
+    
+    letter-spacing: -0.04em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+}
+.aphead>p{
+    margin: 0;
+}
+.apapply{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    /* White */
+    
+    background: #FFFFFF;
+    /* Card Shadow */
+    
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 90px;
+    margin-right: 96px;
+}
+.apapply>a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    gap: 8px;
+    height: 26px;
+    width: 146px;    
+    text-align: center;
+
+}
+.apapply:hover{
+    background-color: #1B2022;
+}
+.apapply:hover a{
+    color: white;
+}
+.apupper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    margin-bottom: 60px;
+    margin-top: 102px;
+    margin-left: 60px;
+}
+.faci{
+    margin-left: 60px;
+    width: 600px;
+    height: 26px;    
+    /* Body 1 / Regular 18px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+}
+.apmobileo{
+    display: none;
+}
+@media screen and (max-width:480px) {
+    .Applyandpromotion{
+        display: none;
+    }
+    .apmobileo{
+        display: flex;
+        width: 100%;
+        height: 768px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+    .apmobilei{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 768px;
+        width: 328px;
+        background: #E7ECEF;
+        border-radius: 12px;
+        align-content:center ;
+        justify-content: center;
+    }
+    .apmhead{
+        width: 296px;
+        height: 240px;
+        
+        /* H3/Semibold 28px */
+        
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        /* or 143% */
+        
+        letter-spacing: -0.03em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+        margin: 0;
+        
+    }
+    .apmpoints{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 40px;
+    }
+    .apmpoints>span{
+        /* Body 2 / Regular 16px */
+        
+        font-family: 'MessinaSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        
+        letter-spacing: -0.03em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+        margin-bottom: 5px;
+        
+    }
+    .apmapply>a{
+        text-decoration: none;
+        color: black;
+        padding: 8px 16px;
+        gap: 8px;
+        height: 26px;
+        width: 146px;    
+        text-align: center;
+    
+    }
+    .apmapply:hover{
+        background-color: #1B2022;
+    }
+    .apmapply:hover a{
+        color: white;
+    }
+    .apmapply{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+        /* White */
+        
+        background: #FFFFFF;
+        /* Card Shadow */
+        
+        box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+        border-radius: 90px;
+        margin-right: 96px;
+        margin-top: 64px;
+    }
+    
+    
+}

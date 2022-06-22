@@ -1,0 +1,145 @@
+.Careerfp{
+    display: flex;
+    
+    margin-left: 102px;
+    margin-right: 102px;
+    align-items: center;
+    margin-top:96px ;
+}
+
+.Cheadleft{
+    width: 454px;
+    margin-right: 20px;
+}
+.Cheadleft>p{
+    height: 144px;
+    
+    /* H1/Semibold 64px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* or 112% */
+    
+    letter-spacing: -0.043em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    margin: 0;
+    margin-bottom: 32px;
+}
+.Cheadleft>span{
+    height: 174px;
+    
+    /* Body 1 / Regular 18px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+}
+.cheadbutton>.sop{
+    padding: 8px 16px;
+        
+    /* Primary/ Brand */
+    
+    background: #31C1BF;
+    border-radius: 90px;
+    text-decoration: none;
+    width: 170px;
+    height: 24px;
+    
+    /* Body 2/Semibold 16px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    /* White */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-right: 12px;
+}
+.cheadbutton>.lm{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    justify-content: center;
+    padding: 8px 16px;
+    gap: 8px;
+    
+    /* White */
+    
+    background: #FFFFFF;
+    /* Gray 2 */
+    
+    border: 1px solid #E7ECEF;
+    border-radius: 90px;
+    width: 193px;
+    height: 41px;
+    
+    /* Body 2/Semibold 16px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+
+    flex-grow: 0;
+    text-decoration: none;
+}
+.cheadbutton{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 410px;
+    margin-top: 40px;
+}
+.Cslider{
+    width: 566px;
+    height: 562px;
+    margin-left: 20px;
+}

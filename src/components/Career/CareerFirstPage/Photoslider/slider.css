@@ -1,0 +1,77 @@
+.pibox{
+    box-sizing: border-box;
+
+    width: 544px;
+    height: 154px;
+    /* White */
+    
+    background: #FFFFFF;
+    /* Gray 1 */
+    
+    border: 1px solid #F8FAFA;
+    /* Popup */
+    
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 32px;
+    z-index: 1;
+    margin-bottom: 20px;
+    
+}
+.pimg{
+    width: 576px;
+    height: 572px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    transform: scale(0.93);
+    
+}
+.pibox>p{
+    width: 500px;
+    height: 78px;
+    /* Body 1/Semibold 18px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    margin-top: 24px;
+    margin-left: 28px;
+}
+
+.pibox>span{
+    width: 185px;
+    height: 20px;
+    
+    /* Body 3 / Regular 14px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Gray 5 */
+    
+    color: #707E85;
+    margin-top: 12px;
+    margin-left: 28px;
+
+    
+}

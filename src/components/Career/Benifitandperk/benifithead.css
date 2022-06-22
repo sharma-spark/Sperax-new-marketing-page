@@ -1,0 +1,28 @@
+.benehead>h1{    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* or 112% */
+    
+    letter-spacing: -0.043em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    width: 724px;
+    height: 144px;
+    margin: 0;
+    
+}
+.benehead{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 150px;
+}

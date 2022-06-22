@@ -1,0 +1,117 @@
+.Abouthead>span{
+    width: 391px;
+    height: 102px;
+    /* H1 / Semibold 90px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 102px;
+    /* identical to box height, or 113% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+}
+.Abouthead>p{
+    width: 848px;
+    height: 78px;
+    /* Body 1 / Regular 18px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+}
+.Abouthead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 144px;
+}
+@media screen and (max-width:480px) {
+    .Abouthead>span{
+        width: 328px;
+        height: 46px;
+        
+        /* H2/Semibold 38px */
+        
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 46px;
+        /* identical to box height, or 121% */
+        
+        text-align: center;
+        letter-spacing: -0.04em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+        
+        
+        /* Inside auto layout */
+        
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .Abouthead>p{
+        width: 328px;
+        height: 208px;
+        
+        /* Body 1 / Regular 18px */
+        
+        font-family: 'MessinaSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 144% */
+        
+        text-align: center;
+        letter-spacing: -0.03em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+        
+        
+        /* Inside auto layout */
+        
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .Abouthead{
+        margin: 0;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

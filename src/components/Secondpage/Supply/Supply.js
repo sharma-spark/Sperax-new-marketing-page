@@ -2,6 +2,7 @@ import React from 'react'
 import './Supply.css'
 
 const Supply = (props) => {
+    console.log(props);
   return (
     <div className='sup'>
         <div className='total'>

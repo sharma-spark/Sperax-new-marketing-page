@@ -1,0 +1,183 @@
+.firstposter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.brandkithead>.bhead{
+    margin: 0;
+    width: 740px;
+    height: 102px;
+    
+    /* H1 / Semibold 90px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 102px;
+    /* identical to box height, or 113% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 30px;
+}
+
+.brandkithead>p{
+    margin: 0;
+    width: 740px;
+    height: 78px;
+    
+    /* Body 1 / Regular 18px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Gray 5 */
+    
+    color: #707E85;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 30px;
+}
+.dwnbrandkit{
+    width: 280px;
+    height: 64px;
+    
+    /* Primary/ Brand */
+    
+    background: #31C1BF;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items:center;
+    text-decoration: none;
+    width: 280px;
+    height: 64px;
+    justify-content: center;
+    
+    /* Body 1/Semibold 18px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    /* White */
+    
+    color: #FFFFFF;
+    z-index: 0;
+}
+.dwnbrandkit>img{
+    margin-left: 36px;
+}
+.det{
+    width: 347px;
+    height: 20px;
+    
+    /* Body 3 / Regular 14px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    
+    /* Gray 5 */
+    
+    color: #707E85;
+    margin-top: 12px;
+    
+}
+@media screen and (max-width:480px){
+    .det{
+        display: none;
+    }
+    .firstposter{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bspa{
+        display: none;
+    }
+    .brandkithead>.bhead{
+        width: 328px;
+        height: 46px;
+        
+        /* H2/Semibold 38px */
+        
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 46px;
+        /* identical to box height, or 121% */
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.04em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+    .brandkithead>p{
+        width: 328px;
+        height: 182px;
+        
+    }
+    .firstposter{
+        margin-top: 100px;
+        margin-left: 16px;
+    }
+    .dwnbrandkit{
+        transform: scale(0.9);
+        margin-left: -15px;
+    }
+}

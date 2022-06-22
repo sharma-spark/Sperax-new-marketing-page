@@ -1,0 +1,8 @@
+.aboutfooter{
+    margin: 0 65px;
+}
+@media screen and (max-width:480px){
+    .aboutfooter{
+        margin: 0;
+    }
+}
