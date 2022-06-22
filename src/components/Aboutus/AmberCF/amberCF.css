@@ -118,8 +118,134 @@
     order: 1;
     flex-grow: 0;
 }
+.ambermobo{
+    display: none;
+}
 @media screen and (max-width:480px) {
     .amber{
         display: none;
+    }
+    .ambermobo{
+        margin-top: 24px;
+        margin-bottom: 40px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .ambermobi{
+        box-sizing: border-box;
+
+        width: 328px;
+        height: 604px;
+        
+        /* White */
+        
+        background: #FFFFFF;
+        /* Gray 2 */
+        
+        border: 1px solid #E7ECEF;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .imgheadmob{
+        display: flex;
+      
+        
+    }
+    .ambertextmob>h5{
+        width: 280px;
+        height: 40px;
+        
+        /* H3/Semibold 28px */
+        
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        /* identical to box height, or 143% */
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.03em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0;
+    }
+    .ambertextmob>span{
+    
+width: 280px;
+height: 26px;
+
+/* Body 1/Semibold 18px */
+
+font-family: 'MessinaSans-Semibold';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+/* Primary/ Brand */
+
+color: #31C1BF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+    }
+    .ambertextmob>p{
+        width: 280px;
+        height: 286px;
+        
+        /* Body 1 / Regular 18px */
+        
+        font-family: 'MessinaSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 144% */
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.03em;
+        
+        /* Gray 6 */
+        
+        color: #404B51;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
     }
 }
