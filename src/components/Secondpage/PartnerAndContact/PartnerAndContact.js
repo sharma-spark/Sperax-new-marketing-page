@@ -10,7 +10,7 @@ const PartnerAndContact = () => {
         <div className='partner'>
             <h3>Partner with us</h3>
             <div className='contact'>
-            <a className="darkBtn" href="mailto:contact@sperax.io " rel="nofollow">Contact Us</a>
+            <a className="darkBtn" href="https://docs.google.com/forms/d/e/1FAIpQLSecB5J44sq87cCy9babIu81uzINYpW2BS3_Cl3uM5CmRM7sdQ/viewform" target={'_blank'} rel="nofollow">Contact Us</a>
             </div>
         </div>
         <Promotion1/>
@@ -19,7 +19,7 @@ const PartnerAndContact = () => {
         <div className='partner'>
             <div></div>
             <div className='contact'>
-                <a className="darkBtn" href="mailto:contact@sperax.io" rel="nofollow">Contact Us</a>
+                <a className="darkBtn" href="https://docs.google.com/forms/d/e/1FAIpQLSecB5J44sq87cCy9babIu81uzINYpW2BS3_Cl3uM5CmRM7sdQ/viewform" target={'_blank'} rel="nofollow">Contact Us</a>
             </div>
         </div>
 
