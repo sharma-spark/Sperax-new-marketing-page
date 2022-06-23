@@ -1,0 +1,8 @@
+.careerfooter{
+    margin: 0 120px;
+}
+@media screen and (max-width:480px) {
+    .careerfooter{
+        margin: 0;
+    }
+}

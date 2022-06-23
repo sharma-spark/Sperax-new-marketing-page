@@ -6,7 +6,7 @@ import Benifitandperk from './Benifitandperk/Benifitandperk.js'
 import CBenifits from './CBenifits/Cbenifits.js'
 import GWCposter from './GWCposter/GWCposter.js'
 import Applyanyway from './ApplyAnyway/Applyanyway.js'
-
+import './career.css'
 
 const Career = () => {
   return (
@@ -17,8 +17,7 @@ const Career = () => {
         <CBenifits/>
         <GWCposter/>
         <Applyanyway/>
-        <Footer/>
-
+        <div className='careerfooter'><Footer/></div>
     </>
   )
 }

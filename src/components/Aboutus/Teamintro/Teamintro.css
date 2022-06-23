@@ -30,26 +30,6 @@
     color: #1B2022;
     margin: 0;
 }
-.teamintro>p{
-    width: 476px;
-    height: 84px;
-    
-    /* H4 / Regular 22px */
-    
-    font-family: 'MessinaSans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    /* or 127% */
-    
-    text-align: center;
-    letter-spacing: -0.02em;
-    
-    /* Dark */
-    
-    color: #1B2022;
-}
 @media screen and (max-width:480px) {
     .teamintro>h1{
         width: 328px;

@@ -9,19 +9,19 @@ const Assets = () => {
     <div className='Asset'>
         <div className='Assethead'>
             <p>Sperax Brand Assets</p>
-            <span>We’ve provided vector versions of our logo and mark for certain uses listed below.</span>
+            <span>We’ve provided vector versions of our logo and mark for SPA token and USDs Stablecoin</span>
         </div>
         <div className='dwldassets'>
             <div className='brkLCard'>
               <img src={spasset} alt="" />
               <p>Download Sperax Brand Assets</p>
-              <span>EPS / SVG / PNG / PSD</span>
+              <span>SVG / PNG </span>
               <a download="SPA Tokens" href={Spatoken}>Download </a>
             </div>
             <div className='brkRCard'>
               <img src={usdsasset} alt="" />
               <p>Download USDs Brand Assets</p>
-              <span>EPS / SVG / PNG / PSD</span>
+              <span>SVG / PNG </span>
               <a download="Sperax USD" href={SperaxUSD}>Download </a>
             </div>
         </div>

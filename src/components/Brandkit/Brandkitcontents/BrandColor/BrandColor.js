@@ -6,7 +6,7 @@ const BrandColor = () => {
     <div className='BColor'>
         <div className='BrandColor'>
         <p>Brand colors</p>
-        <span>You’re encouraged to use the official colors when displaying the logo and marks. When using the logo type on light backgrounds, use our charcoal color when possible. Use white if displaying on dark backgrounds (as in the sperax.com header).</span>
+        <span>You’re encouraged to use the official colors  below when displaying the logo and marks.</span>
         </div>
         <div className='BrandColorcards'>
             <div className='fcard'>
@@ -19,6 +19,12 @@ const BrandColor = () => {
                 <p>USDs Color</p>
                 <span>#2D9CDB</span>
             </div>
+            <div className='lcard'>
+                <div className='lcolor'></div>
+                <p>Sperax Charcoal</p>
+                <span>#1B2022</span>
+            </div>
+
         </div>
         
     </div>

@@ -4,7 +4,7 @@ const Applyanyway = () => {
   return (
     <div className='aplyany'>
         <h3>Not able to find the job you are looking for ?</h3>
-        <a href="/">Apply anyway</a>
+        <a href="mailto:career@sperax.io">Apply anyway</a>
     </div>
   )
 }
