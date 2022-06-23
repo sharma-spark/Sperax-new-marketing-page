@@ -190,6 +190,8 @@
     color: #1B2022;
     margin-left: 24px;
     margin-bottom: 5px;
+white-space: pre-line;  
+vertical-align: bottom;
 }
 .presonaldescb{
     overflow:scroll;
