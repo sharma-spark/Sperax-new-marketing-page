@@ -76,15 +76,15 @@ margin-bottom: 15px;
 }
 .Assethead>span{
     width: 873px;
-    height: 28px;
+    height: 26px;
     
     /* H4 / Regular 22px */
     
     font-family: 'MessinaSans';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 26px;
     /* identical to box height, or 127% */
     
     display: flex;

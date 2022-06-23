@@ -4,7 +4,7 @@ const Abouthead = () => {
   return (
     <div className='Abouthead'>
         <span>Our Story</span>
-        <p>Believer of technology innovations, we mission to build a blockchain-enabled society that is equal and inclusive. Our team consists of purpose-driven engineers, mathematicians, world’s leading cryptographers, researchers, marketing specialists and designers that have faith in our value and culture. </p>
+        <p>Founded in 2020, Sperax is a global technology firm building modern money with blockchain technology. Sperax USD (USDs) bridges the gap for both experienced and novice crypto users by offering a capital efficient and scalable stablecoin which generates organic yield automatically.</p>
     </div>
   )
 }

@@ -10,8 +10,12 @@
     display: flex;
     margin-top: 35px;
     margin-bottom: 200px;
+    width: 80%;
+    height: 240px;
 }
 .fcard{
+    display: flex;
+    flex-direction: column;
     width: 230px;
     height: 236px;
     
@@ -22,10 +26,9 @@
     
     /* Inside auto layout */
     
-    flex: none;
+    
     order: 0;
     flex-grow: 1;
-    margin-right: -500px;
 }
 .fcolor{
     width: 230px;
@@ -41,6 +44,9 @@
 }
 
 .scard{
+    display: flex;
+    flex-direction: column;
+
     width: 230px;
     height: 236px;
     
@@ -233,6 +239,100 @@
     margin-top: 10px;
     
 }
+.lcard{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 236px;
+    
+    /* Gray 1 */
+    
+    background: #F8FAFA;
+    border-radius: 20px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+.lcard>p{
+    width: 222.67px;
+    height: 26px;
+    
+    /* Body 1/Semibold 18px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0;
+    margin-top: 10px;
+
+}
+.lcard>span{
+
+    width: 222.67px;
+    height: 26px;
+    
+    /* Body 1 / Regular 18px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    
+    letter-spacing: -0.03em;
+    
+    /* Gray 5 */
+    
+    color: #707E85;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0;
+}
+.lcolor{
+    width: 230px;
+    height: 160px;
+    
+    background:#1B2022;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    border-radius: 20px 20px 0 0;
+
+}
+
 @media screen and (max-width:480px){
     .BColor{
         margin: 0;
@@ -301,9 +401,11 @@ flex-grow: 0;
     .BrandColorcards{
         margin: 0;
         display: flex;
+        flex-direction: row;
         overflow: scroll;
         flex-direction: row;
         margin-top: 64px;
+        width: 95%;
 
     }
     .fcard,.scard{
@@ -312,5 +414,9 @@ flex-grow: 0;
     }
     .fcard{
         margin-right: 32px;
+    }
+    .lcard{
+        margin-left: 20px;
+        margin-right: 10px;
     }
 }
