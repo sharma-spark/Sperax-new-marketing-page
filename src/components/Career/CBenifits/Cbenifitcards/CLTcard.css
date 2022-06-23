@@ -1,5 +1,8 @@
 .bpcard{
     display: flex;
+    background: #F8FAFA;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .rtext>p{
@@ -67,4 +70,51 @@
 }
 .limg>img{
     transform: scale(0.8);
+}
+@media screen and (max-width:480px) {
+    .bpcard{
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        /* Gray 2 */
+        
+        border: 1px solid #E7ECEF;
+        border-radius: 20px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 16px;
+    }
+    .rtext>p{
+        width: 288px;
+        height: 40px;
+        
+        /* H3/Semibold 28px */
+        
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        /* identical to box height, or 143% */
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.03em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        
+    }
+    .rtext>span{
+        width: 292px;
+        height: auto;
+    }
 }

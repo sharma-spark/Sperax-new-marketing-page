@@ -100,16 +100,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
     padding-left: 50px;
 }
 .personsocial>a{
     padding-right: 5px;
 }
-.personsocial>a:hover{
+.psarea:hover{
     transform: scale(1.2);
     cursor: pointer;
+}
+.psarea{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
 
 .readmorebutton{

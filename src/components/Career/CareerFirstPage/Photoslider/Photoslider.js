@@ -15,17 +15,19 @@ export default class Fade extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 2000
+            autoplaySpeed: 3000,
+            prevArrow: false,
+            nextArrow: false
 
         };
         return (
-            <div>
+            <div className="formob">
                 <Slider {...settings}>
                     <div >
                         <div className="pimg" style={{ backgroundImage: `url(${photo1})` }}>
                             <div className="pibox">
                                 <p>“Our team comprises a range of specialized talent. We push boundaries while sticking to fundamentals, with a broad vision to bring blockchain solutions to the world.”</p>
-                                <span>-Marco Di Maggio, Researcher</span>
+                                <span>-Rey Maximo, CTO</span>
                             </div>
                         </div>
                     </div>

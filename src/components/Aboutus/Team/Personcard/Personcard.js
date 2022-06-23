@@ -15,8 +15,8 @@ const Personcard = (props) => {
             <h6 className='readmorebutton' onClick={() => setOpen(!open)}>Read more →</h6>
           </div>
           <div className='personsocial'>
-              {props.twitter && <a href={props.twitter}><img src={tweet} alt="" /></a>}
-              {props.linkedin && <a href={props.linkedin}><img src={linkedin} alt="" /></a>  }
+              <div className='psarea'>{props.twitter && <a href={props.twitter}><img src={tweet} alt="" /></a>}</div>
+              <div className='psarea'>{props.linkedin && <a href={props.linkedin}><img src={linkedin} alt="" /></a>  }</div>    
           </div>
       </div>}
       { !open && <div className='presonaldesc'>

@@ -75,3 +75,8 @@
 
     
 }
+@media screen and (max-width:480px) {
+    .formob{
+        transform: scale(0.9);
+    }
+}   

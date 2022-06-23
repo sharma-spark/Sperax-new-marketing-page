@@ -8,7 +8,7 @@ import './Cbenifiits.css'
 
 const Cbenifits = () => {
   return (
-    <div>
+    <div className='cb'>
         <div className='Cbtop'>
             <CLTcard/>
             <CRTcard/>
@@ -17,7 +17,10 @@ const Cbenifits = () => {
             <CLBcard/>
             <CRBcard/>
         </div>
-        <a className='seeopens' href="/"><img src={arrowC} alt="" /> See Open Positions</a>
+        <a className='seeopens' href="https://jobs.lever.co/sperax/"><img src={arrowC} alt="" /> See Open Positions</a>
+        <div className='buttonformobile'>
+         <a href="https://jobs.lever.co/sperax/"><img src={arrowC} alt="" /> See Open Positions</a>
+        </div>
 
     </div>
   )

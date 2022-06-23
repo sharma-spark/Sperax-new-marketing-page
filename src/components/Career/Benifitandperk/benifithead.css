@@ -26,3 +26,30 @@
     justify-content: center;
     margin-top: 150px;
 }
+@media screen and (max-width:480px) {
+    .benehead{
+        margin: 0;
+        margin-top: 180px;
+        margin-bottom: 60px;
+    }
+    .benehead>h1{
+        width: 328px;
+        height: 92px;
+        
+        /* H2/Semibold 38px */
+        
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 46px;
+        /* or 121% */
+        
+        text-align: center;
+        letter-spacing: -0.04em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+    }
+
+}
