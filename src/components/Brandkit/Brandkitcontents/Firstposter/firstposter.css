@@ -128,9 +128,6 @@
     
 }
 @media screen and (max-width:480px){
-    .det{
-        display: none;
-    }
     .firstposter{
         display: flex;
         justify-content: center;

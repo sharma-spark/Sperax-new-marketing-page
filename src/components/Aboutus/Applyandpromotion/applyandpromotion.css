@@ -10,7 +10,10 @@
     flex-direction: column;
     
 }
-.aphead{
+.apupper{
+    margin-top: 105px;
+}
+.aphead>p{
 
     width: 570px;
     height: 138px;   
@@ -32,6 +35,7 @@
 }
 .aphead>p{
     margin: 0;
+    text-align: left;
 }
 .apapply{
     display: flex;
@@ -64,6 +68,9 @@
 .apapply:hover a{
     color: white;
 }
+.aplower{
+ margin-top: 22px;
+}
 .apupper{
     display: flex;
     flex-direction: row;
@@ -71,7 +78,7 @@
     align-items: flex-start;
     align-content: center;
     margin-bottom: 60px;
-    margin-top: 102px;
+    margin-top: 106px;
     margin-left: 60px;
 }
 .faci{
@@ -95,6 +102,9 @@
 }
 .apmobileo{
     display: none;
+}
+td{
+    height: 45px;
 }
 @media screen and (max-width:480px) {
     .Applyandpromotion{
@@ -197,6 +207,11 @@
         margin-right: 96px;
         margin-top: 64px;
     }
-    
-    
+    .apmpoints>span{
+        margin-top: 10px;
+        display: flex;
+    }    
+    .apmimg{
+        margin-right: 10px;
+    }
 }

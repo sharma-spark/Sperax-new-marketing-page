@@ -39,7 +39,7 @@
 .rtext>span{
     margin-top: 8px;
     width: 428px;
-    height: 216px;    
+    height: auto;    
     /* Body 2 / Regular 16px */
     
     font-family: 'MessinaSans';

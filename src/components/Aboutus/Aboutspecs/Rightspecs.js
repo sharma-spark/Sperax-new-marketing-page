@@ -8,7 +8,7 @@ const Rightspecs = () => {
         <div className='specslogo'><img src={dollar} alt="" /></div>
         <div>
             <div className='specsheading'><p>Skillful people</p></div>
-            <div className='specsbodyr'><span>Sperax offers competitive salaries compared to the industry standard, yet as a young company, there is still so much room to grow! Full-time positions include a </span></div>
+            <div className='specsbodyr'><span>Our team consists of purpose-driven engineers, economists, mathematicians, marketing specialists and designers with  years of experience in blockchain space.</span></div>
         </div>
     </div>
   )

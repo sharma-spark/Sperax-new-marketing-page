@@ -211,14 +211,20 @@
         height: 452px;
         border-radius: 16px;
         margin: 0;
-        transform: scale(75%);
+        transform: scale(70%);
         margin-left: -10px;
     }
     .buttonformobile{
         display: flex;
-        flex-direction: column;}
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        
+        margin-bottom: 10px;
+    }
     .buttonformobile>a{
-        padding: 15px 96px;
+        padding: 25px 86px;
         
     /* Primary/ Brand */
     
@@ -252,7 +258,6 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin-right: 12px;
         margin-top: 30px;
     }
 }

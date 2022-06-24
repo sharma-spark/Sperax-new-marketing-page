@@ -35,12 +35,12 @@ const Applyandpromotion = () => {
     <div className='apmobilei'>
         <p className='apmhead'>Help us build a transparent, diverse and collaborative space where all opinions are heard</p>
         <div className='apmpoints'>
-        <span><img src={tick} alt="" />Competitive salary and token plan</span>
-        <span><img src={tick} alt="" />Work visa sponsorship</span>
-        <span><img src={tick} alt="" />Multicultural work environment</span>
-        <span><img src={tick} alt="" />401k plan</span>
-        <span><img src={tick} alt="" />Beautiful office space</span>
-        <span><img src={tick} alt="" />Medical, dental, and vision insurance</span>
+        <span><img className='apmimg' src={tick} alt="" />Competitive salary and token plan</span>
+        <span><img className='apmimg' src={tick} alt="" />Work visa sponsorship</span>
+        <span><img className='apmimg' src={tick} alt="" />Multicultural work environment</span>
+        <span><img className='apmimg' src={tick} alt="" />401k plan</span>
+        <span><img className='apmimg' src={tick} alt="" />Beautiful office space</span>
+        <span><img className='apmimg' src={tick} alt="" />Medical, dental, and vision insurance</span>
         </div>
         <div className='apmapply'>
                 <a href="./career">Apply now</a>
