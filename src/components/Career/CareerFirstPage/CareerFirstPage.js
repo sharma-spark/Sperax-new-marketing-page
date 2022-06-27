@@ -2,6 +2,7 @@ import React from 'react'
 import './CareerFirstPage.css'
 import carrow from './Carrow.svg'
 import PhotoSlider from './Photoslider/Photoslider.js'
+import PhotoSlidermob from './Photoslider/PhotoSlidermob.js'
 import fpbg from './fpbg.svg'
 const CareerFirstPage = () => {
   return (
@@ -15,8 +16,12 @@ const CareerFirstPage = () => {
             </div>
         </div>
         <div className='Cslider'>
-            <PhotoSlider/>
+        <PhotoSlider/>
         </div>
+        <div className='CslidermobileO'>
+            <div className='Cslideri'><PhotoSlidermob/></div>
+        </div>
+
 
         <div className='buttonformobile'>
          <a href="https://jobs.lever.co/sperax/"><img src={carrow} alt="" /> See Open Positions</a>

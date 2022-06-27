@@ -77,6 +77,6 @@
 }
 @media screen and (max-width:480px) {
     .formob{
-        transform: scale(0.9);
+        /* transform: scale(0.9); */
     }
 }   

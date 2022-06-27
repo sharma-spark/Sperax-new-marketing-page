@@ -15,7 +15,7 @@ export default class Fade extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 3000,
+            autoplaySpeed: 4000,
             prevArrow: false,
             nextArrow: false
 
@@ -28,14 +28,6 @@ export default class Fade extends Component {
                             <div className="pibox">
                                 <p>“Our team comprises a range of specialized talent. We push boundaries while sticking to fundamentals, with a broad vision to bring blockchain solutions to the world.”</p>
                                 <span>-Rey Maximo, CTO</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="pimg" style={{ backgroundImage: `url(${photo2})` }}>
-                            <div className="pibox">
-                                <p>“Our team comprises a range of specialized talent. We push boundaries while sticking to fundamentals, with a broad vision to bring blockchain solutions to the world.”</p>
-                                <span>-Subhajit Ray, Product Lead</span>
                             </div>
                         </div>
                     </div>
