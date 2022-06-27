@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./web-static/static/css/main.dabc465a.chunk.css",
-    "main.js": "./web-static/static/js/main.c8f8a613.chunk.js",
-    "main.js.map": "./web-static/static/js/main.c8f8a613.chunk.js.map",
-    "runtime-main.js": "./web-static/static/js/runtime-main.e1a2cfca.js",
-    "runtime-main.js.map": "./web-static/static/js/runtime-main.e1a2cfca.js.map",
-    "static/js/2.7c9c03f0.chunk.js": "./web-static/static/js/2.7c9c03f0.chunk.js",
-    "static/js/2.7c9c03f0.chunk.js.map": "./web-static/static/js/2.7c9c03f0.chunk.js.map",
-    "static/js/3.a1e213ff.chunk.js": "./web-static/static/js/3.a1e213ff.chunk.js",
-    "static/js/3.a1e213ff.chunk.js.map": "./web-static/static/js/3.a1e213ff.chunk.js.map",
+    "main.css": "./web-static/static/css/main.7a247902.chunk.css",
+    "main.js": "./web-static/static/js/main.78d9b949.chunk.js",
+    "main.js.map": "./web-static/static/js/main.78d9b949.chunk.js.map",
+    "runtime-main.js": "./web-static/static/js/runtime-main.62cbd841.js",
+    "runtime-main.js.map": "./web-static/static/js/runtime-main.62cbd841.js.map",
+    "static/js/2.9a3a53d8.chunk.js": "./web-static/static/js/2.9a3a53d8.chunk.js",
+    "static/js/2.9a3a53d8.chunk.js.map": "./web-static/static/js/2.9a3a53d8.chunk.js.map",
+    "static/js/3.6fb20df4.chunk.js": "./web-static/static/js/3.6fb20df4.chunk.js",
+    "static/js/3.6fb20df4.chunk.js.map": "./web-static/static/js/3.6fb20df4.chunk.js.map",
     "index.html": "./web-static/index.html",
-    "static/css/main.dabc465a.chunk.css.map": "./web-static/static/css/main.dabc465a.chunk.css.map",
-    "static/js/2.7c9c03f0.chunk.js.LICENSE.txt": "./web-static/static/js/2.7c9c03f0.chunk.js.LICENSE.txt",
+    "static/css/main.7a247902.chunk.css.map": "./web-static/static/css/main.7a247902.chunk.css.map",
+    "static/js/2.9a3a53d8.chunk.js.LICENSE.txt": "./web-static/static/js/2.9a3a53d8.chunk.js.LICENSE.txt",
     "static/media/Brand Assets.ba0e084f.zip": "./web-static/static/media/Brand Assets.ba0e084f.zip",
     "static/media/Carrow.7d2a6e60.svg": "./web-static/static/media/Carrow.7d2a6e60.svg",
     "static/media/Cdollar.0debbc4e.svg": "./web-static/static/media/Cdollar.0debbc4e.svg",
@@ -84,7 +84,9 @@
     "static/media/nicolas.554ba29c.svg": "./web-static/static/media/nicolas.554ba29c.svg",
     "static/media/outlier.3107c669.svg": "./web-static/static/media/outlier.3107c669.svg",
     "static/media/p1.4841be1f.svg": "./web-static/static/media/p1.4841be1f.svg",
+    "static/media/p1m.c7ce6f93.svg": "./web-static/static/media/p1m.c7ce6f93.svg",
     "static/media/p2.999a4b49.svg": "./web-static/static/media/p2.999a4b49.svg",
+    "static/media/p2m.bebf1d8a.svg": "./web-static/static/media/p2m.bebf1d8a.svg",
     "static/media/p3.377c2cb8.svg": "./web-static/static/media/p3.377c2cb8.svg",
     "static/media/polychain.e6bc2122.svg": "./web-static/static/media/polychain.e6bc2122.svg",
     "static/media/Aboutposter.css": "./web-static/static/media/posterbgmobile.56fb7b3c.svg",
@@ -101,7 +103,7 @@
     "static/media/speraxlogoabout.5040db3a.svg": "./web-static/static/media/speraxlogoabout.5040db3a.svg",
     "static/media/speraxlogoasset.6528bbb1.svg": "./web-static/static/media/speraxlogoasset.6528bbb1.svg",
     "static/media/steve.bf12af49.svg": "./web-static/static/media/steve.bf12af49.svg",
-    "static/media/subh.9b905054.svg": "./web-static/static/media/subh.9b905054.svg",
+    "static/media/subh.b320b282.png": "./web-static/static/media/subh.b320b282.png",
     "static/media/telegram.f2d5c05d.svg": "./web-static/static/media/telegram.f2d5c05d.svg",
     "static/media/telegram_black.ed14af16.svg": "./web-static/static/media/telegram_black.ed14af16.svg",
     "static/media/telegram_white.97104b37.svg": "./web-static/static/media/telegram_white.97104b37.svg",
@@ -121,9 +123,9 @@
     "static/media/yield.b23e2473.svg": "./web-static/static/media/yield.b23e2473.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1a2cfca.js",
-    "static/js/2.7c9c03f0.chunk.js",
-    "static/css/main.dabc465a.chunk.css",
-    "static/js/main.c8f8a613.chunk.js"
+    "static/js/runtime-main.62cbd841.js",
+    "static/js/2.9a3a53d8.chunk.js",
+    "static/css/main.7a247902.chunk.css",
+    "static/js/main.78d9b949.chunk.js"
   ]
 }
