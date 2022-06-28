@@ -1,7 +1,10 @@
 .specscard{
-    width: 576px;
-    height: 196px;
+    width: auto;
+    height: auto;
     display: flex;
+    background: #F8FAFA;
+    border-radius: 20px;
+    padding: 40px;  
 }
 .specslogo{
     width: 56px;
@@ -41,7 +44,7 @@
 }
 
 .specsbodyl{
-    width: 428px;
+    width: 410px;
     height: 72px;
     
     /* Body 2 / Regular 16px */
@@ -75,11 +78,13 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        align-content: center;
+        justify-content: center;
         padding: 40px 16px 24px 20px;
         gap: 12px;
         
-        width: 328px;
-        height: 332px;
+        width: 308px;
+        height: auto;
         
         /* Gray 1 */
         
@@ -87,7 +92,8 @@
         border-radius: 12px;
         margin: 0;
         flex-direction: column;
-        margin-left: 10px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
     .specsheading{
         width: 292px;
@@ -121,7 +127,7 @@
     }
     .specsbodyl{
         width: 292px;
-        height: 192px;
+        height: auto;
         
         /* Body 2 / Regular 16px */
         
@@ -148,5 +154,6 @@
         align-self: stretch;
         flex-grow: 0;
         margin: 0;
+        margin-top: 8px;
     }
 }

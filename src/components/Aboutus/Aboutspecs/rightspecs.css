@@ -31,7 +31,7 @@
 @media screen and (max-width:480px) {
     .specsbodyr{
         width: 292px;
-        height: 192px;
+        height: auto;
         
         /* Body 2 / Regular 16px */
         
@@ -58,6 +58,7 @@
         align-self: stretch;
         flex-grow: 0;
         margin: 0;
+        margin-top: 8px;
     }
 
 }
