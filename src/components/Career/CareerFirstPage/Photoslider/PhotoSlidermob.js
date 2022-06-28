@@ -26,7 +26,7 @@ export default class Fade extends Component {
                     <div >
                         <div className="pimgm" style={{ backgroundImage: `url(${photo1})` }}>
                             <div className="piboxm">
-                                <p>“Our team comprises a range of specialized talent. We push boundaries while sticking to fundamentals, with a broad vision to bring blockchain solutions to the world.”</p>
+                                <p>We’ve built a strong culture of security first. Our engineering discipline is honed from decades of software excellence to ensure our smart contracts are secure.</p>
                                 <span>-Rey Maximo, CTO</span>
                             </div>
                         </div>
