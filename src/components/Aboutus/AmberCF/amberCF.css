@@ -11,7 +11,7 @@
 
 .amber{
     box-sizing: border-box;
-    width: 1116px;
+    width: 1080px;
     height: 484px;    
     /* White */
     
@@ -91,7 +91,7 @@
     flex-grow: 0;
 }
 .CFdes>p{
-    width: 592px;
+    width: 552px;
     height: 130px;
     
     /* Body 1 / Regular 18px */

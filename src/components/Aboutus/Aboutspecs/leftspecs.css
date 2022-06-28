@@ -7,13 +7,14 @@
     padding: 40px;  
 }
 .specslogo{
-    width: 56px;
-    height: 56px;
+    width: 50px;
+    height: 50px;
     margin-right: 12px;
+    transform: scale(0.9);
 }
 
 .specsheading{
-    width: 428px;
+    width: 250px;
     height: 40px;
     
     /* H3/Semibold 28px */
@@ -44,7 +45,7 @@
 }
 
 .specsbodyl{
-    width: 410px;
+    width: 385px;
     height: 72px;
     
     /* Body 2 / Regular 16px */

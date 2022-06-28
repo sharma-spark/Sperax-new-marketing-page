@@ -7,13 +7,16 @@
 }
 
 
-
+.BrandColor{
+    padding-left: 35px;
+}
 .BrandColorcards{
     display: flex;
     margin-top: 35px;
     margin-bottom: 0px;
     width: 804px;
     height: 240px;
+    padding-left: 35px;
 }
 .fcard{
     display: flex;
@@ -200,7 +203,7 @@
 .BrandColor>p{
 
     width: 213px;
-    height: 46px;
+    height: 36px;
     
     /* H2/Semibold 38px */
     
@@ -223,7 +226,7 @@
 }
 .BrandColor>span{
     width: 1060px;
-    height: 52px;
+    height: 42px;
     /* Body 1 / Regular 18px */
     
     font-family: 'MessinaSans';
@@ -422,5 +425,8 @@ flex-grow: 0;
     .lcard{
         margin-left: 20px;
         margin-right: 10px;
+    }
+    .BrandColor,.BrandColorcards{
+        padding: 0;
     }
 }
