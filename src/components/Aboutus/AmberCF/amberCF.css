@@ -1,3 +1,14 @@
+.ambero{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
 .amber{
     box-sizing: border-box;
     width: 1116px;
@@ -11,8 +22,7 @@
     border-radius: 32px;
     display: flex;
     align-items: center;
-    margin-top: 92px;
-    margin-left: 70px;
+    
 }
 .CFimage{
     width: 304px;
@@ -126,7 +136,7 @@
         display: none;
     }
     .ambermobo{
-        margin-top: 24px;
+        
         margin-bottom: 40px;
         display: flex;
         width: 100%;

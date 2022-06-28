@@ -1,18 +1,18 @@
 .Careerfp{
-    display: flex;
-    
-    margin-left: 102px;
-    margin-right: 102px;
+    display: flex; 
     align-items: center;
+    align-content: center;
+    justify-content: center;
     margin-top:96px ;
 }
 
 .Cheadleft{
     width: 454px;
     margin-right: 20px;
+    
 }
 .Cheadleft>p{
-    height: 144px;
+    height:auto;
     
     /* H1/Semibold 64px */
     
@@ -48,10 +48,9 @@
     /* Dark */
     
     color: #1B2022;
-    
 }
 .cheadbutton>.sop{
-    padding: 8px 16px;
+    padding: 16px 26px;
         
     /* Primary/ Brand */
     
@@ -139,9 +138,10 @@
     margin-top: 40px;
 }
 .Cslider{
-    width: 566px;
-    height: 562px;
+    width: 576px;
+    height: 572px;
     margin-left: 20px;
+
 }
 .buttonformobile{
     display: none;

@@ -1,3 +1,12 @@
+.Applyandpromotiono{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 .Applyandpromotion{
     background-image: url(applybackgroundabout.svg);
     width: 1116px;
@@ -5,7 +14,6 @@
     background: #E7ECEF;
     border-radius: 32px;
     margin-top: 80px;
-    margin-left: 70px;
     display: flex;
     flex-direction: column;
     

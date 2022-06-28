@@ -1,5 +1,12 @@
+.aplyanyo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
 .aplyany{
-width: 100%;
+width: 1440px;
 height: 596px;
 background: #31C1BF;
 display: flex;

@@ -1,9 +1,17 @@
+.GCWo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
 .GCW{
     background-image: url(GCW.svg);
     height: 764px;
-    width: 100%;
+    width: 1440px;
     margin-top: 96px;
     display: flex;
+    background-repeat:no-repeat;
 }
 
 .gcwinner{

@@ -1,11 +1,25 @@
+.cb{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .Cbtop, .Cbbottom{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .Cbtop{
     margin-bottom:24px;
     margin-top: 120px;
+}
+.sed{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 .seeopens{
     text-decoration: none;
@@ -43,7 +57,6 @@ padding: 8px 16px;
 gap: 8px;
 align-items: center;
 margin-top: 64px;
-margin-left: 43%;
 }
 
 @media screen and (max-width:480px) {

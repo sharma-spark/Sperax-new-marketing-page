@@ -1,9 +1,16 @@
+.Aboutpostero{
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+}
 .Aboutposter{
     background-image: url(posterbackground.svg);
-    width: 100%;
+    width: 1440px;
     height: 720px;
     display: flex;
     margin-top: 64px;
+    background-repeat: no-repeat;
 }
 .Aboutposter>.innerbox{
     width: 560px;
@@ -56,7 +63,6 @@
         align-items: center;
         justify-content: center;
         background-size:cover;
-       
     }
     .Aboutposter>.innerbox{
         width: 328px;

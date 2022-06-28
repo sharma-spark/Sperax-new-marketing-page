@@ -6,7 +6,7 @@ import ammob from './ambermob.svg'
 
 const AmberCF = () => {
   return (
-    <>
+    <div className='ambero'>
     <div className='amber'>
         <div className='CFimage'>
             <img src={tian} alt="" />
@@ -30,7 +30,7 @@ const AmberCF = () => {
       </div>
 
     </div>
-    </>
+    </div>
   )
 }
 

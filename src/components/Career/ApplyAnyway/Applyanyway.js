@@ -3,6 +3,7 @@ import './applyanyway.css'
 import apparrow from './apparrow.svg'
 const Applyanyway = () => {
   return (
+    <div className='aplyanyo'>
     <div className='aplyany'>
         <div className='aptop'>
         <h3 className='aphead'>View all our open positions</h3>
@@ -14,6 +15,7 @@ const Applyanyway = () => {
         
         </div>
         
+    </div>
     </div>
   )
 }

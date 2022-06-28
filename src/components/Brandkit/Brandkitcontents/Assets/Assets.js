@@ -11,6 +11,11 @@ const Assets = () => {
             <p>Sperax Brand Assets</p>
             <span>We’ve provided vector versions of our logo and mark for SPA token and USDs Stablecoin</span>
         </div>
+        <div className='Assetheadmob'>
+            <p>Sperax Brand Assets</p>
+            <span>We’ve provided vector versions of our logo and mark for SPA token and USDs Stablecoin</span>
+        </div>
+
         <div className='dwldassets'>
             <div className='brkLCard'>
               <img src={spasset} alt="" />

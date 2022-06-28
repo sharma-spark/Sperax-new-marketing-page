@@ -1,7 +1,15 @@
+.firstpostero{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
 .firstposter{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 150px;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 1000px;
 }
 .brandkithead>.bhead{
     margin: 0;

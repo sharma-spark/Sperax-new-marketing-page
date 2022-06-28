@@ -17,7 +17,7 @@ const Cbenifits = () => {
             <CLBcard/>
             <CRBcard/>
         </div>
-        <a className='seeopens' href="https://jobs.lever.co/sperax/"><img src={arrowC} alt="" /> See Open Positions</a>
+        <div className='sed'><a className='seeopens' href="https://jobs.lever.co/sperax/"><img src={arrowC} alt="" /> See Open Positions</a></div>
         <div className='buttonformobile'>
          <a href="https://jobs.lever.co/sperax/"><img src={arrowC} alt="" /> See Open Positions</a>
         </div>

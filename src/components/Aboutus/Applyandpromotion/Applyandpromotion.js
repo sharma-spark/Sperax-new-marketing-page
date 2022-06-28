@@ -4,7 +4,7 @@ import tick from './tick.svg'
 
 const Applyandpromotion = () => {
   return (
-    <>
+    <div className='Applyandpromotiono'>
     <div className='Applyandpromotion'>
         <div className='apupper'>
             <div className='aphead'>
@@ -48,7 +48,7 @@ const Applyandpromotion = () => {
 
     </div>
     </div>
-    </>
+    </div>
   )
 }
 

@@ -167,6 +167,7 @@
     }
     .sperax-mobile {
         display: block !important;
+        margin-top: 50px !important;
         margin-bottom: 80px !important;
     }
 }

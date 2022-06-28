@@ -5,6 +5,7 @@ import './firstposter.css'
 import BrandAsset from './Brand Assets.zip'
 const Firstposter = () => {
   return (
+    <div className='firstpostero'>
     <div className='firstposter'>
         <div className='brandkithead'>
             <p className='bhead'>Sperax Brand Kit</p>
@@ -15,6 +16,7 @@ const Firstposter = () => {
         <div className='bspa' >
             <img src={bigsperax} alt="" />
         </div>
+    </div>
     </div>
   )
 }

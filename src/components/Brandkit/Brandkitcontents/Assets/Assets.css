@@ -1,7 +1,11 @@
 .Asset{
     margin-top: 155px;
-    margin-left:132px ;
-    margin-right: 132px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-content:center ;
 }
 
 .brkLCard{
@@ -105,7 +109,7 @@ margin-bottom: 15px;
 }
 .brkRCard>img{
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 30px;
     transform: scale(0.9);
 }
 .brkLCard>p{
@@ -300,9 +304,32 @@ margin-bottom: 15px;
 .brkRCard>a:hover{
     color: rgb(201, 201, 201);
 }
-
+.Assetheadmob{
+    display: none;
+}
 @media screen and (max-width:480px){
-    .Assethead>p{
+    .Asset{
+        margin: 0;
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .Assethead{
+        display: none;
+
+    }
+    .Assetheadmob{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: 17px;
+    }
+    .Assetheadmob>p{
         width: 328px;
         height: 40px;
         
@@ -321,7 +348,7 @@ margin-bottom: 15px;
         
         /* Dark */
         
-        color: 1B2022;
+        color: #1B2022;
         
         
         /* Inside auto layout */
@@ -330,50 +357,53 @@ margin-bottom: 15px;
         order: 0;
         align-self: stretch;
         flex-grow: 0;
-    }
-    .Asset{
         margin: 0;
-        margin-top: 64px;
-        margin-left: 17px;
+        margin-bottom: 16px;
     }
-    .Assethead>span{
-        width: 328px;
-        height: 84px;
-        
-        /* H4 / Regular 22px */
-        
-        font-family: 'MessinaSans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 28px;
-        /* or 127% */
-        
-        display: flex;
-        align-items: center;
-        letter-spacing: -0.02em;
-        
-        /* Gray 5 */
-        
-        color: #707E85;
-        
-        
-        /* Inside auto layout */
-        
-        flex: none;
-        order: 1;
-        align-self: stretch;
-        flex-grow: 0;
-        
+    .Assetheadmob>span{
+width: 328px;
+height: 78px;
+
+/* Body 1 / Regular 18px */
+
+font-family: 'MessinaSans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+
+/* Gray 5 */
+
+color: #707E85;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
     }
     .dwldassets{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin-left: 17px;
     }
     .brkLCard{
         width: 328px;
         height: 362px;  
         padding-bottom: 20px;      
+    }
+    .brkLCard>img{
+        margin-left: 60px;
     }
     .brkLCard>p{
         width: 248px;
