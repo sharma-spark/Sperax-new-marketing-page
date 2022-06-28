@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./web-static/static/css/main.74b98c43.chunk.css",
-    "main.js": "./web-static/static/js/main.7a4dde53.chunk.js",
-    "main.js.map": "./web-static/static/js/main.7a4dde53.chunk.js.map",
+    "main.css": "./web-static/static/css/main.63f64520.chunk.css",
+    "main.js": "./web-static/static/js/main.afa2fa83.chunk.js",
+    "main.js.map": "./web-static/static/js/main.afa2fa83.chunk.js.map",
     "runtime-main.js": "./web-static/static/js/runtime-main.62cbd841.js",
     "runtime-main.js.map": "./web-static/static/js/runtime-main.62cbd841.js.map",
     "static/js/2.9a3a53d8.chunk.js": "./web-static/static/js/2.9a3a53d8.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.6fb20df4.chunk.js": "./web-static/static/js/3.6fb20df4.chunk.js",
     "static/js/3.6fb20df4.chunk.js.map": "./web-static/static/js/3.6fb20df4.chunk.js.map",
     "index.html": "./web-static/index.html",
-    "static/css/main.74b98c43.chunk.css.map": "./web-static/static/css/main.74b98c43.chunk.css.map",
+    "static/css/main.63f64520.chunk.css.map": "./web-static/static/css/main.63f64520.chunk.css.map",
     "static/js/2.9a3a53d8.chunk.js.LICENSE.txt": "./web-static/static/js/2.9a3a53d8.chunk.js.LICENSE.txt",
     "static/media/Brand Assets.ba0e084f.zip": "./web-static/static/media/Brand Assets.ba0e084f.zip",
     "static/media/Carrow.7d2a6e60.svg": "./web-static/static/media/Carrow.7d2a6e60.svg",
     "static/media/Cdollar.0debbc4e.svg": "./web-static/static/media/Cdollar.0debbc4e.svg",
-    "static/media/Cglobal.73cd0256.svg": "./web-static/static/media/Cglobal.73cd0256.svg",
-    "static/media/Cthums.db867fda.svg": "./web-static/static/media/Cthums.db867fda.svg",
+    "static/media/Cglobal.a799a7f9.svg": "./web-static/static/media/Cglobal.a799a7f9.svg",
+    "static/media/Cthums.fe410ef2.svg": "./web-static/static/media/Cthums.fe410ef2.svg",
     "static/media/Cvidlogo.faea247e.svg": "./web-static/static/media/Cvidlogo.faea247e.svg",
     "static/media/GWCposter.css": "./web-static/static/media/GWCmob.df78ec0e.svg",
     "static/media/Firstpage.css": "./web-static/static/media/MessinaSerifWeb-SemiBold.75c31702.eot",
@@ -125,7 +125,7 @@
   "entrypoints": [
     "static/js/runtime-main.62cbd841.js",
     "static/js/2.9a3a53d8.chunk.js",
-    "static/css/main.74b98c43.chunk.css",
-    "static/js/main.7a4dde53.chunk.js"
+    "static/css/main.63f64520.chunk.css",
+    "static/js/main.afa2fa83.chunk.js"
   ]
 }
