@@ -7,7 +7,7 @@ const Scard3 = () => {
   return (
     <div className='scard3'>
         <div className='slogo'><img src={twitterwhite} alt="" /></div>
-        <div className='scount'><h2>33,757</h2></div>
+        <div className='scount'><h2>30,200</h2></div>
     </div>
   )
 }
