@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./web-static/static/css/main.35ed243b.chunk.css",
-    "main.js": "./web-static/static/js/main.afa2fa83.chunk.js",
-    "main.js.map": "./web-static/static/js/main.afa2fa83.chunk.js.map",
+    "main.css": "./web-static/static/css/main.c1862d12.chunk.css",
+    "main.js": "./web-static/static/js/main.225d5d9c.chunk.js",
+    "main.js.map": "./web-static/static/js/main.225d5d9c.chunk.js.map",
     "runtime-main.js": "./web-static/static/js/runtime-main.62cbd841.js",
     "runtime-main.js.map": "./web-static/static/js/runtime-main.62cbd841.js.map",
     "static/js/2.9a3a53d8.chunk.js": "./web-static/static/js/2.9a3a53d8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6fb20df4.chunk.js": "./web-static/static/js/3.6fb20df4.chunk.js",
     "static/js/3.6fb20df4.chunk.js.map": "./web-static/static/js/3.6fb20df4.chunk.js.map",
     "index.html": "./web-static/index.html",
-    "static/css/main.35ed243b.chunk.css.map": "./web-static/static/css/main.35ed243b.chunk.css.map",
+    "static/css/main.c1862d12.chunk.css.map": "./web-static/static/css/main.c1862d12.chunk.css.map",
     "static/js/2.9a3a53d8.chunk.js.LICENSE.txt": "./web-static/static/js/2.9a3a53d8.chunk.js.LICENSE.txt",
     "static/media/Brand Assets.ba0e084f.zip": "./web-static/static/media/Brand Assets.ba0e084f.zip",
     "static/media/Carrow.7d2a6e60.svg": "./web-static/static/media/Carrow.7d2a6e60.svg",
@@ -101,7 +101,6 @@
     "static/media/shield.11d2a614.svg": "./web-static/static/media/shield.11d2a614.svg",
     "static/media/spartan.f2f41915.svg": "./web-static/static/media/spartan.f2f41915.svg",
     "static/media/speraxlogoabout.5040db3a.svg": "./web-static/static/media/speraxlogoabout.5040db3a.svg",
-    "static/media/speraxlogoasset.6528bbb1.svg": "./web-static/static/media/speraxlogoasset.6528bbb1.svg",
     "static/media/steve.bf12af49.svg": "./web-static/static/media/steve.bf12af49.svg",
     "static/media/subh.b320b282.png": "./web-static/static/media/subh.b320b282.png",
     "static/media/telegram.f2d5c05d.svg": "./web-static/static/media/telegram.f2d5c05d.svg",
@@ -125,7 +124,7 @@
   "entrypoints": [
     "static/js/runtime-main.62cbd841.js",
     "static/js/2.9a3a53d8.chunk.js",
-    "static/css/main.35ed243b.chunk.css",
-    "static/js/main.afa2fa83.chunk.js"
+    "static/css/main.c1862d12.chunk.css",
+    "static/js/main.225d5d9c.chunk.js"
   ]
 }
