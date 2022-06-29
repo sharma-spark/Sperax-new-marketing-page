@@ -20,7 +20,7 @@
     /* 1.4328 */
     /* Gray 1 */
     
-    background: #F8FAFA;
+    background:  #F8FAFA;
     border-radius: 20px;
     
     /* Inside auto layout */
@@ -103,7 +103,7 @@ margin-bottom: 15px;
 }
 
 .brkLCard>img{
-    margin-top: 78px;
+    margin-top: 50px;
     margin-left: 40px;
     transform: scale(0.9);
     border-radius: 100%;
@@ -397,18 +397,22 @@ flex-grow: 0;
         align-content: center;
         align-items: center;
         margin-left: 17px;
+       margin-top: 70px;
     }
     .brkLCard{
         width: 328px;
         height: 362px;  
         padding-bottom: 20px;      
+        margin-left: 10px;
     }
     .brkLCard>img{
         margin-left: 40px;
+        padding: 0;
+        transform: scale(0.9);
     }
     .brkLCard>p{
         width: 248px;
-        height: 80px;
+        height: 70px;
     }
     .brkRCard{
         width: 328px;
