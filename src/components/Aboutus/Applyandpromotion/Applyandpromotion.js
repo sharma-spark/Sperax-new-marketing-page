@@ -11,7 +11,7 @@ const Applyandpromotion = () => {
                 <p>Help us build a transparent, diverse and collaborative space where all opinions are heard</p>
             </div>
             <div className='apapply'>
-                <a href="./career">Apply now</a>
+                <a href="./careers">Apply now</a>
             </div>
         </div>
         <div className='aplower'>
@@ -43,7 +43,7 @@ const Applyandpromotion = () => {
         <span><img className='apmimg' src={tick} alt="" />Medical, dental, and vision insurance</span>
         </div>
         <div className='apmapply'>
-                <a href="./career">Apply now</a>
+                <a href="./careers">Apply now</a>
          </div>
 
     </div>
