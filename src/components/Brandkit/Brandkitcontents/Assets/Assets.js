@@ -1,6 +1,6 @@
 import React from 'react'
 import './Assets.css'
-import spasset from './speraxlogoasset.svg'
+import spasset from './spelogo.png'
 import usdsasset from './usdslogoasset.svg'
 import Spatoken from './SPA Token.zip'
 import SperaxUSD from './Sperax USD.zip'
