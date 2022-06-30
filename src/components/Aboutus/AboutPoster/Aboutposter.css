@@ -3,14 +3,18 @@
     display: flex;
 
     justify-content: center;
+    background-image: url(posterbackground.svg);
+    margin-top: 64px;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .Aboutposter{
-    background-image: url(posterbackground.svg);
+    
     width: 1440px;
     height: 720px;
     display: flex;
-    margin-top: 64px;
-    background-repeat: no-repeat;
+   
+    
 }
 .Aboutposter>.innerbox{
     width: 560px;

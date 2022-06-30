@@ -3,12 +3,13 @@
     justify-content: center;
     width: 100%;
     height: auto;
+    background: #31C1BF;
+
 }
 
 .aplyany{
 width: 1440px;
 height: 596px;
-background: #31C1BF;
 display: flex;
 flex-direction: column;
 justify-content: center;

@@ -3,15 +3,20 @@
     justify-content: center;
     width: 100%;
     height: auto;
+    background-image: url(GCW.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-top: 96px;
 }
 
 .GCW{
-    background-image: url(GCW.svg);
+    
     height: 764px;
     width: 1440px;
-    margin-top: 96px;
+   
     display: flex;
-    background-repeat:no-repeat;
+   
+   
 }
 
 .gcwinner{
