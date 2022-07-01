@@ -48,7 +48,7 @@ const Modal = ({show, onHide, type}) => {
                             <div style={{display: "flex"}}>
                                 <img className="arrow_img" src={arrow} />
                                 <a className="buy"
-                                   href="https://global.transak.com/?apiKey=6f11a8a6-81e6-4639-915c-13bac6fba229&amp;cryptoCurrencyList=ETH,USDC&amp;defaultNetwork=arbitrum&amp;networks=ethereum,arbitrum"
+                                   href="https://global.transak.com/?apiKey=6f11a8a6-81e6-4639-915c-13bac6fba229&cryptoCurrencyList=USDS,ETH,USDC,SPA&defaultNetwork=arbitrum&networks=ethereum,arbitrum&defaultCryptoCurrency=SPA"
                                    target="_blank" rel="noreferrer">BUY</a>
                             </div>
                         </div>
