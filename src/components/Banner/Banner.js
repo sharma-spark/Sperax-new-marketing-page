@@ -24,7 +24,7 @@ const Banner = () => {
                       action="https://sperax.us19.list-manage.com/subscribe/post?u=5b6783fe1337881c06a14dd4d&amp;id=15b8a3b990"
                       method="post" target="_blank" className="c next-inline next-medium f_r_b">
                     <div className="inputContainer">
-                        <input id="EMAIL" placeholder="enter email" name="EMAIL"/>
+                        <input id="EMAIL" placeholder="Enter email" name="EMAIL"/>
                         <button className="darkBtn" type="submit">Subscribe</button>
                     </div>
                 </form>

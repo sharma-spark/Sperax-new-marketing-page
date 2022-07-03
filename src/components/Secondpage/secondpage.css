@@ -1,6 +1,17 @@
+.secondpageo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #1B2022;
+}
+
+
 .secondpage {
     background-color: #1B2022;
-    width: 100%;
+    width: 1440px;
     text-align: center;
     padding-bottom: 259px;
 }
@@ -160,12 +171,14 @@
         font-size: 52px;
         padding: 97px 0px 0 0px;
     }
-
-    .working {
-        width: 92%;
+    .secondpageo{
+        background-color: #1B2022;
+        width: 101.5%;
     }
-
     .secondpage {
+        width: 100%;
+        height: auto;
+        width: 800px;
         padding-bottom: 900px;
     }
 }

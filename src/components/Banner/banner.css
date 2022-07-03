@@ -30,7 +30,7 @@
 }
 .inputContainer {
     overflow: hidden;
-    height: 52px;
+    height: 53px;
     border: 1px solid #ABB7BD;
     border-radius: 40px;
     display: flex;
@@ -41,8 +41,9 @@
     border: none;
     width: 200px;
     font-size: 18px;
-    padding-left: 10px;
+    padding-left: 20px;
     outline:none;
+    margin-right: -10px;
 }
 .inputContainer>button {
     height: 100%;
@@ -51,6 +52,9 @@
     border: 0;
     color: #FFFFFF;
     cursor: pointer;
+    border-radius: 40px;
+    margin: 0;
+    padding: 0;
 }
 .sub-text {
     margin-left: 80px;

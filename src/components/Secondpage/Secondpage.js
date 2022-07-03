@@ -15,6 +15,7 @@ const Secondpage = (props) => {
     const [show, setShow] = useState(false);
     const [type, setType] = useState();
     return (
+        <div className='secondpageo'>
         <div className='secondpage'>
             <div className='headingmini'><span> So.. </span>how does it work ?</div>
             <div className='getbuttons'>
@@ -29,6 +30,7 @@ const Secondpage = (props) => {
             <Spaeco/>
             <Supply totalSupply={props.totalSupply} circulate={props.circulate}/>
             <Modal show={show} onHide={() => setShow(false)} type={type} />
+        </div>
         </div>
     )
 }

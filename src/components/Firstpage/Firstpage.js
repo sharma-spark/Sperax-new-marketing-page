@@ -9,7 +9,9 @@ import Modal from "../Modal/Modal";
 
 const Firstpage = () => {
   return (
-      <div>
+    <div className='fpo'>
+      <div className='fp'>
+      <div className='fd'>
         <div className='text'>
             <div className='heading'>Stablecoin with built-in Auto-Yield on Arbitrum</div>
             <div className='detail'>Sperax USD (USDs) is primarily backed by crypto collateral which generates organic yield for it’s holders. The protocol is aggressively working towards decentralization in the near future.
@@ -21,7 +23,7 @@ const Firstpage = () => {
             <img className='top' src={topright} alt="" />
             <img className='bottom' src={bottomright} alt="" />
         </div>
-
+        </div>
           <a className='getusdsMobile' href="https://app.sperax.io/mint">Get USDs →</a>
         
         <div className='features'>
@@ -48,8 +50,9 @@ const Firstpage = () => {
             </div>
             </div>
             <div className='learnmore'>
-            <span >*11% APY is the maximum organic auto-yield, any additional yield generated gets stored in the yield reserves and will be used for funding yields in future. <a style={{color: '#707E85'}} className='linktextNo' href="https://docs.sperax.io/master/auto-yield">Learn more.</a> </span>
+            <span className='lowdd'>*11% APY is the maximum organic auto-yield, any additional yield generated gets stored in the yield reserves and will be used for funding yields in future. <a style={{color: '#707E85'}} className='linktextNo' href="https://docs.sperax.io/master/auto-yield">Learn more.</a> </span>
             </div>
+      </div>
       </div>
   )
 }

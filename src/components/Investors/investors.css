@@ -1,8 +1,14 @@
+.investors-container-o{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 .investors{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 82%;
+    width: 1050px;
     margin: auto;
 }
 .investors .alameda_img {
@@ -29,7 +35,7 @@ line-height: 26px;
 @media screen and (max-width:480px) {
     .investors-container {
         width: 100%;
-        margin-top: 92px;
+        margin-top:40px;
         background-color:#F8FAFA;
         height: fit-content;
         text-align: center;

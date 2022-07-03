@@ -10,6 +10,7 @@ import background from "./background.svg"
 
 const Thirdpage = (props) => {
   return (
+    <div className='Thirdpageo'>
     <div className='Thirdpage'>
         <SPAcards burnt={props.burnt} locked={props.locked} buyBack={props.buyBack}/>
         <Spartan/>
@@ -18,6 +19,7 @@ const Thirdpage = (props) => {
         <Audited/>
         <Featured/>
         <Footer/>
+    </div>
     </div>
   )
 }

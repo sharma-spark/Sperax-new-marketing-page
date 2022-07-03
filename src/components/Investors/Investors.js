@@ -9,6 +9,7 @@ import steve from './steve.svg'
 
 const Investors = () => {
   return (
+    <div className='investors-container-o'>
       <div className="investors-container">
           <div className='investors'>
               <div>
@@ -22,6 +23,7 @@ const Investors = () => {
               <div><img src={steve} alt="" /></div>
 
           </div>
+      </div>
       </div>
   )
 }
