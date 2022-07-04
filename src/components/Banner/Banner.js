@@ -13,7 +13,7 @@ const Banner = () => {
                 <div className="jonClass">
                     <span>Join the community</span>
                 </div>
-                <div className='social'>
+                <div className='social' id="banner">
                     <a href="https://discord.com/invite/sperax"><img className='icon' src={discord} alt="discord" /></a>
                     <a href="https://t.me/SperaxUSD"><img className='icon' src={telegram} alt="telegram" /></a>
                     <a href="https://twitter.com/SperaxUSD"><img className='icon' src={twitter} alt="twitter" /></a>

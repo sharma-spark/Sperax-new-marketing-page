@@ -17,6 +17,7 @@ import BigNumber from "bignumber.js";
 import {useEffect, useState} from "react";
 import Banner from "./components/Banner/Banner";
 import {getDiscordCount} from './socialapi/discordapi'
+import {getTwittercount} from './socialapi/twitterapi'
 
 const Home = () => {
     const [apy, setApy] = useState();
@@ -29,6 +30,7 @@ const Home = () => {
     const [burnt, setBurnt] = useState('');
     const [web3, setWeb3] = useState();
     const [discordCount, setdiscordCount] = useState('');
+    const [Twittercount, setTwittercount] = useState('');
   
     useEffect(() => {
       let web3 = new Web3(ApplicationConfig.arbitrumRpc);
@@ -68,6 +70,11 @@ const Home = () => {
       getDiscordCount().then( res=>{
         console.log('discord =>'+ res)
         setdiscordCount(res);
+      });
+      getTwittercount().then(res=>{
+        console.log('twitter =>'+ res)
+        console.log("sdsddss")
+        setTwittercount(res);
       });
     }, [web3])
   
