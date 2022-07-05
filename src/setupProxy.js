@@ -4,7 +4,7 @@ module.exports = function(app) {
     app.use(
         '/sperax-token-stats-api',
         createProxyMiddleware({
-            target: 'https://app.sperax.io',
+            target: 'https://staging-app.sperax.io',
             changeOrigin: true,
             logLevel:"debug"
         })
@@ -13,7 +13,7 @@ module.exports = function(app) {
     app.use(
         '/staking-api',
         createProxyMiddleware({
-            target: 'https://app.sperax.io',
+            target: 'https://staging-app.sperax.io',
             changeOrigin: true,
             logLevel:"debug"
         })

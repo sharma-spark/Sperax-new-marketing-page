@@ -12,8 +12,12 @@ export const getTwittercount = () => {
             "Authorization": `Bearer ${token}`
         },
     }).then(response => {
+<<<<<<< HEAD
          console.log(response.data.data.public_metrics.followers_count);
          resolve(response.data.data.public_metrics.followers_count)
+=======
+         console.debug(`twitter api response:`, response);
+>>>>>>> 75cd10d490a919b98ba5c6c9857d6b2825f14958
     });
   });
 };
