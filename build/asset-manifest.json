@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./web-static/static/css/main.793f29c3.chunk.css",
-    "main.js": "./web-static/static/js/main.8ad038e4.chunk.js",
-    "main.js.map": "./web-static/static/js/main.8ad038e4.chunk.js.map",
-    "runtime-main.js": "./web-static/static/js/runtime-main.62cbd841.js",
-    "runtime-main.js.map": "./web-static/static/js/runtime-main.62cbd841.js.map",
-    "static/js/2.647ae3b7.chunk.js": "./web-static/static/js/2.647ae3b7.chunk.js",
-    "static/js/2.647ae3b7.chunk.js.map": "./web-static/static/js/2.647ae3b7.chunk.js.map",
-    "static/js/3.6fb20df4.chunk.js": "./web-static/static/js/3.6fb20df4.chunk.js",
-    "static/js/3.6fb20df4.chunk.js.map": "./web-static/static/js/3.6fb20df4.chunk.js.map",
+    "main.css": "./web-static/static/css/main.6521be58.chunk.css",
+    "main.js": "./web-static/static/js/main.7e7cd616.chunk.js",
+    "main.js.map": "./web-static/static/js/main.7e7cd616.chunk.js.map",
+    "runtime-main.js": "./web-static/static/js/runtime-main.0d34e956.js",
+    "runtime-main.js.map": "./web-static/static/js/runtime-main.0d34e956.js.map",
+    "static/js/2.b9e398f7.chunk.js": "./web-static/static/js/2.b9e398f7.chunk.js",
+    "static/js/2.b9e398f7.chunk.js.map": "./web-static/static/js/2.b9e398f7.chunk.js.map",
+    "static/js/3.5499f74f.chunk.js": "./web-static/static/js/3.5499f74f.chunk.js",
+    "static/js/3.5499f74f.chunk.js.map": "./web-static/static/js/3.5499f74f.chunk.js.map",
     "index.html": "./web-static/index.html",
-    "static/css/main.793f29c3.chunk.css.map": "./web-static/static/css/main.793f29c3.chunk.css.map",
-    "static/js/2.647ae3b7.chunk.js.LICENSE.txt": "./web-static/static/js/2.647ae3b7.chunk.js.LICENSE.txt",
+    "static/css/main.6521be58.chunk.css.map": "./web-static/static/css/main.6521be58.chunk.css.map",
+    "static/js/2.b9e398f7.chunk.js.LICENSE.txt": "./web-static/static/js/2.b9e398f7.chunk.js.LICENSE.txt",
     "static/media/Brand Assets.ba0e084f.zip": "./web-static/static/media/Brand Assets.ba0e084f.zip",
     "static/media/Carrow.7d2a6e60.svg": "./web-static/static/media/Carrow.7d2a6e60.svg",
     "static/media/Cdollar.0debbc4e.svg": "./web-static/static/media/Cdollar.0debbc4e.svg",
@@ -59,6 +59,7 @@
     "static/media/discord_white.0130e90f.svg": "./web-static/static/media/discord_white.0130e90f.svg",
     "static/media/dollar.3b9461ee.svg": "./web-static/static/media/dollar.3b9461ee.svg",
     "static/media/downloadlogo.a8193a44.svg": "./web-static/static/media/downloadlogo.a8193a44.svg",
+    "static/media/error.6badabca.svg": "./web-static/static/media/error.6badabca.svg",
     "static/media/featuredlogo.f769c485.svg": "./web-static/static/media/featuredlogo.f769c485.svg",
     "static/media/fpbg.8034c6c6.svg": "./web-static/static/media/fpbg.8034c6c6.svg",
     "static/media/ftx.53347785.svg": "./web-static/static/media/ftx.53347785.svg",
@@ -122,9 +123,9 @@
     "static/media/yield.b23e2473.svg": "./web-static/static/media/yield.b23e2473.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.62cbd841.js",
-    "static/js/2.647ae3b7.chunk.js",
-    "static/css/main.793f29c3.chunk.css",
-    "static/js/main.8ad038e4.chunk.js"
+    "static/js/runtime-main.0d34e956.js",
+    "static/js/2.b9e398f7.chunk.js",
+    "static/css/main.6521be58.chunk.css",
+    "static/js/main.7e7cd616.chunk.js"
   ]
 }
