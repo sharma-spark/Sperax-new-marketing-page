@@ -18,4 +18,15 @@ module.exports = function(app) {
             logLevel:"debug"
         })
     );
+    app.use(
+        '/twitter-api',
+        createProxyMiddleware({
+            target: 'https://api.twitter.com',
+            changeOrigin: true,
+            logLevel:"debug",
+            pathRewrite: {
+                '^/twitter-api': '',
+            },
+        })
+    );
 };
