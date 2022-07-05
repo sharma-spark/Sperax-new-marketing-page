@@ -15,7 +15,7 @@ const Thirdpage = (props) => {
         <SPAcards burnt={props.burnt} locked={props.locked} buyBack={props.buyBack}/>
         <Spartan/>
         <div className='joinspadiv'><h1 className='joinspa'><b> Join the SPArtan army!!</b></h1></div>
-        <Socialcards discord={props.discordCount}/>
+        <Socialcards discord={props.discordCount} twittercount={props.twittercount}/>
         <Audited/>
         <Featured/>
         <Footer/>

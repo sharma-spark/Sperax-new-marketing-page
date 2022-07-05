@@ -73,7 +73,6 @@ const Home = () => {
       });
       getTwittercount().then(res=>{
         console.log('twitter =>'+ res)
-        console.log("sdsddss")
         setTwittercount(res);
       });
     }, [web3])
@@ -84,7 +83,7 @@ const Home = () => {
     <Firstpage/>
     <Investors/>
     <Secondpage apy={apy} totalValueLocked={totalValueLocked} totalApy={totalApy} circulate={circulate} totalSupply={totalSupply}/>
-    <Thirdpage  burnt={burnt} locked={spaLocked} buyBack={buyBack} discordCount={discordCount}/>
+    <Thirdpage  burnt={burnt} locked={spaLocked} buyBack={buyBack} discordCount={discordCount} twittercount={Twittercount}/>
     <Banner />
     </>
   )
