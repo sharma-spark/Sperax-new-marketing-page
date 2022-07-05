@@ -1,0 +1,143 @@
+.pagenot{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.pagenot>img{
+    margin-top: 80px;
+}
+.pagenot>p{
+    margin: 0;
+    margin-top: 30px;
+    width: 321px;
+    height: 40px;
+    
+    /* H3/Semibold 28px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    /* Dark */
+    
+    color: #1B2022;
+    
+}
+.pagenot>span{
+    margin-top: 12px;
+    width: 326px;
+    height: 26px;
+    
+    /* Body 1 / Regular 18px */
+    
+    font-family: 'MessinaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    /* Gray 5 */
+    
+    color: #707E85;
+    
+    
+}
+.pagenot>a{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 16px;
+    
+    width: 230px;
+    height: 58px;
+    
+    /* Primary/ Brand */
+    
+    background: #31C1BF;
+    border-radius: 90px;
+    width: 150px;
+    height: 26px;
+    
+    /* Body 1/Semibold 18px */
+    
+    font-family: 'MessinaSans-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    /* White */
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+.formobpara{
+    display: none;
+}
+@media screen and (max-width:480px){
+    .formobpara{
+        display: flex;
+        margin: 0;
+        width: 77px;
+        height: 40px;       
+        /* H3/Semibold 28px */
+        
+        font-family: 'MessinaSans-Semibold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        /* identical to box height, or 143% */
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.03em;
+        
+        /* Dark */
+        
+        color: #1B2022;
+    }
+    .pagenot>p{
+        display: none;
+    }
+    .pagenot>img{
+        margin-top: 120px;
+        transform: scale(0.75);
+    }
+    .pagenot{
+        flex-wrap: nowrap;
+    }
+}
