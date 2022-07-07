@@ -5,3 +5,6 @@
 
 ## v20220705.01
 1. Fixed some front end issues
+
+## v20220707.01
+1. Integrated Twitter API
