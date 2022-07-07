@@ -148,6 +148,10 @@ pre {
         margin-top: 500px;
         width: 100%;
         height: 506px;
+        background-color: #31C1BF;
+    }
+    .aplyanyo{
+        background-color: white;
     }
     .aphead{
         width: 312px;

@@ -122,6 +122,9 @@
 }
 
 @media screen and (max-width:480px) {
+    .GCWo{
+        background-image: none;
+    }
     .GCW{
         background-image: url(GWCmob.svg);
         margin: 0;
