@@ -6,7 +6,7 @@ const Scard1 = (discord) => {
   return (
     <div className='scard1'>
         <div className='slogo'><img src={discordwhite} alt="" /></div>
-        <div className='scount'><h2>{discord.discord.discord}</h2></div>
+        <div className='scount'><h2>{(discord.discord.discord).toLocaleString()}</h2></div>
     </div>
   )
 }

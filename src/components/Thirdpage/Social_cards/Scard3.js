@@ -9,7 +9,7 @@ const Scard3 = (twittercount) => {
     
     <div className='scard3'>
         <div className='slogo'><img src={twitterwhite} alt="" /></div>
-        <div className='scount'><h2>{twittercount.twittercount}</h2></div>
+        <div className='scount'><h2>{(twittercount.twittercount).toLocaleString()}</h2></div>
     </div>
   )
 }
