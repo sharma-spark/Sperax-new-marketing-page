@@ -9,13 +9,15 @@ import Footer from './Footer/Footer.js'
 import background from "./background.svg"
 
 const Thirdpage = (props) => {
+
+
   return (
     <div className='Thirdpageo'>
     <div className='Thirdpage'>
         <SPAcards burnt={props.burnt} locked={props.locked} buyBack={props.buyBack}/>
         <Spartan/>
         <div className='joinspadiv'><h1 className='joinspa'><b> Join the SPArtan army!!</b></h1></div>
-        <Socialcards discord={props.discordCount} twittercount={props.twittercount}/>
+        <Socialcards discord={props.discordCount} twittercount={props.twittercount} telegramcount={props.telegramcount}/>
         <Audited/>
         <Featured/>
         <Footer/>

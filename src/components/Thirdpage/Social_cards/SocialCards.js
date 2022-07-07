@@ -10,7 +10,7 @@ const SocialCards = (props) => {
     <div className='scards'>
       <div className='boxt'>
       <a href="https://discord.com/invite/sperax"><Scard1 discord={props}/></a>
-      <a href="https://t.me/SperaxUSD"><Scard2/></a>
+      <a href="https://t.me/SperaxUSD"><Scard2 telegramcount={props.telegramcount}/></a>
       </div>
       <div className='boxb'>
       <a href="https://twitter.com/SperaxUSD"><Scard3 twittercount={props.twittercount} /></a>

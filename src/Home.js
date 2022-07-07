@@ -18,6 +18,7 @@ import {useEffect, useState} from "react";
 import Banner from "./components/Banner/Banner";
 import {getDiscordCount} from './socialapi/discordapi'
 import {getTwittercount} from './socialapi/twitterapi'
+import {getTelegramCount} from './socialapi/telegramapi.js'
 
 const Home = () => {
     const [apy, setApy] = useState();
@@ -31,6 +32,7 @@ const Home = () => {
     const [web3, setWeb3] = useState();
     const [discordCount, setdiscordCount] = useState('');
     const [Twittercount, setTwittercount] = useState('');
+    const [Telegramcount, setTelegramcount] = useState('');
   
     useEffect(() => {
       let web3 = new Web3(ApplicationConfig.arbitrumRpc);
@@ -75,6 +77,11 @@ const Home = () => {
         console.log('twitter =>'+ res)
         setTwittercount(res);
       });
+      getTelegramCount().then(res=>{
+        console.log('telegram =>'+ res)
+        setTelegramcount(res);
+      });
+
     }, [web3])
   
   return (
@@ -83,7 +90,7 @@ const Home = () => {
     <Firstpage/>
     <Investors/>
     <Secondpage apy={apy} totalValueLocked={totalValueLocked} totalApy={totalApy} circulate={circulate} totalSupply={totalSupply}/>
-    <Thirdpage  burnt={burnt} locked={spaLocked} buyBack={buyBack} discordCount={discordCount} twittercount={Twittercount}/>
+    <Thirdpage  burnt={burnt} locked={spaLocked} buyBack={buyBack} discordCount={discordCount} twittercount={Twittercount} telegramcount={Telegramcount}/>
     <Banner />
     </>
   )
