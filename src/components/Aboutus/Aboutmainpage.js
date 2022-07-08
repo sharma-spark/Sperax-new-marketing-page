@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import Abouthead from './Abouthead'
 import './Aboutmainpage.css'
 import Aboutposter from './AboutPoster/Aboutposter.js'
@@ -10,18 +10,22 @@ import AmberCF from './AmberCF/AmberCF.js'
 import Applyandpromotion from './Applyandpromotion/Applyandpromotion.js'
 
 const Aboutmainpage = () => {
-  return (
-    <div className='Aboutmainpage'>
-    <Abouthead/>
-    <Aboutposter/>
-    <Aboutspecs/>
-    <Teamintro/>
-    <Team />
-    <Advisorintro/>
-    <AmberCF/>
-    <Applyandpromotion/>
-    </div>
-  )
+    useEffect(() => {
+        document.title = "Sperax | Meet The Team";
+    });
+
+    return (
+        <div className='Aboutmainpage'>
+            <Abouthead/>
+            <Aboutposter/>
+            <Aboutspecs/>
+            <Teamintro/>
+            <Team/>
+            <Advisorintro/>
+            <AmberCF/>
+            <Applyandpromotion/>
+        </div>
+    )
 }
 
 export default Aboutmainpage
