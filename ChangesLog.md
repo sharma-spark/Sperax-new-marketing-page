@@ -8,3 +8,7 @@
 
 ## v20220707.01
 1. Integrated Twitter API
+
+## v20220712.01
+1. Api integration of telegram
+2. Fixing of a bug in career page
