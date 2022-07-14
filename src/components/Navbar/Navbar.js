@@ -23,7 +23,7 @@ const Navbar = () => {
             <a className='linktextspa' href="/">Sperax</a>
             <a className='linktext' href="https://docs.sperax.io/">Docs</a>
             <a className='linktext' href="./about">About Us</a>
-            <a style={{position: 'relative'}} className='linktext' href="./careers">Career <img style={{position: 'absolute', bottom: '15px'}} src={hiring} alt="we are hiring" /></a>
+            <a style={{position: 'relative'}} className='linktext' href="./careers">Careers <img style={{position: 'absolute', bottom: '15px'}} src={hiring} alt="we are hiring" /></a>
             </div>
         </div>
 
@@ -54,7 +54,7 @@ const Navbar = () => {
                 {show && <div className="mobileMenuContainer">
                     <a href="https://docs.sperax.io/">Docs</a>
                     <a href="./about">About Us</a>
-                    <a style={{position: 'relative'}} href="./careers">Career <img src={hiring} alt="we are hiring" /></a>
+                    <a style={{position: 'relative'}} href="./careers">Careers <img src={hiring} alt="we are hiring" /></a>
                 </div>}
             </div>
         </div>
