@@ -12,3 +12,6 @@
 ## v20220712.01
 1. Api integration of telegram
 2. Fixing of a bug in career page
+
+## v20220718.01
+1. Update the meta title and description of the marketing website
