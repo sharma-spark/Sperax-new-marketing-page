@@ -7,7 +7,7 @@
 }
 
 .fp_top_banner_box .fp_top_banner{
-    width: 1030px;
+    width: 945px;
     height: 70px;
     padding: 10px 50px;
     background-color: #013734;
@@ -55,11 +55,13 @@
 
 .fp_top_banner .tb_sub_title p{
     margin: 0;
+    font-family: 'MessinaSans';
 }
 
 .fp_top_banner .tb_sub_title .link{
     color: #fff;
     text-decoration-line: underline;
+    font-family: 'MessinaSans-SemiBold';
 }
 
 @media screen and (max-width: 1200px) {

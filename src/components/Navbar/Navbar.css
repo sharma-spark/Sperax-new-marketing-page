@@ -1,7 +1,7 @@
 .Navbar{
     background-color: white;
     display: grid;
-    width: 82%;
+    width: 1045px;
     grid-template-columns: 4fr 3fr;
     margin: 1.5vmax auto;
     /* padding: 0px 132px; */
@@ -35,7 +35,7 @@
 }
 
 .linktext{
-    margin: 0.7vmax;
+    margin: 0 8px;
     padding-right: 0.5vmax;
     color: #1B2022;;
     text-decoration: none;

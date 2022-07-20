@@ -26,7 +26,7 @@ const Navbar = () => {
                     <a className='linktext' href="https://snapshot.org/#/speraxdao.eth" target={`_blank`}>Snapshot</a>
                     <a className='linktext' href="./about">About Us</a>
                     <a style={{position: 'relative'}} className='linktext' href="./careers">Careers <img
-                        style={{position: 'absolute', bottom: '15px'}} src={hiring} alt="we are hiring"/></a>
+                        style={{position: 'absolute', left: '100%'}} src={hiring} alt="we are hiring"/></a>
                 </div>
             </div>
 
