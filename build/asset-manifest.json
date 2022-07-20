@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./web-static/static/css/main.bdf92a24.chunk.css",
-    "main.js": "./web-static/static/js/main.7e6a752c.chunk.js",
-    "main.js.map": "./web-static/static/js/main.7e6a752c.chunk.js.map",
+    "main.css": "./web-static/static/css/main.f7e990b5.chunk.css",
+    "main.js": "./web-static/static/js/main.f5c75e07.chunk.js",
+    "main.js.map": "./web-static/static/js/main.f5c75e07.chunk.js.map",
     "runtime-main.js": "./web-static/static/js/runtime-main.e1b933db.js",
     "runtime-main.js.map": "./web-static/static/js/runtime-main.e1b933db.js.map",
     "static/js/2.dd91d4a8.chunk.js": "./web-static/static/js/2.dd91d4a8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.c0293744.chunk.js": "./web-static/static/js/3.c0293744.chunk.js",
     "static/js/3.c0293744.chunk.js.map": "./web-static/static/js/3.c0293744.chunk.js.map",
     "index.html": "./web-static/index.html",
-    "static/css/main.bdf92a24.chunk.css.map": "./web-static/static/css/main.bdf92a24.chunk.css.map",
+    "static/css/main.f7e990b5.chunk.css.map": "./web-static/static/css/main.f7e990b5.chunk.css.map",
     "static/js/2.dd91d4a8.chunk.js.LICENSE.txt": "./web-static/static/js/2.dd91d4a8.chunk.js.LICENSE.txt",
     "static/media/Brand Assets.ba0e084f.zip": "./web-static/static/media/Brand Assets.ba0e084f.zip",
     "static/media/Carrow.7d2a6e60.svg": "./web-static/static/media/Carrow.7d2a6e60.svg",
@@ -126,7 +126,7 @@
   "entrypoints": [
     "static/js/runtime-main.e1b933db.js",
     "static/js/2.dd91d4a8.chunk.js",
-    "static/css/main.bdf92a24.chunk.css",
-    "static/js/main.7e6a752c.chunk.js"
+    "static/css/main.f7e990b5.chunk.css",
+    "static/js/main.f5c75e07.chunk.js"
   ]
 }
