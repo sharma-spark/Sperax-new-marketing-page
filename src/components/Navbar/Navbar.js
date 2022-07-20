@@ -59,8 +59,8 @@ const Navbar = () => {
                         <a href="https://forum.sperax.io/" target={`_blank`}>Forum</a>
                         <a href="https://snapshot.org/#/speraxdao.eth" target={`_blank`}>Snapshot</a>
                         <a href="./about">About Us</a>
-                        <a style={{position: 'relative'}} href="./careers">Careers <img src={hiring}
-                                                                                        alt="we are hiring"/></a>
+                        <a style={{position: 'relative'}} href="./careers">Careers <img
+                            style={{position: 'absolute', left: '100%', top: '-4px'}} src={hiring} alt="we are hiring"/></a>
                     </div>}
                 </div>
             </div>
