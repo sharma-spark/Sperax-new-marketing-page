@@ -14,7 +14,7 @@ const Bigposter = () => {
             </div>
             <div className='bodyb'>
                 <p>Stake SPA to receive protocol fees, share of USDs auto-yield and staking incentives.</p>
-                <p>The longer you stake, higher your reward and voting power (when governance is launched)</p>
+                <p>The longer you stake, higher your reward and voting power</p>
             </div>
             <div className='alinksb'>
                 <a href="https://app.sperax.io/stake"><span className='at'>Stake SPA </span> <img src={arrow} alt="" /></a>

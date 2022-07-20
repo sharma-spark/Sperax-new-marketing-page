@@ -139,6 +139,14 @@
     flex-grow: 0;
 }
 
+.footerlinks .links_group {
+    margin-top: 20px;
+}
+
+.footerlinks .links_group:first-child{
+    margin-top: 0;
+}
+
 .sperax-desktop {
     display: block;
 }

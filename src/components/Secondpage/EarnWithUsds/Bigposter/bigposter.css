@@ -37,7 +37,7 @@
     color: white;
     margin-top: 16px;
     text-align: left;
-    width: 456px;
+    width: 400px;
 }
 .bodyb>p{
     padding: 10px 0;
@@ -143,5 +143,29 @@ img.abo{
     .alinksb {
         margin-bottom: 58px;
         margin-top: 136px;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    .bodyb {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .bodyb {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bodyb {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bodyb {
+        width: 80%;
     }
 }
