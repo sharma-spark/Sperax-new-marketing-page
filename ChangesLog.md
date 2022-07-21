@@ -15,3 +15,6 @@
 
 ## v20220718.01
 1. Update the meta title and description of the marketing website
+
+## v20220721.01
+1. Update landing page header, footer, add new banner for off chain governance launch
